@@ -1,0 +1,228 @@
+# Copyright (C) 2014
+# This file is distributed under the same license as the plugin package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Recent Posts Widget With Thumbnails\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/plugins/recent-posts-widget-with-"
+"thumbnails\n"
+"POT-Creation-Date: 2017-10-23 21:09+0200\n"
+"PO-Revision-Date: 2017-10-23 21:14+0200\n"
+"Last-Translator: Martin Stehle <m.stehle@gmx.de>\n"
+"Language-Team: Martin Stehle <m.stehle@gmx.de>\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;esc_html_e;esc_html__;esc_attr_e;"
+"esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/form.php:1
+msgid "Display Options"
+msgstr "表示オプション"
+
+#: includes/form.php:10
+msgid "Open post links in new windows?"
+msgstr "リンクを新しいウィンドウで開く"
+
+#: includes/form.php:13
+msgid "Show posts in random order?"
+msgstr "投稿の順序をランダムにする"
+
+#: includes/form.php:16
+msgid "Do not list the current post?"
+msgstr "現在の投稿は表示しない"
+
+#: includes/form.php:19
+msgid "Keep sticky posts on top of the list?"
+msgstr "「先頭に固定表示」の設定を一覧に反映"
+
+#: includes/form.php:22
+msgid "Do not show post title?"
+msgstr "投稿タイトルを表示しない"
+
+#: includes/form.php:23
+msgid ""
+"Make sure you set a default thumbnail for posts without a thumbnail, "
+"otherwise there will be no link."
+msgstr ""
+"デフォルトのサムネイルを設定しておかないと、アイキャッチ画像がないときにリン"
+"クがなくなるので注意してください。"
+
+#: includes/form.php:25
+msgid "Maximum length of post title"
+msgstr "タイトルの最大文字数"
+
+#: includes/form.php:29
+msgid "Show post author?"
+msgstr "投稿作成者を表示"
+
+#: includes/form.php:32
+msgid "Show post categories?"
+msgstr "投稿カテゴリーを表示"
+
+#: includes/form.php:35
+msgid "Show post date?"
+msgstr "投稿の公開日を表示"
+
+#: includes/form.php:38
+msgid "Show excerpt?"
+msgstr "抜粋を表示"
+
+#: includes/form.php:40
+msgid "Maximum length of excerpt"
+msgstr "抜粋の最大文字数"
+
+#: includes/form.php:43
+msgid "Signs after excerpt"
+msgstr "抜粋の後に付ける記号"
+
+#: includes/form.php:47
+msgid "Set signs after excerpt as a link to the post?"
+msgstr "文字をリンクとして使用しますか？"
+
+#: includes/form.php:50
+msgid "Ignore post excerpt field as excerpt source?"
+msgstr "抜粋フィールドの内容を無視する"
+
+#: includes/form.php:51
+msgid ""
+"Normally the widget takes the excerpt from the text of the excerpt field "
+"unchanged and if there is no text it creates the excerpt from the post "
+"content automatically. If this option is activated the excerpt is created "
+"from the post content only."
+msgstr ""
+"通常は、抜粋欄の内容をそのまま抜粋として表示し、抜粋欄が空欄なら投稿本文から"
+"抜粋を生成します。このオプションをオンにすると、常に投稿本文から抜粋を生成し"
+"ます。"
+
+#: includes/form.php:54
+msgid "Show number of comments?"
+msgstr "コメント数を表示"
+
+#: includes/form.php:57
+msgid "Print slugs of post categories in class attribute of LI elements?"
+msgstr "カテゴリーのスラッグを li 要素の class 属性に出力"
+
+#: includes/form.php:58
+msgid ""
+"For developers: If checked you can set CSS rules for each list item on base "
+"of the assigned categories."
+msgstr ""
+"オンにすると、カテゴリーに応じてアイテムごとに異なるスタイルを適用することが"
+"できます。"
+
+#: includes/form.php:60
+msgid "Show posts of selected categories only?"
+msgstr "選択したカテゴリーの投稿だけを表示"
+
+#: includes/form.php:62
+#, php-format
+msgid ""
+"Click on the categories with pressed CTRL key to select multiple categories. "
+"If &#8220;%s&#8221; was selected then other selections will be ignored."
+msgstr ""
+"複数のカテゴリーを選択するには、Ctrlキーを押しながらクリックします。&#8220;"
+"%s&#8221; を選択すると、その他の選択カテゴリーは無視されます。"
+
+#: includes/form.php:64
+msgid "Thumbnail Options"
+msgstr "サムネイル オプション"
+
+#: includes/form.php:67
+msgid "Display post featured image?"
+msgstr "アイキャッチ画像を表示"
+
+#: includes/form.php:69
+msgid "Size of thumbnail"
+msgstr "サムネイルのサイズ"
+
+#: includes/form.php:71
+msgid "Specified width and height"
+msgstr "幅と高さを指定"
+
+#: includes/form.php:81
+#, php-format
+msgid ""
+"If you use a specified size the following sizes will be taken, otherwise "
+"they will be ignored and the selected dimension as stored in %s will be used:"
+msgstr ""
+"[幅と高さを指定] を選ぶと、下記で指定したサイズが使用されます。それ以外を選択"
+"した場合は下記の値は無視され、選択したサイズ (%s で設定したサイズ) になりま"
+"す。"
+
+#: includes/form.php:84
+msgid "Width of thumbnail"
+msgstr "サムネイルの幅"
+
+#: includes/form.php:87
+msgid "Height of thumbnail"
+msgstr "サムネイルの高さ"
+
+#: includes/form.php:91
+msgid "Use aspect ratios of original images?"
+msgstr "オリジナルの縦横比を保つ"
+
+#: includes/form.php:92
+msgid ""
+"If checked the given width is used to determine the height of the thumbnail "
+"automatically. This option also supports responsive web design."
+msgstr ""
+"オンにすると、幅を指定サイズに合わせ、高さは縦横比に応じた値に設定します。こ"
+"のオプションはレスポンシブデザインにも対応しています。"
+
+#: includes/form.php:95
+msgid "Try to use the post's first image if post has no featured image?"
+msgstr "アイキャッチ画像がないときは、投稿内の最初の画像を使用する"
+
+#: includes/form.php:98
+msgid "Use first image only, ignore featured image?"
+msgstr "アイキャッチ画像は無視して、投稿内の最初の画像を使用する"
+
+#: includes/form.php:101
+msgid "Use default thumbnail if no image could be determined?"
+msgstr "アイキャッチ画像がないときは、デフォルトのサムネイルを使用する"
+
+#: includes/form.php:103
+msgid "URL of default thumbnail (start with http://)"
+msgstr "デフォルトサムネイルの URL (http:// から指定)"
+
+#: includes/form.php:106
+msgid "Do you like the plugin?"
+msgstr "このプラグインが気に入りましたか?"
+
+#: includes/form.php:106
+msgid "Please rate it at wordpress.org!"
+msgstr "wordpress.org で評価してください!"
+
+#: includes/form.php:107
+msgid "Do you need more options?"
+msgstr "さらにオプションが必要ですか?"
+
+#: includes/form.php:107
+msgid "Get Ultimate Post List Pro!"
+msgstr "Ultimate Post List Pro をどうぞ!"
+
+#: recent-posts-widget-with-thumbnails.php:99
+msgid "Recent Posts With Thumbnails"
+msgstr ""
+
+#: recent-posts-widget-with-thumbnails.php:100
+msgid ""
+"List of your site&#8217;s most recent posts, with clickable title and "
+"thumbnails."
+msgstr ""
+"サイトの最新の投稿を、クリック可能なタイトルとサムネイル付きで一覧表示しま"
+"す。"
+
+#: recent-posts-widget-with-thumbnails.php:225
+msgctxt "In {categories}"
+msgid "In"
+msgstr "カテゴリー:"
+
+#: recent-posts-widget-with-thumbnails.php:706
+msgid "Error on listing categories"
+msgstr "カテゴリー一覧取得エラー"

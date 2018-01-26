@@ -1,0 +1,46 @@
+.#{$alias}-section-modules_manager {
+	##{$alias}-module-manager {
+		th {
+			padding: px(20);
+			input {
+				margin-top: 0 !important;
+			}
+		}
+		tr {
+			td {
+				padding: px(15);
+				&:nth-child(4) {
+						color: $primary;
+				}
+				.#{$alias}-item-checkbox {
+					margin-top: 0 !important;
+				}
+				span {
+					font-style: italic;
+					color: $gray;
+				}
+				i {
+			    	margin: px(4) 0;
+			    	display: block;
+			    	color: $orange;
+				}
+				a {
+					color: $info;
+					font-weight: $bold;
+				}
+			}
+		}
+	}
+
+	.#{$alias}-list-table-left-col {
+		display: block !important;
+		margin: px(30) 0 px(30) 0;
+		padding-left: 0;
+		input {
+			cursor: pointer;
+			&:first-of-type {
+				margin-right: px(5);
+			}
+		}
+	}
+}

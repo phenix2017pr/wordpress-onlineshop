@@ -1,0 +1,401 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Order Tracking\n"
+"POT-Creation-Date: 2016-06-13 16:57+0200\n"
+"PO-Revision-Date: 2015-04-22 12:25+0100\n"
+"Last-Translator: \n"
+"Language-Team: Your Inspiration Themes <plugins@yithemes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=n!=1;\n"
+"X-Poedit-KeywordsList: __ ;_e;_n:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: plugin-fw\n"
+
+#: class.yith-wcmg-admin.php:81
+msgid "Image Size"
+msgstr ""
+
+#: class.yith-wcmg-admin.php:82 plugin-options/general-options.php:17
+msgid "The size of the images used within the magnifier box"
+msgstr ""
+
+#: init.php:50
+msgid ""
+"YITH WooCommerce Zoom Magnifier is enabled but not effective. It requires "
+"WooCommerce in order to work."
+msgstr ""
+
+#: init.php:66
+msgid ""
+"You can't activate the free version of YITH WooCommerce Zoom Magnifier while "
+"you are using the premium one."
+msgstr ""
+
+#: lib/class.yith-ywzm-custom-types.php:159
+msgid "Do you want to hard crop the image?"
+msgstr ""
+
+#: lib/class.yith-ywzm-plugin-fw-loader.php:124
+msgid "General"
+msgstr ""
+
+#: lib/class.yith-ywzm-plugin-fw-loader.php:127
+#: lib/class.yith-ywzm-plugin-fw-loader.php:191
+msgid "Premium Version"
+msgstr ""
+
+#: lib/class.yith-ywzm-plugin-fw-loader.php:129
+msgid "Product exclusion list"
+msgstr ""
+
+#: lib/class.yith-ywzm-plugin-fw-loader.php:188
+msgid "Settings"
+msgstr ""
+
+#: lib/class.yith-ywzm-plugin-fw-loader.php:216
+msgid "Plugin Documentation"
+msgstr ""
+
+#: lib/class.yith-ywzm-plugin-fw-loader.php:229
+msgid ""
+"YITH WooCommerce Zoom Magnifier is available in an outstanding PREMIUM "
+"version with many new options, discover it now."
+msgstr ""
+
+#: lib/class.yith-ywzm-plugin-fw-loader.php:230
+msgid "Premium version"
+msgstr ""
+
+#: lib/class.yith-ywzm-plugin-fw-loader.php:237
+#: plugin-options/general-options.php:217
+msgid "YITH WooCommerce Zoom Magnifier"
+msgstr ""
+
+#: lib/class.yith-ywzm-plugin-fw-loader.php:238
+msgid ""
+"In YIT Plugins tab you can find  YITH WooCommerce Zoom Magnifier options."
+"<br> From this menu you can access all settings of the YITH plugins "
+"activated."
+msgstr ""
+
+#: plugin-options/general-options.php:16
+msgid "Image size"
+msgstr ""
+
+#: plugin-options/general-options.php:36
+msgid "General Settings"
+msgstr ""
+
+#: plugin-options/general-options.php:42
+msgid "Activate YITH WooCommerce Zoom Magnifier"
+msgstr ""
+
+#: plugin-options/general-options.php:43
+msgid "Activate the plugin or use the WooCommerce default product image."
+msgstr ""
+
+#: plugin-options/general-options.php:50
+msgid "Activate on mobile device"
+msgstr ""
+
+#: plugin-options/general-options.php:51
+msgid ""
+"Set if zoom and slider functionalities should be shown also on mobile "
+"devices."
+msgstr ""
+
+#: plugin-options/general-options.php:59
+msgid "Forced Image Size"
+msgstr ""
+
+#: plugin-options/general-options.php:60
+msgid ""
+"If disabled, you will able to customize the sizes of the zoomed images. "
+"Disable it at your own risk; the magnifier could not properly work with "
+"images out of proportion."
+msgstr ""
+
+#: plugin-options/general-options.php:74
+msgid "Magnifier Settings"
+msgstr ""
+
+#: plugin-options/general-options.php:80
+msgid "Zoom Box Width"
+msgstr ""
+
+#: plugin-options/general-options.php:81
+msgid "The width of the magnifier box (default: auto)"
+msgstr ""
+
+#: plugin-options/general-options.php:88
+msgid "Zoom Box Height"
+msgstr ""
+
+#: plugin-options/general-options.php:89
+msgid "The height of the magnifier box (default: auto)"
+msgstr ""
+
+#: plugin-options/general-options.php:97
+msgid "Zoom Box Position"
+msgstr ""
+
+#: plugin-options/general-options.php:98
+msgid "The magnifier position"
+msgstr ""
+
+#: plugin-options/general-options.php:104
+msgid "Right"
+msgstr ""
+
+#: plugin-options/general-options.php:105
+#: plugin-options/general-options.php:117
+msgid "Inside"
+msgstr ""
+
+#: plugin-options/general-options.php:109
+msgid "Zoom Box Position for mobile devices"
+msgstr ""
+
+#: plugin-options/general-options.php:110
+msgid "The magnifier position for the mobile devices (iPhone, Android, etc.)"
+msgstr ""
+
+#: plugin-options/general-options.php:116
+msgid "Default"
+msgstr ""
+
+#: plugin-options/general-options.php:118
+msgid "Disable"
+msgstr ""
+
+#: plugin-options/general-options.php:122
+msgid "Loading label"
+msgstr ""
+
+#: plugin-options/general-options.php:125
+#: plugin-options/general-options.php:126
+msgid "Loading..."
+msgstr ""
+
+#: plugin-options/general-options.php:131
+msgid "Lens Opacity"
+msgstr ""
+
+#: plugin-options/general-options.php:142
+msgid "Blur"
+msgstr ""
+
+#: plugin-options/general-options.php:143
+msgid "Add a blur effect to the small image on mouse hover."
+msgstr ""
+
+#: plugin-options/general-options.php:154
+msgid "Slider Settings"
+msgstr ""
+
+#: plugin-options/general-options.php:160
+msgid "Activate Slider"
+msgstr ""
+
+#: plugin-options/general-options.php:161
+msgid "Activate Thumbnail Slider."
+msgstr ""
+
+#: plugin-options/general-options.php:168
+msgid "Activate Responsive Slider"
+msgstr ""
+
+#: plugin-options/general-options.php:169
+msgid ""
+"This option fits the thumbnails within the available space. Disable it if "
+"you want to manage freely the thumbnails (eg. add margins, paddings, etc.)"
+msgstr ""
+
+#: plugin-options/general-options.php:176
+msgid "Items"
+msgstr ""
+
+#: plugin-options/general-options.php:177
+msgid "Number of items to show"
+msgstr ""
+
+#: plugin-options/general-options.php:187
+msgid "Circular carousel"
+msgstr ""
+
+#: plugin-options/general-options.php:188
+msgid "It defines whether the carousel should be circular."
+msgstr ""
+
+#: plugin-options/general-options.php:195
+msgid "Infinite carousel"
+msgstr ""
+
+#: plugin-options/general-options.php:196
+msgid ""
+"It defines whether the carousel should be infinite. Note: It is possible to "
+"create a non-circular, infinite carousel, but it is not possible to create a "
+"circular, non-infinite carousel."
+msgstr ""
+
+#: plugin-options/general-options.php:214
+msgid "Upgrade to the PREMIUM VERSION"
+msgstr ""
+
+#: plugin-options/general-options.php:218
+msgid "Discover The Advanced Features"
+msgstr ""
+
+#: plugin-options/general-options.php:219
+msgid ""
+"Upgrade to the PREMIUM VERSION of YITH WOOCOMMERCE ZOOM MAGNIFIER to benefit "
+"from all features!"
+msgstr ""
+
+#: plugin-options/general-options.php:223
+msgid ""
+"See YITH WooCommerce Zoom Magnifier plugin with full premium features in "
+"action"
+msgstr ""
+
+#: plugin-options/general-options.php:225
+msgid "Get Support and Pro Features"
+msgstr ""
+
+#: plugin-options/general-options.php:226
+msgid ""
+"Purchasing the premium version of the plugin, you will take advantage of the "
+"advanced features of the product, and you will get one year of free updates "
+"and support through our platform available 24h/24."
+msgstr ""
+
+#: templates/admin/premium.php:193
+#, php-format
+msgid ""
+"Upgrade to the %1$s premium version %2$s of %1$s YITH WooCommerce Zoom "
+"Magnifier %2$s to benefit from all features!"
+msgstr ""
+
+#: templates/admin/premium.php:196
+#, php-format
+msgid "%1$sUPGRADE%2$s%3$sto the premium version%2$s"
+msgstr ""
+
+#: templates/admin/premium.php:202
+#, php-format
+msgid "%1$sPremium Features%2$s"
+msgstr ""
+
+#: templates/admin/premium.php:210
+msgid "ZOOM BOX POSITION"
+msgstr ""
+
+#: templates/admin/premium.php:213
+#, php-format
+msgid ""
+"Choose where you want to show the %1$szoomed version%2$s of the image of "
+"your products. Place it above or below the original image, on its left or "
+"its right, or you can even place it over it.$2$s"
+msgstr ""
+
+#: templates/admin/premium.php:223
+msgid "ENLARGE THE IMAGES"
+msgstr ""
+
+#: templates/admin/premium.php:225
+msgid ""
+"Just one click and the product image will appear in a bigger size in a modal "
+"window. A further chance to let users analyze in a better way what you sell."
+msgstr ""
+
+#: templates/admin/premium.php:240
+msgid "EXCLUDE PRODUCTS"
+msgstr ""
+
+#: templates/admin/premium.php:242
+msgid ""
+"Tailored options to limit the plugin features only to certain products. Some "
+"of these could have too small images to be zoomed, or maybe being part of "
+"categories that do not imply zoomed images. Select the products and the "
+"categories to exclude and delete all your problems"
+msgstr ""
+
+#: templates/admin/premium.php:251
+#, php-format
+msgid ""
+"Upgrade to the %1$spremium version%2$s of %1$sYITH WooCommerce Zoom Magnifier"
+"%2$s to benefit from all features!"
+msgstr ""
+
+#: templates/admin/premium.php:254
+#, php-format
+msgid "%1$sUPGRADE%2$s %3$sto the premium version%2$s"
+msgstr ""
+
+#: yit-common/yith-panel.php:429
+msgid "Select a date"
+msgstr ""
+
+#: yit-common/yith-panel.php:430
+msgid "Hours"
+msgstr ""
+
+#: yit-common/yith-panel.php:431 yit-common/yith-panel.php:432
+msgid "Minutes"
+msgstr ""
+
+#: yit-common/yith-panel.php:440
+msgid "Upload"
+msgstr ""
+
+#: yit-common/yith-panel.php:477
+msgid "px"
+msgstr ""
+
+#: yit-common/yith-panel.php:479
+msgid "em"
+msgstr ""
+
+#: yit-common/yith-panel.php:481
+msgid "pt"
+msgstr ""
+
+#: yit-common/yith-panel.php:483
+msgid "rem"
+msgstr ""
+
+#: yit-common/yith-panel.php:495
+msgid "Select a font family"
+msgstr ""
+
+#: yit-common/yith-panel.php:505
+msgid "Regular"
+msgstr ""
+
+#: yit-common/yith-panel.php:507
+msgid "Bold"
+msgstr ""
+
+#: yit-common/yith-panel.php:509
+msgid "Extra bold"
+msgstr ""
+
+#: yit-common/yith-panel.php:511
+msgid "Italic"
+msgstr ""
+
+#: yit-common/yith-panel.php:513
+msgid "Italic bold"
+msgstr ""
+
+#: yit-common/yith-panel.php:529
+msgid "Click to preview"
+msgstr ""

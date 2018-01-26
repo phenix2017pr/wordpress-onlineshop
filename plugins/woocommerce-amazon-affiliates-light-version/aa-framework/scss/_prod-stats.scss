@@ -1,0 +1,16 @@
+##{$alias}-sync-log {
+	.#{$alias}-prod-stats-number {
+		padding: px(2) px(8);
+		color: $white;
+		border-radius: px(4);
+		&.hits {
+			background: $warning;
+		}
+		&.add-to-cart {
+			background: $success;
+		}
+		&.redirect-to-amazon {
+			background: $info;
+		}
+	}
+}

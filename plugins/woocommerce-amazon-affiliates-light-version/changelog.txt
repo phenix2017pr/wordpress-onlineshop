@@ -1,0 +1,7 @@
+# Change Log
+All notable changes to this project will be documented here.
+
+## [2.0] - 31.08.2017
+- New Framework + options
+
+## [1.0] - Initial Release

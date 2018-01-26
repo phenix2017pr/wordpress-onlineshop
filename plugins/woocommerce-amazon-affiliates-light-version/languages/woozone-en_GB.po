@@ -1,0 +1,2878 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooZoneLite - Wordpress Plugin 9.0.2.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-09-28 20:20+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: admin <george@aa-team.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: aa-framework/ajax-list-table.php:678 aa-framework/ajax-list-table.php:722
+#: aa-framework/ajax-list-table.php:738 aa-framework/ajax-list-table.php:770
+#: aa-framework/ajax-list-table.php:805 modules/report/init.php:243
+#: modules/report/init.php:263 modules/synchronization/tail.php:1636
+msgid "Show All"
+msgstr ""
+
+#: aa-framework/ajax-list-table.php:681
+msgid "per pages"
+msgstr ""
+
+#: aa-framework/ajax-list-table.php:883
+msgid "Search"
+msgstr ""
+
+#: aa-framework/ajax-list-table.php:940
+msgid "The last product synchronized was:"
+msgstr ""
+
+#: aa-framework/ajax-list-table.php:942
+msgid "This was synchronized at:"
+msgstr ""
+
+#: aa-framework/ajax-list-table.php:1107 aa-framework/ajax-list-table.php:1155
+#: aa-framework/ajax-list-table.php:1269
+msgid "View product"
+msgstr ""
+
+#: aa-framework/ajax-list-table.php:1108 aa-framework/ajax-list-table.php:1156
+#: aa-framework/ajax-list-table.php:1268
+msgid "Edit product"
+msgstr ""
+
+#: aa-framework/ajax-list-table.php:1139
+msgid "Fresh (spin) Content"
+msgstr ""
+
+#: aa-framework/ajax-list-table.php:1142
+msgid "Old (original) Content"
+msgstr ""
+
+#: aa-framework/ajax-list-table.php:1185
+msgid "SPIN Content now!"
+msgstr ""
+
+#: aa-framework/ajax-list-table.php:1204
+msgid "SAVE Content"
+msgstr ""
+
+#: aa-framework/ajax-list-table.php:1204
+msgid "Rollback Content"
+msgstr ""
+
+#: aa-framework/ajax-list-table.php:1252
+msgid "Number of variation:"
+msgstr ""
+
+#: aa-framework/ajax-list-table.php:1256
+msgid "Assets:"
+msgstr ""
+
+#: aa-framework/ajax-list-table.php:1257
+msgid "new"
+msgstr ""
+
+#: aa-framework/ajax-list-table.php:1257
+msgid "done"
+msgstr ""
+
+#: aa-framework/ajax-list-table.php:1267
+msgid "Download assets NOW!"
+msgstr ""
+
+#: aa-framework/ajax-list-table.php:1304
+msgid "Variations:"
+msgstr ""
+
+#: aa-framework/ajax-list-table.php:1359 aa-framework/ajax-list-table.php:1398
+#: aa-framework/ajax-list-table.php:1582 modules/auto_import/init.php:407
+#: modules/auto_import/init.php:820 modules/report/init.php:91
+msgid "New"
+msgstr ""
+
+#: aa-framework/ajax-list-table.php:1360 aa-framework/ajax-list-table.php:1399
+#: modules/report/init.php:92
+msgid "Done (success)"
+msgstr ""
+
+#: aa-framework/ajax-list-table.php:1361 aa-framework/ajax-list-table.php:1400
+#: aa-framework/ajax-list-table.php:1584 modules/auto_import/init.php:409
+#: modules/auto_import/init.php:822 modules/report/init.php:93
+#: modules/report/init.php:1066
+msgid "Error"
+msgstr ""
+
+#: aa-framework/ajax-list-table.php:1362 modules/auto_import/init.php:410
+#: modules/report/init.php:94
+msgid "Already imported"
+msgstr ""
+
+#: aa-framework/ajax-list-table.php:1376
+#: modules/advanced_search/ajax-request.php:401
+#: modules/advanced_search/ajax-request.php:498
+msgid "View"
+msgstr ""
+
+#: aa-framework/ajax-list-table.php:1377
+msgid "Edit"
+msgstr ""
+
+#: aa-framework/ajax-list-table.php:1419
+msgid "View all"
+msgstr ""
+
+#: aa-framework/ajax-list-table.php:1429 modules/auto_import/init.php:105
+#: modules/auto_import/init.php:799
+msgid "Recurrency"
+msgstr ""
+
+#: aa-framework/ajax-list-table.php:1434 modules/auto_import/init.php:94
+#: modules/auto_import/init.php:793
+msgid "Country"
+msgstr ""
+
+#: aa-framework/ajax-list-table.php:1439
+msgid "Main Aff Id"
+msgstr ""
+
+#: aa-framework/ajax-list-table.php:1444 modules/auto_import/init.php:132
+#: modules/insane_import/init.php:494
+msgid "Category"
+msgstr ""
+
+#: aa-framework/ajax-list-table.php:1448 modules/auto_import/init.php:128
+#: modules/insane_import/init.php:488
+msgid "Keyword"
+msgstr ""
+
+#: aa-framework/ajax-list-table.php:1452
+msgid "Node"
+msgstr ""
+
+#: aa-framework/ajax-list-table.php:1456
+msgid "Nb Pages"
+msgstr ""
+
+#: aa-framework/ajax-list-table.php:1460 modules/insane_import/init.php:788
+msgid "Import in"
+msgstr ""
+
+#: aa-framework/ajax-list-table.php:1539
+msgid "Started at"
+msgstr ""
+
+#: aa-framework/ajax-list-table.php:1543
+msgid "Ended at"
+msgstr ""
+
+#: aa-framework/ajax-list-table.php:1547
+msgid "Next run"
+msgstr ""
+
+#: aa-framework/ajax-list-table.php:1583
+msgid "Done"
+msgstr ""
+
+#: aa-framework/ajax-list-table.php:1585
+msgid "Already"
+msgstr ""
+
+#: aa-framework/ajax-list-table.php:1698
+#: modules/advanced_search/advanced-search.class.php:125
+#: modules/advanced_search/ajax-request.php:112
+#: modules/advanced_search/ajax-request.php:551
+msgid "All"
+msgstr ""
+
+#: aa-framework/ajax-list-table.php:1699 modules/assets_download/init.php:157
+#: modules/auto_import/init.php:771 modules/auto_import/init.php:779
+#: modules/auto_import/init.php:902 modules/content_spinner/init.php:150
+msgid "Published"
+msgstr ""
+
+#: aa-framework/ajax-list-table.php:1700
+msgid "Scheduled"
+msgstr ""
+
+#: aa-framework/ajax-list-table.php:1701
+msgid "Private"
+msgstr ""
+
+#: aa-framework/ajax-list-table.php:1702
+msgid "Pending Review"
+msgstr ""
+
+#: aa-framework/ajax-list-table.php:1703
+msgid "Draft"
+msgstr ""
+
+#: aa-framework/amz.helper.class.php:2729
+msgid "could not retrieve category slugs!"
+msgstr ""
+
+#: aa-framework/amz.helper.class.php:2754
+msgid " category slugs updated!"
+msgstr ""
+
+#: aa-framework/amz.helper.class.php:2842
+#, php-format
+msgid "%s fix: no products needed attributes fixing!"
+msgstr ""
+
+#: aa-framework/amz.helper.class.php:2844
+#, php-format
+msgid "%s fix: cannot retrieve products for attributes fixing!"
+msgstr ""
+
+#: aa-framework/amz.helper.class.php:2886
+#, php-format
+msgid "%s fix: %s products needed attributes fixing!"
+msgstr ""
+
+#: aa-framework/amz.helper.class.php:2943
+msgid "DO IT"
+msgstr ""
+
+#: aa-framework/amz.helper.class.php:2945
+msgid "Cancel"
+msgstr ""
+
+#: aa-framework/amz.helper.class.php:3200
+msgid "no duplicate terms found!"
+msgstr ""
+
+#: aa-framework/framework.class.php:1054
+msgid "Install Default Setup"
+msgstr ""
+
+#: aa-framework/framework.class.php:1055
+msgid "Dismiss This Message"
+msgstr ""
+
+#: aa-framework/framework.class.php:1180
+msgid ""
+"<h3>Thank you for using WooZoneLite, the best Amazon Affiliate WooCommerce "
+"plugin available on the market.</h3>"
+msgstr ""
+
+#: aa-framework/framework.class.php:1181
+#, php-format
+msgid ""
+"For an easier understanding about how awesome our plugin is, we give you the "
+"opportunity to import %s products using our demo keys.<br />"
+msgstr ""
+
+#: aa-framework/framework.class.php:1182
+msgid "These are the products you choose to import:"
+msgstr ""
+
+#: aa-framework/framework.class.php:1199
+#, php-format
+msgid ""
+"\n"
+"\t\tIn order to use the plugin at its full capacity, please follow the "
+"instructions to generate your own Amazon API keys and register for the "
+"affiliation program. You can find the instructions <a href=\"%s\" target="
+"\"_blank\">here</a> or you can open a ticket at <a href=\"%s\">support.aa-"
+"team.com</a>. <br />"
+msgstr ""
+
+#: aa-framework/framework.class.php:1201
+msgid "Set your own keys now"
+msgstr ""
+
+#: aa-framework/framework.class.php:1552
+#, php-format
+msgid "(as of %s)"
+msgstr ""
+
+#: aa-framework/framework.class.php:1617
+msgid "FREE Shipping"
+msgstr ""
+
+#: aa-framework/framework.class.php:1618 aa-framework/framework.class.php:1640
+msgid "Details"
+msgstr ""
+
+#: aa-framework/framework.class.php:1640
+#, php-format
+msgid "Your coupon will be applied at amazon checkout. %s"
+msgstr ""
+
+#: aa-framework/framework.class.php:1640
+msgid "COUPON DETAILS"
+msgstr ""
+
+#: aa-framework/framework.class.php:1681
+msgid "Coupons available for this offer"
+msgstr ""
+
+#: aa-framework/framework.class.php:1682
+msgid "View more coupons"
+msgstr ""
+
+#: aa-framework/framework.class.php:1688
+msgid "Your coupon"
+msgstr ""
+
+#: aa-framework/framework.class.php:2893 modules/server_status/init.php:393
+msgctxt "Page setting"
+msgid "Cart Page"
+msgstr ""
+
+#: aa-framework/framework.class.php:2897 modules/server_status/init.php:397
+msgctxt "Page setting"
+msgid "Checkout Page"
+msgstr ""
+
+#: aa-framework/framework.class.php:2910
+#, php-format
+msgid "You need to install default WooCommerce page: %s"
+msgstr ""
+
+#: aa-framework/framework.class.php:3007
+msgid "Invalid CSS path to file: <strong>"
+msgstr ""
+
+#: aa-framework/framework.class.php:3134
+msgid "Invalid JS path to file: <strong>"
+msgstr ""
+
+#: aa-framework/framework.class.php:3157
+msgid "WooZoneLite - Amazon Affiliates"
+msgstr ""
+
+#: aa-framework/framework.class.php:3158
+msgid "WooZoneLite"
+msgstr ""
+
+#: aa-framework/framework.class.php:3167
+msgid "Amazon plugin configuration"
+msgstr ""
+
+#: aa-framework/framework.class.php:3168 aa-framework/menu.php:90
+msgid "Amazon config"
+msgstr ""
+
+#: aa-framework/framework.class.php:3176
+msgid "Amazon Advanced Search"
+msgstr ""
+
+#: aa-framework/framework.class.php:3177
+msgid "Amazon Search"
+msgstr ""
+
+#: aa-framework/framework.class.php:3185
+msgid "Amazon Import Insane Mode"
+msgstr ""
+
+#: aa-framework/framework.class.php:3186
+msgid "Insane Mode Import"
+msgstr ""
+
+#: aa-framework/framework.class.php:3194
+msgid "CSV bulk products import"
+msgstr ""
+
+#: aa-framework/framework.class.php:3195
+msgid "CSV import"
+msgstr ""
+
+#: aa-framework/framework.class.php:4630
+msgid "Frequently Bought Together"
+msgstr ""
+
+#: aa-framework/framework.class.php:4676
+msgid "This item:"
+msgstr ""
+
+#: aa-framework/framework.class.php:4801 aa-framework/framework.class.php:4804
+msgid "this product has no assets to be dowloaded!"
+msgstr ""
+
+#: aa-framework/framework.class.php:4814
+msgid "Images download in progress ... "
+msgstr ""
+
+#: aa-framework/framework.class.php:4814 modules/auto_import/init.php:1440
+msgid "CLOSE"
+msgstr ""
+
+#: aa-framework/framework.class.php:4816
+msgid ""
+"Please be patient while the images are downloaded. \n"
+"\t\t\tThis can take a while if your server is slow (inexpensive hosting) or "
+"if you have many images. \n"
+"\t\t\tDo not navigate away from this page until this script is done. \n"
+"\t\t\tYou will be notified via this box when the regenerating is completed."
+msgstr ""
+
+#: aa-framework/framework.class.php:4854
+msgid "Debugging Information:"
+msgstr ""
+
+#: aa-framework/framework.class.php:4858 aa-framework/framework.class.php:4871
+msgid "Total Images:"
+msgstr ""
+
+#: aa-framework/framework.class.php:4862 aa-framework/framework.class.php:4872
+msgid "Images Downloaded:"
+msgstr ""
+
+#: aa-framework/framework.class.php:4866 aa-framework/framework.class.php:4873
+msgid "Downloaded Failures:"
+msgstr ""
+
+#: aa-framework/framework.class.php:5863
+msgid "Amazon Settings"
+msgstr ""
+
+#: aa-framework/framework.class.php:5867
+msgid "Access Key ID"
+msgstr ""
+
+#: aa-framework/framework.class.php:5871
+msgid "Secret Access Key"
+msgstr ""
+
+#: aa-framework/framework.class.php:5875
+msgid "Amazon location"
+msgstr ""
+
+#: aa-framework/framework.class.php:5879 modules/auto_import/init.php:97
+msgid "Main Affiliate ID"
+msgstr ""
+
+#: aa-framework/framework.class.php:5883
+msgid "Affiliate IDs"
+msgstr ""
+
+#: aa-framework/framework.class.php:6524
+msgid "view last requests"
+msgstr ""
+
+#: aa-framework/framework.class.php:6529 modules/auto_import/init.php:607
+#: modules/auto_import/init.php:1008
+msgid "Time"
+msgstr ""
+
+#: aa-framework/framework.class.php:6532
+msgid "From file"
+msgstr ""
+
+#: aa-framework/framework.class.php:6535
+msgid "From function"
+msgstr ""
+
+#: aa-framework/framework.class.php:6538 modules/auto_import/init.php:403
+#: modules/auto_import/init.php:454 modules/auto_import/init.php:816
+#: modules/auto_import/init.php:866
+msgid "Status"
+msgstr ""
+
+#: aa-framework/framework.class.php:6541
+msgid "Status message"
+msgstr ""
+
+#: aa-framework/menu.php:66
+msgid "Plugin depedencies"
+msgstr ""
+
+#: aa-framework/menu.php:77
+msgid "Dashboard"
+msgstr ""
+
+#: aa-framework/menu.php:84
+msgid "Configuration"
+msgstr ""
+
+#: aa-framework/menu.php:99
+msgid "Import Products"
+msgstr ""
+
+#: aa-framework/menu.php:104
+msgid "Advanced Search"
+msgstr ""
+
+#: aa-framework/menu.php:111
+msgid "CSV Bulk Import"
+msgstr ""
+
+#: aa-framework/menu.php:118 modules/asin_grabber/init.php:91
+#: modules/asin_grabber/init.php:92 modules/asin_grabber/init.php:148
+msgid "ASIN Grabber"
+msgstr ""
+
+#: aa-framework/menu.php:126
+msgid "Insane Import Mode"
+msgstr ""
+
+#: aa-framework/menu.php:132
+msgid "Insane Import Settings"
+msgstr ""
+
+#: aa-framework/menu.php:140
+msgid "Amazon Content Spinner"
+msgstr ""
+
+#: aa-framework/menu.php:147
+msgid "Auto Import Products"
+msgstr ""
+
+#: aa-framework/menu.php:153 modules/auto_import/init.php:247
+#: modules/auto_import/init.php:248 modules/auto_import/init.php:280
+msgid "Auto Import Queue"
+msgstr ""
+
+#: aa-framework/menu.php:158 modules/auto_import/init.php:257
+#: modules/auto_import/init.php:258 modules/auto_import/init.php:663
+msgid "Auto Import Search"
+msgstr ""
+
+#: aa-framework/menu.php:168
+msgid "Plugin Status"
+msgstr ""
+
+#: aa-framework/menu.php:174 modules/assets_download/init.php:88
+#: modules/assets_download/init.php:89 modules/assets_download/init.php:137
+msgid "Assets Download"
+msgstr ""
+
+#: aa-framework/menu.php:181 modules/stats_prod/init.php:77
+#: modules/stats_prod/init.php:78
+msgid "Products Stats"
+msgstr ""
+
+#: aa-framework/menu.php:188 aa-framework/menu.php:194
+#: modules/synchronization/tail.php:148 modules/synchronization/tail.php:149
+msgid "Synchronization log"
+msgstr ""
+
+#: aa-framework/menu.php:199
+msgid "Synchronization log Settings"
+msgstr ""
+
+#: aa-framework/menu.php:207
+msgid "Plugin Cronjobs"
+msgstr ""
+
+#: aa-framework/menu.php:214
+msgid "Amazon Debug"
+msgstr ""
+
+#: aa-framework/menu.php:221
+msgid "Woozone Report"
+msgstr ""
+
+#: aa-framework/menu.php:227
+msgid "Woozone Report Settings"
+msgstr ""
+
+#: aa-framework/menu.php:235
+msgid "Server Status"
+msgstr ""
+
+#: aa-framework/menu.php:244
+msgid "Plugin Settings"
+msgstr ""
+
+#: aa-framework/menu.php:250 modules/modules_manager/options.php:66
+msgid "Modules Manager"
+msgstr ""
+
+#: aa-framework/menu.php:257
+msgid "Setup / Backup"
+msgstr ""
+
+#: aa-framework/menu.php:264 modules/remote_support/init.php:78
+msgid "Remote Support"
+msgstr ""
+
+#: aa-framework/utils/action_admin_ajax.php:273
+#: modules/auto_import/init.php:91
+msgid "Provider"
+msgstr ""
+
+#: aa-framework/utils/action_admin_ajax.php:273
+#, php-format
+msgid "Number of files in cache | date: %s."
+msgstr ""
+
+#: aa-framework/utils/action_admin_ajax.php:274
+msgid "Search Products"
+msgstr ""
+
+#: aa-framework/utils/action_admin_ajax.php:274
+msgid "Product details"
+msgstr ""
+
+#: aa-framework/utils/action_admin_ajax.php:294
+#, php-format
+msgid "%s files"
+msgstr ""
+
+#: aa-framework/utils/action_admin_ajax.php:305
+msgid "Expiration (value in minutes): "
+msgstr ""
+
+#: aa-framework/utils/action_admin_ajax.php:311
+msgid "Search Products: "
+msgstr ""
+
+#: aa-framework/utils/action_admin_ajax.php:311
+msgid "Product details: "
+msgstr ""
+
+#: aa-framework/utils/plugin_utils.php:94
+msgid " Plugin Updates"
+msgstr ""
+
+#: aa-framework/utils/plugin_utils.php:95
+msgid ""
+" <span class=\"update-plugins count-1\"><span class=\"update-count\">New "
+"Updates</span></span>"
+msgstr ""
+
+#: aa-framework/utils/plugin_utils.php:166
+msgid " <span id=\"ab-updates\">New Updates</span></span>"
+msgstr ""
+
+#: aa-framework/utils/plugin_utils.php:248
+msgid "View Documentation"
+msgstr ""
+
+#: aa-framework/utils/plugin_utils.php:248
+msgid "Docs"
+msgstr ""
+
+#: aa-framework/utils/plugin_utils.php:249
+msgid "Visit Customer Support Forum"
+msgstr ""
+
+#: aa-framework/utils/plugin_utils.php:249
+msgid "Support Forum"
+msgstr ""
+
+#: aa-framework/utils/plugin_utils.php:391
+msgid "Download new version from Envato."
+msgstr ""
+
+#: aa-framework/utils/plugin_utils.php:394
+#, php-format
+msgid "Download %s from Envato now."
+msgstr ""
+
+#: aa-framework/utils/utils.php:275 modules/cronjobs/cronjobs.panel.php:553
+#: modules/synchronization/tail.php:1528
+#, php-format
+msgid "%s year"
+msgid_plural "%s years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: aa-framework/utils/utils.php:276 modules/cronjobs/cronjobs.panel.php:554
+#: modules/synchronization/tail.php:1529
+#, php-format
+msgid "%s month"
+msgid_plural "%s months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: aa-framework/utils/utils.php:277 modules/cronjobs/cronjobs.panel.php:555
+#: modules/synchronization/tail.php:1530
+#, php-format
+msgid "%s week"
+msgid_plural "%s weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: aa-framework/utils/utils.php:278 modules/cronjobs/cronjobs.panel.php:556
+#: modules/synchronization/tail.php:1531
+#, php-format
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: aa-framework/utils/utils.php:279 modules/cronjobs/cronjobs.panel.php:557
+#: modules/synchronization/tail.php:1532
+#, php-format
+msgid "%s hour"
+msgid_plural "%s hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: aa-framework/utils/utils.php:280 modules/cronjobs/cronjobs.panel.php:558
+#: modules/synchronization/tail.php:1533
+#, php-format
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: aa-framework/utils/utils.php:281 modules/cronjobs/cronjobs.panel.php:559
+#: modules/synchronization/tail.php:1534
+#, php-format
+msgid "%s second"
+msgid_plural "%s seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: aa-framework/utils/utils.php:286 modules/cronjobs/cronjobs.panel.php:564
+#: modules/synchronization/tail.php:1539
+msgid "now"
+msgstr ""
+
+#: modules/advanced_search/ajax-request.php:59
+msgid "Keywords"
+msgstr ""
+
+#: modules/advanced_search/ajax-request.php:94
+msgid "Import in:"
+msgstr ""
+
+#: modules/advanced_search/ajax-request.php:108
+msgid "BrowseNode"
+msgstr ""
+
+#: modules/advanced_search/ajax-request.php:132
+msgid "Brand"
+msgstr ""
+
+#: modules/advanced_search/ajax-request.php:141
+msgid "Condition"
+msgstr ""
+
+#: modules/advanced_search/ajax-request.php:156
+msgid "Manufacturer"
+msgstr ""
+
+#: modules/advanced_search/ajax-request.php:165
+msgid "Maximum Price"
+msgstr ""
+
+#: modules/advanced_search/ajax-request.php:174
+msgid "Minimum Price"
+msgstr ""
+
+#: modules/advanced_search/ajax-request.php:183
+msgid "Merchant Id"
+msgstr ""
+
+#: modules/advanced_search/ajax-request.php:192
+msgid "Min Percentage Off"
+msgstr ""
+
+#: modules/advanced_search/ajax-request.php:201
+msgid "Sort"
+msgstr ""
+
+#: modules/advanced_search/ajax-request.php:232
+msgid "Search for items"
+msgstr ""
+
+#: modules/advanced_search/ajax-request.php:361
+msgid "Execution Queue:"
+msgstr ""
+
+#: modules/advanced_search/ajax-request.php:363
+msgid "No item(s) yet"
+msgstr ""
+
+#: modules/advanced_search/ajax-request.php:397
+msgid "Product name"
+msgstr ""
+
+#: modules/advanced_search/ajax-request.php:398
+#: modules/auto_import/init.php:440 modules/synchronization/tail.php:1053
+msgid "ASIN"
+msgstr ""
+
+#: modules/advanced_search/ajax-request.php:399
+#: modules/synchronization/tail.php:320 modules/synchronization/tail.php:327
+msgid "Image"
+msgstr ""
+
+#: modules/advanced_search/ajax-request.php:400
+#: modules/synchronization/tail.php:63
+msgid "Price"
+msgstr ""
+
+#: modules/advanced_search/ajax-request.php:477
+msgid "Already Imported"
+msgstr ""
+
+#: modules/advanced_search/ajax-request.php:479
+msgid "(Duplicate) Already exists in ASIN column"
+msgstr ""
+
+#: modules/advanced_search/ajax-request.php:517
+msgid ""
+"ASIN column:<br/>\n"
+"                    - if italic font & purple color = the variation parent "
+"product ASIN; the row (containing the column also) represents a variation "
+"child product, so we'll import the variation parent product as you've setted "
+"in [ Amazon config module / Import Setup tab / Force import parent if is "
+"variation option ].<br />\n"
+"                    - if default font & color = product ASIN; we have a "
+"simple product (no variations) or a variation parent product already"
+msgstr ""
+
+#: modules/advanced_search/config.php:47
+msgid ""
+"\n"
+"\t\t\t\t\tYou configured Advanced Search incorrectly. See \n"
+"\t\t\t\t\t"
+msgstr ""
+
+#: modules/advanced_search/config.php:61 modules/amazon_debug/config.php:61
+#: modules/asin_grabber/config.php:63
+#: modules/csv_products_import/config.php:60
+msgid ""
+"\n"
+"\t\t\t\t\tYou don't have WooCommerce installed/activated! Please activate "
+"it:\n"
+"\t\t\t\t\t"
+msgstr ""
+
+#: modules/advanced_search/config.php:69 modules/amazon_debug/config.php:69
+#: modules/asin_grabber/config.php:71
+#: modules/csv_products_import/config.php:68
+msgid ""
+"\n"
+"\t\t\t\t\tYou don't have the SOAP library installed! Please activate it!\n"
+"\t\t\t\t\t"
+msgstr ""
+
+#: modules/advanced_search/config.php:72 modules/amazon_debug/config.php:72
+#: modules/asin_grabber/config.php:74
+#: modules/csv_products_import/config.php:71
+msgid ""
+"\n"
+"\t\t\t\t\tYou don't have the cURL library installed! Please activate it!\n"
+"\t\t\t\t\t"
+msgstr ""
+
+#: modules/amazon/options.php:362
+msgid "Clean duplicate attributes:"
+msgstr ""
+
+#: modules/amazon/options.php:384 modules/amazon/options.php:450
+#: modules/amazon/options.php:515
+msgid "clean Now "
+msgstr ""
+
+#: modules/amazon/options.php:428
+msgid "Clean duplicate category slug:"
+msgstr ""
+
+#: modules/amazon/options.php:493
+msgid "Clean orphaned AMZ meta:"
+msgstr ""
+
+#: modules/amazon/options.php:566
+msgid "Delete zero priced products:"
+msgstr ""
+
+#: modules/amazon/options.php:588
+msgid "delete now! "
+msgstr ""
+
+#: modules/amazon/options.php:631
+msgid "Clean orphaned Amz Products Assets:"
+msgstr ""
+
+#: modules/amazon/options.php:653
+msgid "clean Now"
+msgstr ""
+
+#: modules/amazon/options.php:696
+msgid "Fix Product Attributes (woocommerce 2.4 update):"
+msgstr ""
+
+#: modules/amazon/options.php:718 modules/amazon/options.php:810
+msgid "fix Now "
+msgstr ""
+
+#: modules/amazon/options.php:789
+msgid "Fix Request Amazon Issue:"
+msgstr ""
+
+#: modules/amazon/options.php:863
+msgid "Put amazon products in trash when syncing after: "
+msgstr ""
+
+#: modules/amazon/options.php:889
+msgid "Restore now"
+msgstr ""
+
+#: modules/amazon/options.php:890
+msgid "trashed amazon products (and variations) | their NEW status: "
+msgstr ""
+
+#: modules/amazon/options.php:988
+msgid "Reset products stats:"
+msgstr ""
+
+#: modules/amazon/options.php:1009
+msgid "reset Now "
+msgstr ""
+
+#: modules/amazon/options.php:1053
+msgid "Version 9.0 options prefix change:"
+msgstr ""
+
+#: modules/amazon/options.php:1079
+msgid "doit now"
+msgstr ""
+
+#: modules/amazon/options.php:1166
+msgid "Amazon SETUP"
+msgstr ""
+
+#: modules/amazon/options.php:1167
+msgid "Plugin SETUP"
+msgstr ""
+
+#: modules/amazon/options.php:1168
+msgid "Import SETUP"
+msgstr ""
+
+#: modules/amazon/options.php:1169
+msgid "BUG Fixes"
+msgstr ""
+
+#: modules/amazon/options.php:1195
+msgid "Server Charset:"
+msgstr ""
+
+#: modules/amazon/options.php:1196
+msgid "Server Charset (used by php-query class)"
+msgstr ""
+
+#: modules/amazon/options.php:1318
+msgid "Select attributes"
+msgstr ""
+
+#: modules/amazon/options.php:1319
+msgid "Choose what attributes to be added on import process."
+msgstr ""
+
+#: modules/amazon/options.php:1427
+msgid "Ratio product validation:"
+msgstr ""
+
+#: modules/amazon/options.php:1429
+msgid ""
+"The minimum percentage of total assets download (product + variations) from "
+"which a product is considered valid!"
+msgstr ""
+
+#: modules/amazon/options.php:1549
+msgid "Button buy text"
+msgstr ""
+
+#: modules/amazon/options.php:1550
+msgid ""
+"(global) This text will be shown on the button linking to the external "
+"product. (global) = all external products; external products = those with "
+"\"On-site Cart\" option value set to \"No\""
+msgstr ""
+
+#: modules/amazon/options.php:1641
+msgid "Select remote image sizes"
+msgstr ""
+
+#: modules/amazon/options.php:1642
+msgid "Choose what remote image sizes you want."
+msgstr ""
+
+#: modules/amazon/product-tabs.php:17
+msgid "Amazon Customer Reviews"
+msgstr ""
+
+#: modules/amazon/product-tabs.php:158
+msgid "Content"
+msgstr ""
+
+#: modules/amazon/product-tabs.php:158
+msgid "HTML and text to display."
+msgstr ""
+
+#: modules/amazon/product-tabs.php:239
+msgid ""
+"The WooCommerce Product Tabs <a href=\"http://www.woothemes.com/woocommerce/"
+"\" target=\"_blank\">WooCommerce</a> to be activated in order to work. "
+"Please install and activate <a href=\"http://www.woothemes.com/woocommerce/"
+"\" target=\"_blank\">WooCommerce</a> first. <a href=\""
+msgstr ""
+
+#: modules/amazon_debug/config.php:47
+msgid ""
+"\n"
+"\t\t\t\t\tYou configured Amazon Debug incorrectly. See \n"
+"\t\t\t\t\t"
+msgstr ""
+
+#: modules/asin_grabber/config.php:49
+msgid ""
+"\n"
+"\t\t\t\t\tYou configured ASIN Grabber incorrectly. See \n"
+"\t\t\t\t\t"
+msgstr ""
+
+#: modules/assets_download/init.php:163
+msgid "Post"
+msgstr ""
+
+#: modules/assets_download/init.php:168
+msgid "Delete Asset"
+msgstr ""
+
+#: modules/assets_download/init.php:174
+msgid "Assets"
+msgstr ""
+
+#: modules/assets_download/init.php:195
+msgid "OR create cron job for doing the assets download jobs"
+msgstr ""
+
+#: modules/assets_download/init.php:309
+msgid "was successfully downloaded and resized in"
+msgstr ""
+
+#: modules/assets_download/init.php:311 modules/assets_download/init.php:314
+msgid "could not be downloaded and resized - duration: "
+msgstr ""
+
+#: modules/assets_download/init.php:486
+#, php-format
+msgid "%s was successfully downloaded"
+msgstr ""
+
+#: modules/assets_download/init.php:627
+msgid "no assets available for download"
+msgstr ""
+
+#: modules/assets_download/init.php:647
+msgid "empty asset"
+msgstr ""
+
+#: modules/auto_import/init.php:65 modules/report/options.php:8
+msgid "Every 12 hours"
+msgstr ""
+
+#: modules/auto_import/init.php:66 modules/report/options.php:9
+#: modules/synchronization/tail.php:73
+msgid "Every single day"
+msgstr ""
+
+#: modules/auto_import/init.php:67 modules/report/options.php:10
+#: modules/synchronization/tail.php:74
+msgid "Every 2 days"
+msgstr ""
+
+#: modules/auto_import/init.php:68 modules/report/options.php:11
+#: modules/synchronization/tail.php:75
+msgid "Every 3 days"
+msgstr ""
+
+#: modules/auto_import/init.php:69 modules/report/options.php:12
+#: modules/synchronization/tail.php:76
+msgid "Every 4 days"
+msgstr ""
+
+#: modules/auto_import/init.php:70 modules/report/options.php:13
+#: modules/synchronization/tail.php:77
+msgid "Every 5 days"
+msgstr ""
+
+#: modules/auto_import/init.php:71 modules/report/options.php:14
+#: modules/synchronization/tail.php:78
+msgid "Every 6 days"
+msgstr ""
+
+#: modules/auto_import/init.php:72 modules/report/options.php:15
+#: modules/synchronization/tail.php:79
+msgid "Every 1 week"
+msgstr ""
+
+#: modules/auto_import/init.php:73 modules/report/options.php:16
+#: modules/synchronization/tail.php:80
+msgid "Every 2 weeks"
+msgstr ""
+
+#: modules/auto_import/init.php:74 modules/report/options.php:17
+#: modules/synchronization/tail.php:81
+msgid "Every 3 weeks"
+msgstr ""
+
+#: modules/auto_import/init.php:75 modules/report/options.php:18
+#: modules/synchronization/tail.php:82
+msgid "Every 1 month"
+msgstr ""
+
+#: modules/auto_import/init.php:100 modules/auto_import/init.php:828
+#: modules/auto_import/init.php:845
+msgid "Search title"
+msgstr ""
+
+#: modules/auto_import/init.php:136
+msgid "Category ID"
+msgstr ""
+
+#: modules/auto_import/init.php:140
+msgid "Grab Nb Pages"
+msgstr ""
+
+#: modules/auto_import/init.php:144
+msgid "Page Nb"
+msgstr ""
+
+#: modules/auto_import/init.php:148
+msgid "Choose Site"
+msgstr ""
+
+#: modules/auto_import/init.php:151
+msgid "Browse Node Tree"
+msgstr ""
+
+#: modules/auto_import/init.php:156 modules/insane_import/init.php:758
+msgid "Image Import Type"
+msgstr ""
+
+#: modules/auto_import/init.php:159 modules/insane_import/init.php:768
+msgid "Number of Images"
+msgstr ""
+
+#: modules/auto_import/init.php:162 modules/insane_import/init.php:773
+msgid "Number of Variations"
+msgstr ""
+
+#: modules/auto_import/init.php:165 modules/insane_import/init.php:781
+msgid "Spin on Import"
+msgstr ""
+
+#: modules/auto_import/init.php:168 modules/insane_import/init.php:785
+msgid "Import attributes"
+msgstr ""
+
+#: modules/auto_import/init.php:171
+msgid "Import in category"
+msgstr ""
+
+#: modules/auto_import/init.php:175 modules/auto_import/init.php:1186
+msgid "Products Import Type"
+msgstr ""
+
+#: modules/auto_import/init.php:193
+msgid "General Parameters"
+msgstr ""
+
+#: modules/auto_import/init.php:194
+msgid "Search Parameters"
+msgstr ""
+
+#: modules/auto_import/init.php:195
+msgid "Import Parameters"
+msgstr ""
+
+#: modules/auto_import/init.php:321 modules/auto_import/init.php:708
+#: modules/insane_import/init.php:310
+msgid "Loading..."
+msgstr ""
+
+#: modules/auto_import/init.php:322 modules/auto_import/init.php:709
+#: modules/insane_import/init.php:311
+msgid "Closing..."
+msgstr ""
+
+#: modules/auto_import/init.php:363 modules/auto_import/init.php:747
+msgid "Auto Import Cronjob Stats"
+msgstr ""
+
+#: modules/auto_import/init.php:387 modules/auto_import/init.php:447
+#: modules/report/init.php:1355
+msgid "From"
+msgstr ""
+
+#: modules/auto_import/init.php:392 modules/auto_import/init.php:479
+#: modules/auto_import/init.php:805 modules/auto_import/init.php:884
+msgid "Nb tries (max = 3)"
+msgstr ""
+
+#: modules/auto_import/init.php:396 modules/auto_import/init.php:809
+msgid "0 tries"
+msgstr ""
+
+#: modules/auto_import/init.php:397 modules/auto_import/init.php:810
+msgid "1 try"
+msgstr ""
+
+#: modules/auto_import/init.php:398 modules/auto_import/init.php:811
+msgid "2 tries"
+msgstr ""
+
+#: modules/auto_import/init.php:399 modules/auto_import/init.php:812
+msgid "3 tries"
+msgstr ""
+
+#: modules/auto_import/init.php:408 modules/auto_import/init.php:821
+msgid "Done successfully"
+msgstr ""
+
+#: modules/auto_import/init.php:416
+msgid "Search ASIN"
+msgstr ""
+
+#: modules/auto_import/init.php:427 modules/auto_import/init.php:839
+#: modules/report/init.php:287 modules/synchronization/tail.php:326
+#: modules/synchronization/tail.php:1052
+msgid "ID"
+msgstr ""
+
+#: modules/auto_import/init.php:461 modules/auto_import/init.php:873
+msgid "Created Date"
+msgstr ""
+
+#: modules/auto_import/init.php:466
+msgid "Imported Date"
+msgstr ""
+
+#: modules/auto_import/init.php:472
+msgid "Product"
+msgstr ""
+
+#: modules/auto_import/init.php:486 modules/auto_import/init.php:891
+msgid "Delete"
+msgstr ""
+
+#: modules/auto_import/init.php:490 modules/auto_import/init.php:895
+msgid "Delete row"
+msgstr ""
+
+#: modules/auto_import/init.php:513 modules/auto_import/init.php:916
+msgid "Delete all rows"
+msgstr ""
+
+#: modules/auto_import/init.php:568 modules/auto_import/init.php:969
+#, php-format
+msgid "start: %s , end: %s , duration: %s"
+msgstr ""
+
+#: modules/auto_import/init.php:576 modules/auto_import/init.php:977
+#, php-format
+msgid "start: %s"
+msgstr ""
+
+#: modules/auto_import/init.php:583 modules/auto_import/init.php:984
+#: modules/synchronization/tail.php:501
+msgid "in progress"
+msgstr ""
+
+#: modules/auto_import/init.php:587 modules/auto_import/init.php:988
+#: modules/synchronization/tail.php:505
+msgid "to be initialized"
+msgstr ""
+
+#: modules/auto_import/init.php:592 modules/auto_import/init.php:993
+#: modules/synchronization/tail.php:509
+msgid "completed"
+msgstr ""
+
+#: modules/auto_import/init.php:603 modules/auto_import/init.php:1004
+msgid "Last Cron Stats"
+msgstr ""
+
+#: modules/auto_import/init.php:611
+msgid "Estimated \"New\" rows in queue"
+msgstr ""
+
+#: modules/auto_import/init.php:617 modules/auto_import/init.php:1014
+msgid "Current processed chunk IDs"
+msgstr ""
+
+#: modules/auto_import/init.php:621 modules/auto_import/init.php:1018
+msgid "Last processed row (in chunk) ID"
+msgstr ""
+
+#: modules/auto_import/init.php:627 modules/synchronization/tail.php:569
+msgid "Last Report"
+msgstr ""
+
+#: modules/auto_import/init.php:631 modules/synchronization/tail.php:573
+msgid "Generation date"
+msgstr ""
+
+#: modules/auto_import/init.php:638 modules/synchronization/tail.php:580
+#: modules/synchronization/tail.php:599
+msgid "not available yet."
+msgstr ""
+
+#: modules/auto_import/init.php:780
+msgid "Unpublished"
+msgstr ""
+
+#: modules/auto_import/init.php:852
+msgid "Params"
+msgstr ""
+
+#: modules/auto_import/init.php:859
+msgid "Queue Prods"
+msgstr ""
+
+#: modules/auto_import/init.php:878
+msgid "Execution Info"
+msgstr ""
+
+#: modules/auto_import/init.php:906
+msgid "Unpublish"
+msgstr ""
+
+#: modules/auto_import/init.php:908
+msgid "Publish"
+msgstr ""
+
+#: modules/auto_import/init.php:1078 modules/auto_import/init.php:1452
+msgid "Parameters"
+msgstr ""
+
+#: modules/auto_import/init.php:1189
+msgid "Do it NOW!"
+msgstr ""
+
+#: modules/auto_import/init.php:1193
+msgid "Asynchronuous products import"
+msgstr ""
+
+#: modules/auto_import/init.php:1215
+msgid "Auto-Import products in progress ..."
+msgstr ""
+
+#: modules/auto_import/init.php:1217
+#, php-format
+msgid ""
+"Please be patient while the products are been set in the auto import queue "
+"(<i>we add products in queue by <strong>chunks of %s products</strong> per "
+"ajax request</i>). \n"
+"        Do not navigate away from this page until this script is done. \n"
+"        You will be notified via this box when the regenerating is completed."
+msgstr ""
+
+#: modules/auto_import/init.php:1225 modules/insane_import/init.php:403
+msgid "Import Status"
+msgstr ""
+
+#: modules/auto_import/init.php:1231 modules/insane_import/init.php:342
+#: modules/insane_import/init.php:411
+msgid "STOP"
+msgstr ""
+
+#: modules/auto_import/init.php:1232 modules/insane_import/init.php:348
+msgid "the process is running"
+msgstr ""
+
+#: modules/auto_import/init.php:1241 modules/insane_import/init.php:423
+#: modules/insane_import/init.php:432 modules/insane_import/init.php:440
+msgid "Progress"
+msgstr ""
+
+#: modules/auto_import/init.php:1242 modules/insane_import/init.php:424
+#: modules/insane_import/init.php:433 modules/insane_import/init.php:441
+msgid "Parsed"
+msgstr ""
+
+#: modules/auto_import/init.php:1243 modules/insane_import/init.php:425
+msgid "Elapsed time"
+msgstr ""
+
+#: modules/auto_import/init.php:1440 modules/insane_import/init.php:469
+msgid "Add Search to schedule"
+msgstr ""
+
+#: modules/auto_import/init.php:1602
+msgid "Save Search to schedule"
+msgstr ""
+
+#: modules/auto_import/init.php:1721
+msgid "search was added"
+msgstr ""
+
+#: modules/auto_import/init.php:1727
+msgid "search already exists"
+msgstr ""
+
+#: modules/auto_import/init.php:1838
+msgid "product already exists"
+msgstr ""
+
+#: modules/auto_import/init.php:1863
+msgid "added in queue"
+msgstr ""
+
+#: modules/auto_import/init.php:1868
+msgid "already exists in queue"
+msgstr ""
+
+#: modules/auto_import/init.php:2213
+msgid "Invalid search parameters!"
+msgstr ""
+
+#: modules/content_spinner/init.php:82 modules/content_spinner/init.php:83
+msgid "Content Spinner"
+msgstr ""
+
+#: modules/content_spinner/init.php:130 modules/synchronization/tail.php:179
+msgid "Synchronization logs"
+msgstr ""
+
+#: modules/content_spinner/init.php:156
+msgid "Preview"
+msgstr ""
+
+#: modules/content_spinner/init.php:164
+msgid "Spinn Content"
+msgstr ""
+
+#: modules/cronjobs/cronjobs.config.php:72
+msgid "Once every minute."
+msgstr ""
+
+#: modules/cronjobs/cronjobs.config.php:76
+msgid "Once every 2 minutes."
+msgstr ""
+
+#: modules/cronjobs/cronjobs.config.php:80
+msgid "Once every 3 minutes."
+msgstr ""
+
+#: modules/cronjobs/cronjobs.config.php:84
+msgid "Once every 5 minutes."
+msgstr ""
+
+#: modules/cronjobs/cronjobs.config.php:88
+msgid "Once every 10 minutes."
+msgstr ""
+
+#: modules/cronjobs/cronjobs.config.php:92
+msgid "Once every 15 minutes."
+msgstr ""
+
+#: modules/cronjobs/cronjobs.config.php:96
+msgid "Once every half hour."
+msgstr ""
+
+#: modules/cronjobs/cronjobs.panel.php:124
+#, php-format
+msgid ""
+"Issue encountered when trying to spawn a call to the WP-Cron system on your "
+"website. The WP-Cron jobs on your website may not work. The issue details: %s"
+msgstr ""
+
+#: modules/cronjobs/cronjobs.panel.php:127
+msgid ""
+"Successfully spawn a call to the WP-Cron system on your website. The WP-Cron "
+"jobs on your website seems to work fine."
+msgstr ""
+
+#: modules/cronjobs/cronjobs.panel.php:162
+#, php-format
+msgid "Local timezone is <strong>%s</strong>"
+msgstr ""
+
+#: modules/cronjobs/cronjobs.panel.php:163
+#, php-format
+msgid "UTC time is <strong>%s</strong>"
+msgstr ""
+
+#: modules/cronjobs/cronjobs.panel.php:164
+#, php-format
+msgid "Local time is <strong>%s</strong>"
+msgstr ""
+
+#: modules/cronjobs/cronjobs.panel.php:189
+msgid "You currently have no scheduled cron events."
+msgstr ""
+
+#: modules/cronjobs/cronjobs.panel.php:213
+#, php-format
+msgid "You have %s scheduled cron events."
+msgstr ""
+
+#: modules/cronjobs/cronjobs.panel.php:298
+#: modules/cronjobs/cronjobs.panel.php:299
+#: modules/cronjobs/cronjobs.panel.php:300
+msgid "None"
+msgstr ""
+
+#: modules/cronjobs/cronjobs.panel.php:300
+msgid "Non-repeating"
+msgstr ""
+
+#: modules/cronjobs/cronjobs.panel.php:302
+#, php-format
+msgid "%s seconds"
+msgstr ""
+
+#: modules/cronjobs/cronjobs.panel.php:304
+msgid "Clear"
+msgstr ""
+
+#: modules/cronjobs/cronjobs.panel.php:304
+#: modules/modules_manager/aaModulesManager.class.php:158
+msgid "Activate"
+msgstr ""
+
+#: modules/cronjobs/cronjobs.panel.php:377 modules/insane_import/init.php:233
+#: modules/modules_manager/aaModulesManager.class.php:77
+#: modules/report/init.php:223 modules/synchronization/tail.php:256
+msgid "Loading"
+msgstr ""
+
+#: modules/cronjobs/cronjobs.panel.php:383
+msgid "Reload cronjobs list"
+msgstr ""
+
+#: modules/cronjobs/cronjobs.panel.php:388
+msgid "Hook Name"
+msgstr ""
+
+#: modules/cronjobs/cronjobs.panel.php:389
+msgid "Arguments"
+msgstr ""
+
+#: modules/cronjobs/cronjobs.panel.php:390
+msgid "Next Run"
+msgstr ""
+
+#: modules/cronjobs/cronjobs.panel.php:391
+#: modules/synchronization/tail.php:414 modules/synchronization/tail.php:543
+msgid "Recurrence"
+msgstr ""
+
+#: modules/cronjobs/cronjobs.panel.php:392
+msgid "Last status"
+msgstr ""
+
+#: modules/cronjobs/cronjobs.panel.php:393
+msgid "Last duration"
+msgstr ""
+
+#: modules/cronjobs/cronjobs.panel.php:394 modules/report/init.php:292
+#: modules/synchronization/tail.php:324
+msgid "Action"
+msgstr ""
+
+#: modules/cronjobs/cronjobs.panel.php:479 modules/report/init.php:1496
+#: modules/report/init.php:1588 modules/synchronization/tail.php:1367
+msgid "Invalid action!"
+msgstr ""
+
+#: modules/csv_products_import/config.php:46
+msgid ""
+"\n"
+"\t\t\t\t\tYou configured CSV Bulk Import incorrectly. See \n"
+"\t\t\t\t\t"
+msgstr ""
+
+#: modules/insane_import/config.php:49
+msgid ""
+"\n"
+"                    You configured Insane Import Mode incorrectly. See \n"
+"                    "
+msgstr ""
+
+#: modules/insane_import/config.php:63
+msgid ""
+"\n"
+"                    You don't have WooCommerce installed/activated! Please "
+"activate it:\n"
+"                    "
+msgstr ""
+
+#: modules/insane_import/config.php:72
+msgid ""
+"\n"
+"                    You don't have the SOAP library installed! Please "
+"activate it!\n"
+"                    "
+msgstr ""
+
+#: modules/insane_import/config.php:75
+msgid ""
+"\n"
+"                    You don't have the cURL library installed! Please "
+"activate it!\n"
+"                    "
+msgstr ""
+
+#: modules/insane_import/init.php:163 modules/insane_import/init.php:164
+msgid "Insane Import"
+msgstr ""
+
+#: modules/insane_import/init.php:312
+msgid "load prods by search"
+msgstr ""
+
+#: modules/insane_import/init.php:313
+msgid "load prods by grab"
+msgstr ""
+
+#: modules/insane_import/init.php:314
+msgid "load prods by bulk"
+msgstr ""
+
+#: modules/insane_import/init.php:315
+msgid "export asins"
+msgstr ""
+
+#: modules/insane_import/init.php:316
+msgid "import products"
+msgstr ""
+
+#: modules/insane_import/init.php:317
+msgid " First page"
+msgstr ""
+
+#: modules/insane_import/init.php:318
+#, php-format
+msgid " First %s pages"
+msgstr ""
+
+#: modules/insane_import/init.php:319
+msgid " Please first add some ASINs!"
+msgstr ""
+
+#: modules/insane_import/init.php:320
+msgid " No ASINs found!"
+msgstr ""
+
+#: modules/insane_import/init.php:321
+#, php-format
+msgid " %s ASINs found: "
+msgstr ""
+
+#: modules/insane_import/init.php:322
+#, php-format
+msgid " %s ASINs already parsed (loaded, invalid, imported): %s"
+msgstr ""
+
+#: modules/insane_import/init.php:323
+msgid " No ASINs found to export!"
+msgstr ""
+
+#: modules/insane_import/init.php:325
+msgid "Loading Products in Queue In Progress..."
+msgstr ""
+
+#: modules/insane_import/init.php:326
+msgid "Importing Products In Progress..."
+msgstr ""
+
+#: modules/insane_import/init.php:328
+#, php-format
+msgid "%s PPM"
+msgstr ""
+
+#: modules/insane_import/init.php:329
+msgid "SPEED is VERY SLOW."
+msgstr ""
+
+#: modules/insane_import/init.php:330
+msgid "SPEED is SLOW."
+msgstr ""
+
+#: modules/insane_import/init.php:331
+msgid "SPEED is OK."
+msgstr ""
+
+#: modules/insane_import/init.php:332
+msgid "SPEED is FAST."
+msgstr ""
+
+#: modules/insane_import/init.php:333
+msgid "SPEED is VERY FAST."
+msgstr ""
+
+#: modules/insane_import/init.php:334
+msgid "SPEED is INSANE."
+msgstr ""
+
+#: modules/insane_import/init.php:336
+msgid "day"
+msgstr ""
+
+#: modules/insane_import/init.php:337
+msgid "hour"
+msgstr ""
+
+#: modules/insane_import/init.php:338
+msgid "minute"
+msgstr ""
+
+#: modules/insane_import/init.php:339
+msgid "second"
+msgstr ""
+
+#: modules/insane_import/init.php:343
+msgid "CLOSE BOX"
+msgstr ""
+
+#: modules/insane_import/init.php:345
+msgid "No products selected for import!"
+msgstr ""
+
+#: modules/insane_import/init.php:346
+msgid "the process is stopped"
+msgstr ""
+
+#: modules/insane_import/init.php:347
+msgid "the process will stop after the current product"
+msgstr ""
+
+#: modules/insane_import/init.php:349
+msgid "the process is finished"
+msgstr ""
+
+#: modules/insane_import/init.php:350
+#, php-format
+msgid "%s of %s products"
+msgstr ""
+
+#: modules/insane_import/init.php:351
+#, php-format
+msgid "%s of %s images"
+msgstr ""
+
+#: modules/insane_import/init.php:352
+#, php-format
+msgid "%s of %s variations"
+msgstr ""
+
+#: modules/insane_import/init.php:354
+msgid "current product"
+msgstr ""
+
+#: modules/insane_import/init.php:355
+msgid "next product"
+msgstr ""
+
+#: modules/insane_import/init.php:357
+msgid "check all"
+msgstr ""
+
+#: modules/insane_import/init.php:358
+msgid "uncheck all"
+msgstr ""
+
+#: modules/insane_import/init.php:360
+#, php-format
+msgid "the process will stop after the current chunk of %s products"
+msgstr ""
+
+#: modules/insane_import/init.php:383
+msgid "Execution action ..."
+msgstr ""
+
+#: modules/insane_import/init.php:392
+msgid "Import products in progress ..."
+msgstr ""
+
+#: modules/insane_import/init.php:394
+msgid ""
+"Please be patient while the products are been imported. \n"
+"\t\t\t\t\t\t\t\t\t\t        This can take a while if your server is slow "
+"(inexpensive hosting) or if you have many products. \n"
+"\t\t\t\t\t\t\t\t\t\t        Do not navigate away from this page until this "
+"script is done. \n"
+"\t\t\t\t\t\t\t\t\t\t        You will be notified via this box when the "
+"regenerating is completed."
+msgstr ""
+
+#: modules/insane_import/init.php:404
+msgid "Estimated Remained Time"
+msgstr ""
+
+#: modules/insane_import/init.php:405
+msgid "Speed"
+msgstr ""
+
+#: modules/insane_import/init.php:415
+msgid "PPM"
+msgstr ""
+
+#: modules/insane_import/init.php:466 modules/insane_import/init.php:740
+msgid "View Messages Log"
+msgstr ""
+
+#: modules/insane_import/init.php:474
+msgid "SEARCH FOR PRODUCTS"
+msgstr ""
+
+#: modules/insane_import/init.php:475
+msgid "GRAB PRODUCTS"
+msgstr ""
+
+#: modules/insane_import/init.php:476
+msgid "ALREADY HAVE A LIST?"
+msgstr ""
+
+#: modules/insane_import/init.php:495
+msgid "All categories"
+msgstr ""
+
+#: modules/insane_import/init.php:518
+msgid "Grab"
+msgstr ""
+
+#: modules/insane_import/init.php:529
+msgid "Launch search"
+msgstr ""
+
+#: modules/insane_import/init.php:546
+msgid "Amazon URL"
+msgstr ""
+
+#: modules/insane_import/init.php:547
+msgid "Paste the Amazon page URL here"
+msgstr ""
+
+#: modules/insane_import/init.php:548
+msgid ""
+"The Amazon Page from where you want to import the ASIN codes. E.g: http://"
+"www.amazon.com/gp/top-rated"
+msgstr ""
+
+#: modules/insane_import/init.php:552
+msgid "Page type:"
+msgstr ""
+
+#: modules/insane_import/init.php:554
+msgid "Best Sellers"
+msgstr ""
+
+#: modules/insane_import/init.php:555
+msgid "Top Rated"
+msgstr ""
+
+#: modules/insane_import/init.php:556
+msgid "Most Wished For"
+msgstr ""
+
+#: modules/insane_import/init.php:557
+msgid "Movers &amp; Shakers"
+msgstr ""
+
+#: modules/insane_import/init.php:558
+msgid "Hot New Releases"
+msgstr ""
+
+#: modules/insane_import/init.php:562
+msgid "GET ASIN codes"
+msgstr ""
+
+#: modules/insane_import/init.php:569
+msgid "ASIN codes"
+msgstr ""
+
+#: modules/insane_import/init.php:572 modules/insane_import/init.php:715
+msgid "ASIN delimiter by"
+msgstr ""
+
+#: modules/insane_import/init.php:575 modules/insane_import/init.php:716
+msgid "New line"
+msgstr ""
+
+#: modules/insane_import/init.php:581 modules/insane_import/init.php:717
+msgid "Comma"
+msgstr ""
+
+#: modules/insane_import/init.php:587 modules/insane_import/init.php:718
+msgid "TAB"
+msgstr ""
+
+#: modules/insane_import/init.php:600
+msgid "Add ASIN codes to Queue"
+msgstr ""
+
+#: modules/insane_import/init.php:616
+msgid "Load in Queue Log"
+msgstr ""
+
+#: modules/insane_import/init.php:650
+msgid "queued products"
+msgstr ""
+
+#: modules/insane_import/init.php:654 modules/insane_import/init.php:731
+msgid "Export ASINs"
+msgstr ""
+
+#: modules/insane_import/init.php:684
+msgid "Found"
+msgstr ""
+
+#: modules/insane_import/init.php:685
+msgid "asins"
+msgstr ""
+
+#: modules/insane_import/init.php:688
+msgid "Loaded and valid"
+msgstr ""
+
+#: modules/insane_import/init.php:689 modules/insane_import/init.php:694
+#: modules/insane_import/init.php:698 modules/insane_import/init.php:702
+msgid "products"
+msgstr ""
+
+#: modules/insane_import/init.php:693
+msgid "Selected for Import"
+msgstr ""
+
+#: modules/insane_import/init.php:697
+msgid "Imported"
+msgstr ""
+
+#: modules/insane_import/init.php:701
+msgid "Errors on Import"
+msgstr ""
+
+#: modules/insane_import/init.php:706
+msgid "show products"
+msgstr ""
+
+#: modules/insane_import/init.php:707
+msgid "collapse products list"
+msgstr ""
+
+#: modules/insane_import/init.php:723
+msgid "All Loaded and valid"
+msgstr ""
+
+#: modules/insane_import/init.php:724
+msgid "All Selected for Import"
+msgstr ""
+
+#: modules/insane_import/init.php:725
+msgid "All Imported Successfully"
+msgstr ""
+
+#: modules/insane_import/init.php:726
+msgid "All Not Imported - Errors occured"
+msgstr ""
+
+#: modules/insane_import/init.php:727
+msgid "Remained Loaded in Queue"
+msgstr ""
+
+#: modules/insane_import/init.php:728
+msgid "Remained Selected in Queue"
+msgstr ""
+
+#: modules/insane_import/init.php:729
+msgid "All Found invalid"
+msgstr ""
+
+#: modules/insane_import/init.php:744
+msgid "Insane Mode Import Fine Tuning"
+msgstr ""
+
+#: modules/insane_import/init.php:754
+msgid "Remote amazon images is active."
+msgstr ""
+
+#: modules/insane_import/init.php:761
+msgid "Download images at import"
+msgstr ""
+
+#: modules/insane_import/init.php:765
+msgid "Asynchronuous image download"
+msgstr ""
+
+#: modules/insane_import/init.php:778
+msgid "Others"
+msgstr ""
+
+#: modules/insane_import/init.php:797 modules/insane_import/init.php:802
+msgid "IMPORT PRODUCTS"
+msgstr ""
+
+#: modules/insane_import/init.php:801
+msgid "Run"
+msgstr ""
+
+#: modules/insane_import/init.php:811
+msgid "ESTIMATED TIME"
+msgstr ""
+
+#: modules/insane_import/init.php:831
+msgid "Products per minute"
+msgstr ""
+
+#: modules/insane_import/init.php:850
+msgid "Import Log"
+msgstr ""
+
+#: modules/insane_import/init.php:1078
+msgid "Founding products from remote amazon url..."
+msgstr ""
+
+#: modules/insane_import/init.php:1084
+msgid " Please provide a valid Amazon Url."
+msgstr ""
+
+#: modules/insane_import/init.php:1190
+#, php-format
+msgid " The script was successfully. %s ASINs found: %s"
+msgstr ""
+
+#: modules/insane_import/init.php:1197
+msgid ""
+" The script was unable to grab any ASIN codes. Please try again using "
+"another Page Type parameter."
+msgstr ""
+
+#: modules/insane_import/init.php:1268
+msgid "Loading products by ASIN..."
+msgstr ""
+
+#: modules/insane_import/init.php:1286
+msgid "No ASINs provided!"
+msgstr ""
+
+#: modules/insane_import/init.php:1690
+msgid "Loading products by Searching..."
+msgstr ""
+
+#: modules/insane_import/init.php:2143
+#, php-format
+msgid "%s items in %s pages"
+msgstr ""
+
+#: modules/insane_import/init.php:2201
+#, php-format
+msgid "%s ASINs loaded in queue: %s"
+msgstr ""
+
+#: modules/insane_import/init.php:2205
+#, php-format
+msgid "%s ASINs already imported: %s"
+msgstr ""
+
+#: modules/insane_import/init.php:2209
+#, php-format
+msgid "%s ASINs already parsed (loaded, invalid, imported): %s"
+msgstr ""
+
+#: modules/insane_import/init.php:2215 modules/insane_import/init.php:2219
+#, php-format
+msgid "%s ASINs invalid: %s"
+msgstr ""
+
+#: modules/insane_import/init.php:2225
+#, php-format
+msgid "%s ASINs variation childs (child=parent): %s"
+msgstr ""
+
+#: modules/insane_import/init.php:2428
+#, php-format
+msgid "%s variations"
+msgstr ""
+
+#: modules/insane_import/init.php:2435
+msgid "by:"
+msgstr ""
+
+#: modules/insane_import/options.php:22
+msgid "Cache"
+msgstr ""
+
+#: modules/insane_import/options.php:25
+msgid "Clear cache"
+msgstr ""
+
+#: modules/modules_manager/aaModulesManager.class.php:89
+msgid "Icon"
+msgstr ""
+
+#: modules/modules_manager/aaModulesManager.class.php:90
+msgid "Version"
+msgstr ""
+
+#: modules/modules_manager/aaModulesManager.class.php:91
+msgid "Name"
+msgstr ""
+
+#: modules/modules_manager/aaModulesManager.class.php:92
+msgid "About"
+msgstr ""
+
+#: modules/modules_manager/aaModulesManager.class.php:155
+msgid "Core Modules, can't be deactivated!"
+msgstr ""
+
+#: modules/modules_manager/aaModulesManager.class.php:170
+msgid "Activate selected modules"
+msgstr ""
+
+#: modules/modules_manager/aaModulesManager.class.php:171
+msgid "Deactivate selected modules"
+msgstr ""
+
+#: modules/modules_manager/config.php:16
+msgid "Modules manager"
+msgstr ""
+
+#: modules/modules_manager/config.php:23
+msgid "Using this module you can activate / deactivate plugin modules."
+msgstr ""
+
+#: modules/modules_manager/options.php:19
+msgid "Unlock - Premium SEO Pack"
+msgstr ""
+
+#: modules/modules_manager/options.php:32
+msgid ""
+"You need to log into your CodeCanyon account and go to your “Downloads” "
+"page. Locate this plugin you purchased in your “Downloads” list and click on "
+"the “License Certificate” link next to the download link. After you have "
+"downloaded the certificate you can open it in a text editor such as Notepad "
+"and copy the Item Purchase Code. How to image: <a href=\"{plugin_folder_uri}"
+"images/howto-cc.jpg\" target=\"_blank\">link</a>"
+msgstr ""
+
+#: modules/modules_manager/options.php:38
+msgid "Item Purchase Code"
+msgstr ""
+
+#: modules/modules_manager/options.php:39
+msgid "Get it from CodeCanyon account and go to your “Downloads�? page."
+msgstr ""
+
+#: modules/modules_manager/options.php:46
+msgid "Your Email"
+msgstr ""
+
+#: modules/modules_manager/options.php:47
+msgid ""
+"We will notify you via this email about this product update and bug fix."
+msgstr ""
+
+#: modules/price_select/init.php:496
+msgid "WooZoneLite Price"
+msgstr ""
+
+#: modules/product_in_post/init.php:173
+msgid "Chosen Product(s)"
+msgstr ""
+
+#: modules/product_in_post/init.php:175
+msgid "Please first select a product from the left side"
+msgstr ""
+
+#: modules/product_in_post/init.php:178
+msgid "Add Products"
+msgstr ""
+
+#: modules/product_in_post/init.php:264
+msgid "See larger image"
+msgstr ""
+
+#: modules/product_in_post/init.php:280
+msgid "Additional images:"
+msgstr ""
+
+#: modules/product_in_post/init.php:291
+msgid "Price:"
+msgstr ""
+
+#: modules/product_in_post/init.php:293
+msgid "Buy Now"
+msgstr ""
+
+#: modules/remote_support/init.php:77
+msgid "AA-Team Remote Support"
+msgstr ""
+
+#: modules/report/init.php:82
+msgid "Report"
+msgstr ""
+
+#: modules/report/init.php:86
+msgid "Products status"
+msgstr ""
+
+#: modules/report/init.php:87
+msgid "Auto import stats"
+msgstr ""
+
+#: modules/report/init.php:143 modules/report/init.php:144
+#: modules/report/init.php:173
+msgid "Report logs"
+msgstr ""
+
+#: modules/report/init.php:213
+msgid "No report logs available."
+msgstr ""
+
+#: modules/report/init.php:214 modules/synchronization/tail.php:247
+msgid "Loading.."
+msgstr ""
+
+#: modules/report/init.php:240
+msgid "Log id"
+msgstr ""
+
+#: modules/report/init.php:260
+msgid "Log action"
+msgstr ""
+
+#: modules/report/init.php:277
+msgid "Total report logs"
+msgstr ""
+
+#: modules/report/init.php:280
+msgid "Reload report logs list"
+msgstr ""
+
+#: modules/report/init.php:288
+msgid "Log Id"
+msgstr ""
+
+#: modules/report/init.php:289
+msgid "Log Action"
+msgstr ""
+
+#: modules/report/init.php:290
+msgid "Log Desc"
+msgstr ""
+
+#: modules/report/init.php:291 modules/synchronization/tail.php:332
+msgid "Date Added"
+msgstr ""
+
+#: modules/report/init.php:396 modules/report/init.php:427
+msgid "View log"
+msgstr ""
+
+#: modules/report/init.php:429
+#, php-format
+msgid ""
+"Log id: <strong>%s</strong> | Log action: <strong>%s</strong> | Date: <em>"
+"%s</em>"
+msgstr ""
+
+#: modules/report/init.php:541
+msgid "WooZoneLite Report"
+msgstr ""
+
+#: modules/report/init.php:544
+msgid " Report module | "
+msgstr ""
+
+#: modules/report/init.php:547
+msgid "From: "
+msgstr ""
+
+#: modules/report/init.php:573
+msgid "To view the message, please use an HTML compatible email viewer!"
+msgstr ""
+
+#: modules/report/init.php:951 modules/report/init.php:1284
+msgid "no products"
+msgstr ""
+
+#: modules/report/init.php:982
+msgid "WooZoneLite Synchronisation Status"
+msgstr ""
+
+#: modules/report/init.php:984
+msgid "Successfully synchronised :"
+msgstr ""
+
+#: modules/report/init.php:985 modules/report/init.php:987
+#: modules/report/init.php:1317 modules/report/init.php:1319
+#: modules/report/init.php:1321 modules/report/init.php:1323
+#, php-format
+msgid "%s products"
+msgstr ""
+
+#: modules/report/init.php:986 modules/report/init.php:1318
+msgid "Errors occured :"
+msgstr ""
+
+#: modules/report/init.php:1003
+msgid "WooZoneLite Performance"
+msgstr ""
+
+#: modules/report/init.php:1005 modules/report/init.php:1007
+#: modules/report/init.php:1009 modules/report/init.php:1011
+#, php-format
+msgid "<span>%s</span> <span>total</span>"
+msgstr ""
+
+#: modules/report/init.php:1006
+msgid "<span>Number of products</span>"
+msgstr ""
+
+#: modules/report/init.php:1008
+msgid "<span>Views</span>"
+msgstr ""
+
+#: modules/report/init.php:1010
+msgid "<span>Added to cart</span>"
+msgstr ""
+
+#: modules/report/init.php:1012
+msgid "<span>Redirected to Amazon</span>"
+msgstr ""
+
+#: modules/report/init.php:1020
+#, php-format
+msgid "WooZoneLite Report - %s"
+msgstr ""
+
+#: modules/report/init.php:1026
+msgid ""
+"<span>It contains all products status from the time of the last report.</"
+"span>"
+msgstr ""
+
+#: modules/report/init.php:1027 modules/report/init.php:1338
+msgid ""
+"© AA-Team, 2016 <br />You are receiving this email because<br /> you're an "
+"awesome customer of AA-Team."
+msgstr ""
+
+#: modules/report/init.php:1041 modules/report/init.php:1048
+#: modules/report/init.php:1351
+msgid "Product (ASIN / ID)"
+msgstr ""
+
+#: modules/report/init.php:1042
+msgid "Syncs number"
+msgstr ""
+
+#: modules/report/init.php:1043
+msgid "Sync last status"
+msgstr ""
+
+#: modules/report/init.php:1044
+msgid "Sync last date"
+msgstr ""
+
+#: modules/report/init.php:1049
+msgid "Views"
+msgstr ""
+
+#: modules/report/init.php:1050 modules/synchronization/tail.php:330
+msgid "Added to cart"
+msgstr ""
+
+#: modules/report/init.php:1051
+msgid "Redirect to Amazon"
+msgstr ""
+
+#: modules/report/init.php:1064
+#, php-format
+msgid "%s Syncs"
+msgstr ""
+
+#: modules/report/init.php:1066
+msgid "Success"
+msgstr ""
+
+#: modules/report/init.php:1314
+msgid "WooZoneLite Auto Import Status"
+msgstr ""
+
+#: modules/report/init.php:1316
+msgid "Successfully imported :"
+msgstr ""
+
+#: modules/report/init.php:1320
+msgid "Already imported :"
+msgstr ""
+
+#: modules/report/init.php:1322
+msgid "New remained :"
+msgstr ""
+
+#: modules/report/init.php:1331
+#, php-format
+msgid "WooZoneLite Report AI - %s"
+msgstr ""
+
+#: modules/report/init.php:1337
+msgid ""
+"<span>It contains all auto imported products from the time of the last "
+"report.</span>"
+msgstr ""
+
+#: modules/report/init.php:1352
+msgid "Nb tries"
+msgstr ""
+
+#: modules/report/init.php:1353
+msgid "Import last status"
+msgstr ""
+
+#: modules/report/init.php:1354
+msgid "Import last date"
+msgstr ""
+
+#: modules/report/init.php:1374
+#, php-format
+msgid "%s Tries"
+msgstr ""
+
+#: modules/report/init.php:1508
+msgid "No status saved yet from Send Report Now!"
+msgstr ""
+
+#: modules/report/init.php:1564
+msgid "last operation: <em>"
+msgstr ""
+
+#: modules/report/options.php:62
+msgid "report sending recurrency"
+msgstr ""
+
+#: modules/report/options.php:64
+msgid "Recurrency:"
+msgstr ""
+
+#: modules/report/options.php:74
+msgid "Send Report NOW"
+msgstr ""
+
+#: modules/server_status/ajax.php:44
+#, php-format
+msgid ""
+"%s - We recommend setting memory to at least 128MB. See: <a href=\"%s\" "
+"class=\"WooZoneLite-form-button WooZoneLite-form-button-info\">Increasing memory "
+"allocated to PHP</a>"
+msgstr ""
+
+#: modules/server_status/ajax.php:87
+msgid "wp_remote_get() was successful - Webservices Amazon is working."
+msgstr ""
+
+#: modules/server_status/ajax.php:90
+msgid ""
+"wp_remote_get() failed. Webservices Amazon won't work with your server. "
+"Contact your hosting provider. Error:"
+msgstr ""
+
+#: modules/server_status/ajax.php:93
+msgid ""
+"wp_remote_get() failed. Webservices Amazon may not work with your server."
+msgstr ""
+
+#: modules/server_status/ajax.php:109
+msgid "Your server has the SOAP Client class enabled."
+msgstr ""
+
+#: modules/server_status/ajax.php:112
+#, php-format
+msgid ""
+"Your server does not have the <a href=\"%s\">SOAP Client</a> class enabled - "
+"some gateway plugins which use SOAP may not work as expected."
+msgstr ""
+
+#: modules/server_status/ajax.php:128
+msgid "Your server has the SimpleXML library enabled."
+msgstr ""
+
+#: modules/server_status/ajax.php:131
+#, php-format
+msgid ""
+"Your server does not have the <a href=\"%s\">SimpleXML</a> library enabled - "
+"some gateway plugins which use SimpleXML library may not work as expected."
+msgstr ""
+
+#: modules/server_status/ajax.php:178
+msgid "is available"
+msgstr ""
+
+#: modules/server_status/ajax.php:181
+msgid "by"
+msgstr ""
+
+#: modules/server_status/ajax.php:181
+msgid "version"
+msgstr ""
+
+#: modules/server_status/init.php:77
+msgid "Check System status"
+msgstr ""
+
+#: modules/server_status/init.php:78
+msgid "System Status"
+msgstr ""
+
+#: modules/server_status/init.php:165
+msgid "No Affiliate ID set. Please set one in the plugin tab Amazon Config."
+msgstr ""
+
+#: modules/server_status/init.php:186
+msgid "WooZoneLite import settings"
+msgstr ""
+
+#: modules/server_status/init.php:192
+msgid "Request Type"
+msgstr ""
+
+#: modules/server_status/init.php:196
+msgid "Amazon API location"
+msgstr ""
+
+#: modules/server_status/init.php:200
+msgid "On-site Cart"
+msgstr ""
+
+#: modules/server_status/init.php:204
+msgid "Download Item Attribute"
+msgstr ""
+
+#: modules/server_status/init.php:208
+msgid "Variation"
+msgstr ""
+
+#: modules/server_status/init.php:212
+msgid "Number of images"
+msgstr ""
+
+#: modules/server_status/init.php:216
+msgid "Cross-selling"
+msgstr ""
+
+#: modules/server_status/init.php:223
+msgid "Syncronize Capabilities Testing:"
+msgstr ""
+
+#: modules/server_status/init.php:294
+msgid "Environment"
+msgstr ""
+
+#: modules/server_status/init.php:300
+msgid "Home URL"
+msgstr ""
+
+#: modules/server_status/init.php:304
+msgid "WooZoneLite Version"
+msgstr ""
+
+#: modules/server_status/init.php:308
+msgid "WP Version"
+msgstr ""
+
+#: modules/server_status/init.php:312
+msgid "Web Server Info"
+msgstr ""
+
+#: modules/server_status/init.php:316
+msgid "PHP Version"
+msgstr ""
+
+#: modules/server_status/init.php:320
+msgid "MySQL Version"
+msgstr ""
+
+#: modules/server_status/init.php:324
+msgid "WP Memory Limit"
+msgstr ""
+
+#: modules/server_status/init.php:328
+msgid "WP Debug Mode"
+msgstr ""
+
+#: modules/server_status/init.php:329 modules/server_status/init.php:380
+msgid "Yes"
+msgstr ""
+
+#: modules/server_status/init.php:329 modules/server_status/init.php:380
+msgid "No"
+msgstr ""
+
+#: modules/server_status/init.php:332
+msgid "WP Max Upload Size"
+msgstr ""
+
+#: modules/server_status/init.php:336
+msgid "PHP Post Max Size"
+msgstr ""
+
+#: modules/server_status/init.php:340
+msgid "PHP Time Limit"
+msgstr ""
+
+#: modules/server_status/init.php:344
+msgid "WP Remote GET"
+msgstr ""
+
+#: modules/server_status/init.php:348
+msgid "SOAP Client"
+msgstr ""
+
+#: modules/server_status/init.php:352
+msgid "SimpleXML library"
+msgstr ""
+
+#: modules/server_status/init.php:359
+msgid "Plugins"
+msgstr ""
+
+#: modules/server_status/init.php:365
+msgid "Installed Plugins"
+msgstr ""
+
+#: modules/server_status/init.php:372
+msgid "Settings"
+msgstr ""
+
+#: modules/server_status/init.php:379
+msgid "Force SSL"
+msgstr ""
+
+#: modules/server_status/init.php:386
+msgid "Woocommerce Dependencies - Needed for the cart option to work properly"
+msgstr ""
+
+#: modules/server_status/init.php:417
+msgid "Page not set"
+msgstr ""
+
+#: modules/server_status/init.php:427
+msgid "Page does not exist"
+msgstr ""
+
+#: modules/server_status/init.php:432
+#, php-format
+msgid "Page does not contain the shortcode: %s"
+msgstr ""
+
+#: modules/synchronization/init.php:858 modules/synchronization/init.php:892
+#, php-format
+msgid "Products Sync - full cycle (%s)"
+msgstr ""
+
+#: modules/synchronization/options.php:39
+msgid "YES"
+msgstr ""
+
+#: modules/synchronization/options.php:40
+msgid "NO"
+msgstr ""
+
+#: modules/synchronization/tail.php:64 modules/synchronization/tail.php:321
+#: modules/synchronization/tail.php:328
+msgid "Title"
+msgstr ""
+
+#: modules/synchronization/tail.php:65
+msgid "Buy URL"
+msgstr ""
+
+#: modules/synchronization/tail.php:66
+msgid "Description"
+msgstr ""
+
+#: modules/synchronization/tail.php:67
+msgid "SKU"
+msgstr ""
+
+#: modules/synchronization/tail.php:68
+msgid "Sales Rank"
+msgstr ""
+
+#: modules/synchronization/tail.php:69
+msgid "Reviews"
+msgstr ""
+
+#: modules/synchronization/tail.php:70
+msgid "Short description"
+msgstr ""
+
+#: modules/synchronization/tail.php:184
+msgid "Products stats"
+msgstr ""
+
+#: modules/synchronization/tail.php:240
+msgid "No products available."
+msgstr ""
+
+#: modules/synchronization/tail.php:241
+msgid "Sync now (<span>{nb}</span> remained)"
+msgstr ""
+
+#: modules/synchronization/tail.php:242
+msgid "(ASIN: {1} / ID: #{2}): {3}"
+msgstr ""
+
+#: modules/synchronization/tail.php:243
+msgid "Sync now is finished."
+msgstr ""
+
+#: modules/synchronization/tail.php:244
+msgid "Sync all now in progress. Please be patient till it's finished."
+msgstr ""
+
+#: modules/synchronization/tail.php:245
+msgid "stop processing."
+msgstr ""
+
+#: modules/synchronization/tail.php:246
+msgid "Sync now is stopped."
+msgstr ""
+
+#: modules/synchronization/tail.php:276
+msgid "Synchronisation Cronjob Stats"
+msgstr ""
+
+#: modules/synchronization/tail.php:282 modules/synchronization/tail.php:349
+msgid "Synchronisation Settings"
+msgstr ""
+
+#: modules/synchronization/tail.php:299
+msgid "Total products"
+msgstr ""
+
+#: modules/synchronization/tail.php:300
+msgid "Synchronized products"
+msgstr ""
+
+#: modules/synchronization/tail.php:304
+msgid "stop auto reload"
+msgstr ""
+
+#: modules/synchronization/tail.php:306
+msgid "seconds"
+msgstr ""
+
+#: modules/synchronization/tail.php:308
+msgid "Reload products list"
+msgstr ""
+
+#: modules/synchronization/tail.php:310
+msgid "Sync all now"
+msgstr ""
+
+#: modules/synchronization/tail.php:319
+msgid "SYNC STATUS"
+msgstr ""
+
+#: modules/synchronization/tail.php:322
+msgid "Number of Synchronisations"
+msgstr ""
+
+#: modules/synchronization/tail.php:323
+msgid "Last Sync"
+msgstr ""
+
+#: modules/synchronization/tail.php:329
+msgid "Hits"
+msgstr ""
+
+#: modules/synchronization/tail.php:331
+msgid "Redirected to Amazon"
+msgstr ""
+
+#: modules/synchronization/tail.php:393
+msgid "Each product has to sync the following"
+msgstr ""
+
+#: modules/synchronization/tail.php:431
+msgid "Products per request"
+msgstr ""
+
+#: modules/synchronization/tail.php:467
+msgid "Save settings"
+msgstr ""
+
+#: modules/synchronization/tail.php:539
+msgid "Last Sync Cycle"
+msgstr ""
+
+#: modules/synchronization/tail.php:548
+msgid "Start time"
+msgstr ""
+
+#: modules/synchronization/tail.php:554
+msgid "Duration"
+msgstr ""
+
+#: modules/synchronization/tail.php:559
+msgid "ID Last product to be synced in the cycle"
+msgstr ""
+
+#: modules/synchronization/tail.php:563
+msgid "ID Last product synced"
+msgstr ""
+
+#: modules/synchronization/tail.php:588
+msgid "Next Sync Cycle"
+msgstr ""
+
+#: modules/synchronization/tail.php:592
+msgid ""
+"Estimated Start time (depends on last sync cycle start time and recurrence "
+"settings and also on products per request sync setting)"
+msgstr ""
+
+#: modules/synchronization/tail.php:996
+msgid "missing"
+msgstr ""
+
+#: modules/synchronization/tail.php:1009
+msgid "NOT SYNCED"
+msgstr ""
+
+#: modules/synchronization/tail.php:1010
+msgid "ALREADY SYNCED"
+msgstr ""
+
+#: modules/synchronization/tail.php:1011
+msgid "NEXT TO BE SYNCED"
+msgstr ""
+
+#: modules/synchronization/tail.php:1056
+#, php-format
+msgid "<span>%s</span> SYNCS"
+msgstr ""
+
+#: modules/synchronization/tail.php:1058
+msgid "SYNC NOW"
+msgstr ""
+
+#: modules/synchronization/tail.php:1387
+msgid "Sync settings saved successfully."
+msgstr ""
+
+#: modules/synchronization/tail.php:1639
+msgid "per page"
+msgstr ""
+
+#: modules/woocustom/init.php:174 modules/woocustom/init.php:268
+msgid "Amazon ASIN"
+msgstr ""
+
+#: modules/woocustom/init.php:216 modules/woocustom/init.php:269
+msgid "View Product Amazon page"
+msgstr ""
+
+#: modules/woocustom/init.php:233
+msgid "WooZoneLite Info"
+msgstr ""
+
+#: modules/woocustom/init.php:271
+msgid "variations number for this product"
+msgstr ""
+
+#: modules/woocustom/init.php:332
+msgid "Sort by Sales Rank"
+msgstr ""

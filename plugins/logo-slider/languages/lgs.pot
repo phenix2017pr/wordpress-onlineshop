@@ -1,0 +1,146 @@
+# Copyright (C) 2014 Logo Slider
+# This file is distributed under the same license as the Logo Slider package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Logo Slider 1.4\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/logo-slider\n"
+"POT-Creation-Date: 2014-03-06 04:01:48+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: logo-slider.php:78
+msgid "Settings"
+msgstr ""
+
+#: logo-slider.php:140
+msgid ""
+"Sorry, but the file you uploaded does not seem to be a valid image. Please "
+"try again."
+msgstr ""
+
+#: logo-slider.php:256
+msgid "Wordpress LogoSlider Images"
+msgstr ""
+
+#: logo-slider.php:259
+msgid "Upload New Image"
+msgstr ""
+
+#: logo-slider.php:265
+msgid "Select a File: "
+msgstr ""
+
+#: logo-slider.php:281 logo-slider.php:289
+msgid "Image"
+msgstr ""
+
+#: logo-slider.php:282 logo-slider.php:290
+msgid "Image Links To"
+msgstr ""
+
+#: logo-slider.php:283 logo-slider.php:291
+msgid "Actions"
+msgstr ""
+
+#: logo-slider.php:380
+msgid "Wordpress Logo Slider Settings"
+msgstr ""
+
+#: logo-slider.php:385
+msgid "Size"
+msgstr ""
+
+#: logo-slider.php:386
+msgid "Width: "
+msgstr ""
+
+#: logo-slider.php:386
+msgid "Height: "
+msgstr ""
+
+#: logo-slider.php:400
+msgid "Background Colour"
+msgstr ""
+
+#: logo-slider.php:401
+msgid "Format: "
+msgstr ""
+
+#: logo-slider.php:404
+msgid "Open logo links in New Window"
+msgstr ""
+
+#: logo-slider.php:408
+msgid "Select Slider"
+msgstr ""
+
+#: logo-slider.php:411
+msgid "Slide"
+msgstr ""
+
+#: logo-slider.php:412
+msgid "Fade"
+msgstr ""
+
+#: logo-slider.php:417
+msgid "Auto Slide"
+msgstr ""
+
+#: logo-slider.php:420
+msgid "ON"
+msgstr ""
+
+#: logo-slider.php:421
+msgid "OFF"
+msgstr ""
+
+#: logo-slider.php:424
+msgid "Auto Slide Time"
+msgstr ""
+
+#: logo-slider.php:425
+msgid "Set auto slide duration in seconds"
+msgstr ""
+
+#: logo-slider.php:428
+msgid "Arrow Style"
+msgstr ""
+
+#: logo-slider.php:442
+msgid "Custom CSS"
+msgstr ""
+
+#: logo-slider.php:449
+msgid "Save Settings"
+msgstr ""
+
+#: logo-slider.php:460
+msgid "Reset Settings"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Logo Slider"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.wordpress.org/extend/plugins/logo-slider"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Add a logo slideshow carousel to your site quicky and easily. Embedd in any "
+"post/page using shortcode <code>[logo-slider]</code> or to your theme with "
+"<code><?php logo_slider(); ?></code>"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Enigma Plugins"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.enigmaplugins.com"
+msgstr ""

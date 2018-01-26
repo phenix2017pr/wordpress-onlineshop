@@ -1,0 +1,103 @@
+.tipsy {
+  font-size: px(11);
+  position: absolute;
+  padding: px(5);
+  z-index: 100000;
+  opacity: 1 !important;
+}
+.tipsy-inner {
+  background-color: $info;
+  color: $white;
+  max-width: px(200);
+  padding: px(5) px(8) px(4);
+  text-align: center;
+  //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+  border-radius: px(3);
+}
+.tipsy-arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  line-height: 0;
+  border: 5px dashed $info;
+}
+.tipsy-arrow-n {
+  border-bottom-color: $info;
+}
+.tipsy-arrow-s {
+  border-top-color: $info;
+}
+.tipsy-arrow-e {
+  border-left-color: $info;
+}
+.tipsy-arrow-w {
+  border-right-color: $info;
+}
+.tipsy-n .tipsy-arrow {
+  top: 0;
+  left: 50%;
+  margin-left: -#{px(5)};
+  border-bottom-style: solid;
+  border-top: none;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+.tipsy-nw .tipsy-arrow {
+  top: 0;
+  left: px(10);
+  border-bottom-style: solid;
+  border-top: none;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+.tipsy-ne .tipsy-arrow {
+  top: 0;
+  right: px(10);
+  border-bottom-style: solid;
+  border-top: none;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+.tipsy-s .tipsy-arrow {
+  bottom: 0;
+  left: 50%;
+  margin-left: -#{px(5)};
+  border-top-style: solid;
+  border-bottom: none;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+.tipsy-sw .tipsy-arrow {
+  bottom: 0;
+  left: px(10);
+  border-top-style: solid;
+  border-bottom: none;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+.tipsy-se .tipsy-arrow {
+  bottom: 0;
+  right: px(10);
+  border-top-style: solid;
+  border-bottom: none;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+.tipsy-e .tipsy-arrow {
+  right: 0;
+  top: 50%;
+  margin-top: -#{px(5)};
+  border-left-style: solid;
+  border-right: none;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+}
+.tipsy-w .tipsy-arrow {
+  left: 0;
+  top: 50%;
+  margin-top: -#{px(5)};
+  border-right-style: solid;
+  border-left: none;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+}

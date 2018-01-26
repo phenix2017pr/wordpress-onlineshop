@@ -1,0 +1,173 @@
+##{$alias} {
+	.#{$alias}-dashboard-status-box {
+		h1 {
+			color: #394651;
+			position: relative;
+			font: normal px(21) Arial, Helvetica, sans-serif;
+			width: 100%;
+			display: block;
+			padding: 0 0 px(8) 0;
+			margin: 0 0 px(10) 0;
+		}
+		.#{$alias}-dashboard-box-content {
+			margin: px(10) 3%;
+			width: 94%;
+		}
+		.#{$alias}-callout {
+			padding: px(5) px(14) !important;
+		}
+	}
+	.#{$alias}-dashboard-status-box-row {
+		display: table;
+		width: 100%;
+		min-height: px(120);
+		margin: 0 0 px(10) 0;
+		.#{$alias}-dashboard-status-icon {
+			width: px(20);
+			display: table-cell;
+		}
+		h2 {
+			display: table-cell;
+			width: px(200);
+			border-right: px(1) solid #ccc;
+			padding: px(5) 0 px(5) px(2);
+			font: normal px(12) Arial, Helvetica, sans-serif;
+		}
+		.#{$alias}-dashboard-status-box-content {
+			padding-left: px(10);
+			display: table-cell;
+			&.is_ajax_content {
+				text-indent: -#{px(1000)};
+			}
+		}
+	}
+	.#{$alias}-cache-info {
+		display: block;
+		text-align: right;
+		color: #999999;
+		width: px(300);
+		bottom: px(10);
+		right: px(10);
+		position: absolute;
+		font-size: px(11);
+		margin: px(10) 0 0;
+	}
+	.#{$alias}-lists-status {
+		display: block;
+		width: 100%;
+		list-style: none;
+		overflow: hidden;
+		margin: 0 0 -#{px(20)} 0;
+		li {
+			display: block;
+			float: left;
+			margin-right: 0.5;
+			width: px(201);
+			height: px(50);
+			margin: 0 px(20) px(20) 0;
+			position: relative;
+			.#{$alias}-lists-icon {
+				display: block;
+				position: relative;
+				bottom: -#{px(10)};
+				margin-right: 0;
+				width: px(32);
+				height: px(32);
+			}
+			&:last-child {
+				border: none;
+			}
+			label {
+				display: block;
+				margin-right: px(5);
+				position: absolute;
+				top: px(32);
+				left: px(47);
+				font-weight: bold;
+				font-size: px(15);
+				cursor: default;
+			}
+			span {
+				position: absolute;
+				display: block;
+				font-weight: bold;
+				font-size: px(25);
+				font-weight: 700;
+				top: px(10);
+				left: px(45);
+				sup {
+					position: absolute;
+					top: -#{px(8)};
+					font-size: px(12);
+					font-weight: bold;
+				}
+			}
+		}
+	}
+	.#{$alias}-website-preview {
+		.#{$alias}-borwser-frame {
+			width: 100%;
+			height: auto;
+			min-height: px(100);
+			position: relative;
+			overflow: hidden;
+		}
+		.browser-preview {
+			width: 100%;
+			height: auto;
+			position: absolute;
+			z-index: 10;
+			top: 0;
+			left: 0;
+		}
+		.the-website-preview {
+			width: 100%;
+			height: auto;
+			position: relative;
+			z-index: 1;
+			margin-top: px(39);
+		}
+		h4 {
+			margin: 0 0 px(10) 0;
+			&:last-child {
+				margin-bottom: px(10);
+			}
+			a {
+				text-decoration: none;
+				background-color: #f0f0f0;
+				color: #484848;
+				display: inline-block;
+				font-weight: bold;
+				padding: px(2) px(4) px(1);
+				//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+				transition: all 150ms ease-out 0s;
+				&:hover {
+					background-color: #f39c12;
+					color: #fff;
+				}
+			}
+		}
+		h3 {
+			margin: px(20) 0 px(10);
+			a {
+				text-decoration: none;
+				background-color: #f0f0f0;
+				color: #484848;
+				display: inline-block;
+				font-weight: bold;
+				padding: px(2) px(4) px(1);
+				//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+				transition: all 150ms ease-out 0s;
+				&:hover {
+					background-color: #f39c12;
+					color: #fff;
+				}
+			}
+		}
+	}
+	#WooZoneLite-audience-visits-graph {
+		height: px(220);
+		overflow: hidden;
+		background-position: center center;
+	}
+}

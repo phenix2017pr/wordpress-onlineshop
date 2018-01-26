@@ -1,0 +1,172 @@
+
+.WooZoneLite-asset-download #WooZoneLite-list-table-posts {
+	
+}
+
+.WooZoneLite-asset-download #WooZoneLite-list-table-posts table thead tr {
+	background: #fff !important;
+	border-color: #fff !important;
+	color: #1c2a30;
+}
+
+.WooZoneLite-asset-download #WooZoneLite-list-table-posts table td {
+	background: #eceff0 !important;
+    border-bottom: 1px solid #bbc8cd;
+    border-right: 1px solid #bbc8cd;
+    vertical-align: top;
+}
+	.WooZoneLite-asset-download #WooZoneLite-list-table-posts table tr:nth-child(2) td {
+		background: #cfd8da !important;
+	}
+	
+	.WooZoneLite-asset-download #WooZoneLite-list-table-posts table td:last-child {
+		border-right: none;
+	}
+	.WooZoneLite-asset-download #WooZoneLite-list-table-posts table td {
+		padding: 0px 0px 0px 0px;
+	}
+	
+	.WooZoneLite-asset-download .assets-download-list {
+		width: 100%;
+		border-collapse: collapse !important;
+    	border-spacing: 0 !important;
+    	margin: 0px 0px 0px 0px !important;
+	}
+		.WooZoneLite-asset-download .assets-download-list td {
+			border-bottom: none !important;
+		}
+	.WooZoneLite-asset-download .WooZoneLite-post_id {
+		background: #8d9da3;
+		padding: 6px 12px;
+		color: #fff;
+		font-size: 12px;
+		font-weight: bold;
+		border-radius: 4px;
+		margin-top: 10px;
+		display: inline-block;
+	}
+	.assets-download-list .WooZoneLite-post-title {
+		width: 100%;
+		margin: 0px 0px 0px 0px;
+	}
+		.assets-download-list .WooZoneLite-post-title h3 {
+			display: block;
+			width: 560px;
+			padding: 0px;
+			margin: 0px;
+			font-weight: bold;
+			font-size: 14px;
+			text-align: left;
+			background: #fff;
+			padding: 10px 10px 10px 10px;
+		}
+		
+	.assets-download-list .WooZoneLite-post-asset {
+		width: 100%;
+		height: 85px;
+	}
+		.assets-download-list .WooZoneLite-post-asset h4 {
+			border-top: 1px solid #8d9da3;
+			border-bottom: 1px solid #8d9da3;
+			padding-top: 10px;
+			float: left;
+			display: block;
+			width: 100%;
+			margin: 0px 0px 0px 0px;
+			padding: 0px 0px 0px 0px;
+			text-align: left;
+			background: #8d9da3;
+			line-height: 30px;
+			text-indent: 10px;
+			color: #fff;
+			font-weight: normal;
+		}
+	.assets-download-list .WooZoneLite-post-asset .WooZoneLite-post-asset-left {
+		float: left;
+		width: 100%; 
+		height: 95px;
+		background: #fff;
+		overflow: auto;
+		padding-bottom: 10px;
+	}
+		.assets-download-list .WooZoneLite-post-asset .WooZoneLite-post-asset-preview {
+			width: 75px;
+			height: 75px;
+			text-align: center;
+			float: left;
+			border: 1px solid #cfd8da;
+			margin-left: 10px;
+			margin-top: 10px;
+		}
+	
+	.WooZoneLite-asset-download .WooZoneLite-post-info {
+		width: 100%;
+		margin: 20px 0px 0px 0px;
+	}
+	
+		.WooZoneLite-asset-download #WooZoneLite-list-table-posts table.WooZoneLite-post-info tr td {
+			text-align: left !important;
+			
+			border-bottom: 1px solid !important;
+			border-color: rgba(255,255,255, 0.6) !important;
+			padding: 5px 7px 5px 7px !important;
+			background: #8d9da3 !important;
+			color: #fff;
+		}
+			.WooZoneLite-asset-download #WooZoneLite-list-table-posts table.WooZoneLite-post-info tr td:first-child {
+				width: 160px; 
+				font-weight: bold;
+			}
+			
+	.WooZoneLite-asset-download .WooZoneLite-variations-list {
+		width: 100%;
+		overflow: hidden;
+		height: 0px;
+		float: left;
+	}
+	.WooZoneLite-show-variations {
+		display: block;
+		width: 100%;
+		background: #7e8a9c;
+		font-size: 14px;
+		padding: 10px 0px 10px 0px;
+		color: #fff;
+		float: left;
+	}
+		.WooZoneLite-show-variations:hover {
+			background: #0b1317;
+			color: #fff;
+		}
+		
+		.WooZoneLite-asset-download .WooZoneLite-table-ajax-list .tablenav .tablenav-pages a, 
+		.WooZoneLite-asset-download .WooZoneLite-table-ajax-list .tablenav-pages span.current {
+			padding: 0 10px 3px;
+			background: #8d9da3;
+			border-radius: 4px;
+			border: none;
+			color: #000;
+		}
+		.WooZoneLite-asset-download .WooZoneLite-table-ajax-list .current-page {
+			box-shadow: none;
+			padding: 4px 4px;
+		}
+		.WooZoneLite-asset-download .WooZoneLite-list-table-pagination .displaying-num,
+		.WooZoneLite-asset-download .WooZoneLite-list-table-pagination .paging-input {
+			color: #000 !important;
+		}
+			.WooZoneLite-asset-download .WooZoneLite-table-ajax-list .tablenav .tablenav-pages a:hover {
+				background: #eceff0;
+				color: #484848;
+			}
+			.WooZoneLite-asset-download .WooZoneLite-table-ajax-list .tablenav .tablenav-pages a.disabled {
+				background: #8d9da3;
+				color: #000;
+			}
+			.WooZoneLite-asset-download .WooZoneLite-table-ajax-list .WooZoneLite-post-per-page {
+				box-shadow: none;
+			}
+		.WooZoneLite-asset-download .WooZoneLite-sync-details {
+			border: 1px solid transparent;
+		
+			padding: 10px 10px 0px 20px;
+		}

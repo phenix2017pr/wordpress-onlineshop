@@ -1,0 +1,94 @@
+.#{$alias}-remote-support {
+	input[type="text"],
+	input[type="password"] {
+	    height: px(40);
+	    padding: px(10) px(16);
+	    border: 1px solid #e5e5e5;
+	    border-radius: px(5);
+	    clear: both;
+	    width: px(300);
+	}
+	div.error {
+		margin: px(10) 0;
+		padding: px(10);
+		width: px(300);
+	}
+	.#{$alias}-panel-title {
+		color: $orange;
+		font-weight: $extra-bold;
+		margin: 0px 0px px(30) 0px;
+		display: block;
+		font-size: px(15);
+	}
+	##{$alias}_access_details {
+		&>.#{$alias}-form-row {
+			&:first-child {
+				margin-bottom: px(30);
+			}
+			&>label {
+				color: $orange;
+			}
+		}
+		input[value="Save Remote Access"] {
+			margin-top: px(30);
+		}
+		select {
+			margin-left: px(30);
+		}
+	}
+	##{$alias}-boxid-login {
+		display: inline-block;
+		vertical-align: top;
+		.#{$alias}-form-row {
+			margin-bottom: px(20);
+			&:nth-child(3) {
+				padding-top: px(17);
+				label {
+					margin-top: px(10);
+				}
+			}
+		}
+		.#{$alias}-button-row {
+			margin-top: -#{px(17)};
+		}
+	}	
+	##{$alias}-boxid-register {
+		display: inline-block;
+		width: 50%;
+		.#{$alias}-form-row {
+			margin-bottom: px(20);
+		}
+	}
+
+	##{$alias}-boxid-logininfo {
+		margin: px(50) 0;
+	}
+	.#{$alias}-table {
+		border: none !important;
+		margin-top: px(30);
+		td {
+			border: none !important;
+		}
+	}
+	.#{$alias}-wp-credential, 
+	.#{$alias}-file-access-credential {
+		margin-top: px(10);
+	}
+	.#{$alias}-message.#{$alias}-info {
+		i {
+		    font-size: px(12);
+		    font-weight: 500;
+		    color: #b2b2b2;
+		    display: block;
+		    margin-top: px(10);
+		}
+	}
+	##{$alias}-boxid-ticket {
+		.#{$alias}-panel-title {
+			margin-top: px(30);
+		}
+		input.#{$alias}-form-button.#{$alias}-form-button-success {
+			margin-top: px(30);
+		}
+	}
+}

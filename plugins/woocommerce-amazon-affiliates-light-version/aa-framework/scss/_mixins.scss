@@ -1,0 +1,31 @@
+@mixin border-radius($radius) {
+	border-radius: 					$radius;
+	-webkit-border-radius: 			$radius;
+	-moz-border-radius: 			$radius;
+	-ms-border-radius: 				$radius;
+	-o-border-radius: 				$radius;
+}
+@mixin gradient ($c1, $c2, $dir: vertical) {
+	background-color: $c1; // Old browsers
+	@include filter-gradient($c1, $c2, $dir); // IE6-9
+	@include background-image(linear-gradient(top, $c1 0%, $c2 100%));
+}
+@mixin placeholder {
+	&::-webkit-input-placeholder	{@content}
+	&:-moz-placeholder           	{@content}
+	&::-moz-placeholder          	{@content}
+	&:-ms-input-placeholder     	{@content}
+}
+@mixin all-links {
+	&:hover 						{@content}
+	&:visited 						{@content}
+	&:active 						{@content}
+	& 								{@content}
+}
+@mixin vendor($name, $argument) {
+	-webkit-#{$name}:				#{$argument};
+	-ms-#{$name}:					#{$argument};
+	-moz-#{$name}:					#{$argument};
+	-o-#{$name}:					#{$argument};
+	#{$name}:						#{$argument};
+}

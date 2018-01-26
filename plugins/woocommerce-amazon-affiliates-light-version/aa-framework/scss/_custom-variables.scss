@@ -1,0 +1,56 @@
+// Containers :
+$alias 					: 'WooZoneLite';
+
+// Sizes:
+$html-font-size			: 10;
+$border-radius-small	: 2;
+$border-radius			: 5;
+$border-radius-big		: 8;
+
+// Font Families:
+$primary_font			: 'Roboto', sans-serif;
+
+// Font weights:
+$light					: 300;
+$normal					: 400;
+$medium					: 500;
+$semi-bold				: 600;
+$bold					: 700;
+$extra-bold				: 800;
+$ultra-bold				: 900;
+
+// Global Colors:
+$app_background			: #21263e;
+$white					: #ffffff;
+$black					: #383838;
+$gray					: #727272;
+$orange					: #ffa800;
+$light-gray				: #f6f6f6;
+$purple         : #ad73a1;
+
+$primary				: #a46497;
+$secondary				: #ef9f00;
+$info					: #3194f1;
+$success				: #68c64b;
+$warning				: #f0ad4e;
+$danger					: #d9534f;
+
+$gradient1				: #403670;
+$gradient2				: #2675b9;
+$gradient3				: #2454a2;
+$gradient4				: #26957d;
+$gradient5				: #4ebd45;
+
+$seashell				: #fff5ee;
+$medium-gray			: #dbdbdb;
+// Debugging?
+$debugging				: false;
+
+
+// Breakpoints:
+$screen-xs				: 480px;
+$screen-sm				: 768px;
+$screen-md				: 992px;
+$screen-lg				: 1200px;
+
+$transition_links 		: all 0.35s cubic-bezier(0.310, -0.105, 0.430, 1.590);

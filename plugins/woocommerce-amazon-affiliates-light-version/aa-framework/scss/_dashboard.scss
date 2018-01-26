@@ -1,0 +1,235 @@
+.#{$alias}-section-dashboard {
+	.#{$alias}-numer-items-in-top {
+		display: inline-block !important;
+		width: px(83) !important;
+		font-size: px(14) !important;
+	}
+
+	.#{$alias}-products-summary {
+		border-bottom: px(1) solid #dadada;
+		width: 100%;
+		overflow: hidden;
+		height: px(90);
+		padding-bottom: px(20);
+		margin: px(5) px(0) px(25) px(0);
+		.the-item-stat {
+			display: block;
+			width: px(203);
+			height: px(50);
+			float: left;
+			padding: px(4) px(4) px(4) px(4);
+			margin-right: px(10);
+			&:hover {
+				background: #ecf0f1;
+				border-radius: px(4);
+			}
+		}
+		.#{$alias}-summary-icon {
+			display: block;
+			float: left;
+			width: px(40);
+			height: px(40);
+			border-radius: px(4);
+			position: relative;
+			img {
+				position: absolute;
+				top: 10%;
+				left: 10%;
+				margin-left: -px(16);
+				margin-top: -px(16);
+			}
+		}
+		.#{$alias}-summary-text {
+			display: block;
+			float: left;
+			width: auto;
+			margin: -#{px(3)} px(0) px(0) px(10);
+			span {
+				&:first-child {
+					color: #444444;
+					font-size: px(21);
+					font-weight: bold;
+					display: block;
+					width: 100%;
+					font-family: 'OpenSans', Arial, Helvetica, sans-serif;
+				}
+				&:last-child {
+					color: #444444;
+					font-size: px(12);
+					font-weight: normal;
+					display: block;
+					width: 100%;
+					font-family: 'OpenSans', Arial, Helvetica, sans-serif;
+				}
+			}
+		}
+	}
+
+	.#{$alias}-top-products {
+		overflow: hidden;
+		width: 102%;
+		margin-left: -1%;
+		
+		li {
+			display: table;
+			float: left;
+			height: px(80);
+			margin: px(0) 0.5% px(20) 0.5%;
+			min-width: px(315);
+			width: 24%;
+
+			.#{$alias}-the-product-image {
+				border: px(1) solid #BDC3C7;
+				float: left;
+				height: px(79);
+				overflow: hidden;
+				padding: px(1);
+				width: px(75);
+				text-align: center; 
+				position: relative;
+				
+				img {
+					width: 100%;
+					position: absolute;
+					left: 50%;
+					top: 50%;
+					transform: translate(-50%, -50%);
+					-webkit-transform: translate(-50%, -50%);
+					-ms-transform: translate(-50%, -50%);
+				}
+			}
+
+			div.#{$alias}-prod-position {
+				display: table-cell;
+				position: relative;
+				vertical-align: top;
+			}
+			
+			div.#{$alias}-prod-position span {
+				background: $gray;
+				border-radius: px(2);
+				color: #fff;
+				display: block;
+				font-weight: normal;
+				height: px(24);
+				line-height: px(22);
+				left: 0%;
+				padding-top: px(2);
+				position: absolute;
+				text-align: center;
+				top: 50%;
+				transform: translateY(-50%);
+				vertical-align: center;
+				width: px(34);
+			}
+
+			&:nth-child(1) div.#{$alias}-prod-position span {
+				background: #e67e22;
+			}
+
+			&:nth-child(2) div.#{$alias}-prod-position span {
+				background: #f1c40f;
+			}
+
+			&:nth-child(3) div.#{$alias}-prod-position span {
+				background: #bdc3c7;
+			}
+
+			a.#{$alias}-the-product {
+				display: table-cell;
+				width: px(270);
+				text-decoration: none;
+				transition: $transition_links;
+
+				span {
+					display: block;
+					float: left;
+					width: px(180);
+					margin-left: px(10);
+					color: #484848;
+					padding: px(2) px(0) px(5) px(0);
+				}
+			}
+
+			&:hover {
+				font-weight: bold;
+
+				.#{$alias}-the-product-image {
+					border-color: $black !important;
+				}
+			}
+		}
+	}
+
+	.#{$alias}-prod-stats-number {
+		padding: px(2) px(8) px(2) px(8);
+		border-radius: px(4);
+		background: #bdc3c7;
+		color: #fff;
+		&.hits {
+			background: #f39c12;
+			color: #fff;
+		}
+		&.add-to-cart {
+			background: #1abc9c;
+			color: #fff;
+		}
+		&.redirect-to-amazon {
+			background: #3498db;
+			color: #fff;
+		}
+	}
+
+	##{$alias}-ajax-response.#{$alias}-section-dashboard {
+		overflow: hidden;
+
+		h1 {
+			margin: 0;
+			margin-bottom: px(10);
+		}
+	}
+	.#{$alias}-dashboard-status-box {
+		float: left;
+		width: 100%;
+		margin-right: 1.33%;
+		min-height: px(10);
+		background: $white;
+		border: none;
+	}
+	.dashboard_grid_1 {
+		width: 24%;
+	}
+
+	.dashboard_box_noright {
+		margin-right: 0;
+	}
+
+	.#{$alias}-dynamic-status {
+		padding: px(24);
+		position: relative;
+
+		h3 {
+			font-size: px(30);
+				font-weight: 400;
+				margin: 0 0 px(6);
+				padding: 0;
+				color: $primary;
+		}
+
+		small {
+			color: lighten($gray, 20%);
+				font-size: px(12);
+				font-weight: 600;
+			text-transform: uppercase;
+		}
+
+		i, img {
+			position: absolute;
+			top: px(24);
+			right: px(24);
+			font-size: px(26);
+			color: lighten($gray, 20%);
+			width: px(24);
+		}
+	}
+}

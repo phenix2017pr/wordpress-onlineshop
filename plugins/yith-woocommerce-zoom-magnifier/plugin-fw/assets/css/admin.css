@@ -1,0 +1,41 @@
+/*-----------------------
+    YITH Plugins Columns
+ ------------------------*/
+@media screen and (min-width : 783px) {
+
+    .auto-fold #adminmenu .yith-plugin-fw-menu-2-columns.wp-not-current-submenu .wp-submenu-head {
+        width : 100%;
+    }
+
+    #adminmenu .yith-plugin-fw-menu-2-columns.wp-not-current-submenu .wp-submenu {
+        min-width : 320px;
+        display   : flex;
+        flex-flow : row wrap;
+    }
+
+    #adminmenu .yith-plugin-fw-menu-2-columns.wp-not-current-submenu .wp-submenu li:not(.wp-submenu-head) {
+        width       : 50%;
+        border-left : 1px solid #555;
+        box-sizing  : border-box;
+    }
+
+    #adminmenu .yith-plugin-fw-menu-2-columns.wp-not-current-submenu .wp-submenu li:not(.wp-submenu-head):nth-child(2n) {
+        border-left : none;
+    }
+
+    #adminmenu .yith-plugin-fw-menu-3-columns.wp-not-current-submenu .wp-submenu {
+        min-width : 480px;
+        display   : flex;
+        flex-flow : row wrap;
+    }
+
+    #adminmenu .yith-plugin-fw-menu-3-columns.wp-not-current-submenu .wp-submenu li:not(.wp-submenu-head) {
+        width       : calc(100% / 3);
+        border-left : 1px solid #555;
+        box-sizing  : border-box;
+    }
+
+    #adminmenu .yith-plugin-fw-menu-3-columns.wp-not-current-submenu .wp-submenu li:not(.wp-submenu-head):nth-child(3n + 2) {
+        border-left : none;
+    }
+}

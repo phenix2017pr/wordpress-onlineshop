@@ -1,0 +1,1335 @@
+.#{$alias}-confirm-take-over {
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  text-align: center;
+  width: 100%;
+  z-index: 99999;
+  .#{$alias}-confirm-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: px(360);
+    background: #f9f9f9;
+    //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+    border-radius: px(10);
+    padding: px(50) px(25);
+    position: relative;
+    text-align: center;
+    //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+    transform: translate(-50%, -50%);
+    p {
+      color: #4f4f4f;
+      font-size: px(18);
+      font-weight: 600;
+      margin: 0;
+    }
+    .#{$alias}-action-buttons {
+      margin-top: px(30);
+      .success-icon {
+        color: #2ecc71;
+        display: none;
+        font-size: px(23);
+        margin: px(15) auto;
+      }
+    }
+    a {
+      &.x-close {
+        display: none;
+        position: absolute;
+        top: -#{px(13)};
+        right: -#{px(13)};
+        font-size: px(18);
+        background: #ff9700;
+        color: #fff;
+        //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+        border-radius: px(15);
+        padding: px(6) px(8);
+        &:visited {
+          display: none;
+          position: absolute;
+          top: -#{px(13)};
+          right: -#{px(13)};
+          font-size: px(18);
+          background: #ff9700;
+          color: #fff;
+          //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+          border-radius: px(15);
+          padding: px(6) px(8);
+        }
+        &:focus {
+          display: none;
+          position: absolute;
+          top: -#{px(13)};
+          right: -#{px(13)};
+          font-size: px(18);
+          background: #ff9700;
+          color: #fff;
+          //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+          border-radius: px(15);
+          padding: px(6) px(8);
+        }
+        &:hover {
+          color: #000 !important;
+        }
+      }
+      &.btn-confirm {
+        background-color: #40de4b;
+        color: #fff !important;
+        font-weight: 600;
+        font-size: px(18);
+        line-height: px(30);
+        text-transform: uppercase;
+        padding: px(5) px(15);
+        margin: px(10) px(3);
+        text-align: center;
+        &:visited {
+          background-color: #40de4b;
+          color: #fff !important;
+          font-weight: 600;
+          font-size: px(18);
+          line-height: px(30);
+          text-transform: uppercase;
+          padding: px(5) px(15);
+          margin: px(10) px(3);
+          text-align: center;
+        }
+        &:focus {
+          background-color: #40de4b;
+          color: #fff !important;
+          font-weight: 600;
+          font-size: px(18);
+          line-height: px(30);
+          text-transform: uppercase;
+          padding: px(5) px(15);
+          margin: px(10) px(3);
+          text-align: center;
+        }
+        &:hover {
+          color: #fff !important;
+          background-color: #2ba233;
+        }
+        &:active {
+          color: #fff !important;
+          background-color: #2ba233;
+        }
+        &.cancel {
+          background: #e9e9e9;
+          color: #bcbcbc !important;
+          font-weight: bold;
+          &:visited {
+            background: #e9e9e9;
+            color: #bcbcbc !important;
+            font-weight: bold;
+          }
+          &:focus {
+            background: #e9e9e9;
+            color: #bcbcbc !important;
+            font-weight: bold;
+          }
+          &:hover {
+            background-color: #fff;
+            color: #4f4f4f !important;
+          }
+          &:active {
+            background-color: #fff;
+            color: #4f4f4f !important;
+          }
+        }
+        &.btn-close {
+          display: none;
+          background: #ff9700;
+          color: #fff !important;
+          font-weight: bold;
+          &:visited {
+            display: none;
+            background: #ff9700;
+            color: #fff !important;
+            font-weight: bold;
+          }
+          &:focus {
+            display: none;
+            background: #ff9700;
+            color: #fff !important;
+            font-weight: bold;
+          }
+          &:hover {
+            color: #000 !important;
+          }
+          &:active {
+            color: #000 !important;
+          }
+        }
+      }
+    }
+  }
+}
+.#{$alias}-speed-optimization {
+  .#{$alias}-total-products-wrapper {
+    color: #5a5a5a;
+    font-weight: 600;
+    display: block;
+    margin-top: px(20);
+  }
+  .#{$alias}-the-score-wrapper {
+    position: relative;
+    .#{$alias}-the-score-details {
+      position: absolute;
+      top: 50%;
+      margin-top: -#{px(42)};
+      left: -#{px(120)};
+      width: px(120);
+      z-index: 999;
+      background: #f2f2f2;
+      text-align: left;
+      padding: px(6);
+      font-weight: normal;
+      display: none;
+      font-size: px(10);
+      label {
+        padding: 0 !important;
+        margin: 0 !important;
+        display: block !important;
+        span {
+          padding-left: px(2);
+        }
+      }
+    }
+  }
+  .#{$alias}-all-scores-container {
+    width: px(60);
+    height: px(60);
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    cursor: default;
+    .#{$alias}-all-cursor {
+      border-top: px(1) solid #fff;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      height: px(1);
+      margin-top: -#{px(0.5)};
+      z-index: 99;
+      display: none;
+    }
+    .#{$alias}-all-scores {
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: block;
+      height: px(240);
+      width: px(60);
+      margin: 0;
+      padding: 0;
+      li {
+        display: block;
+        width: px(60);
+        height: px(60);
+        margin: 0;
+        padding: 0;
+        line-height: px(60);
+        font-size: px(24);
+        text-align: center;
+        color: #fff;
+        font-weight: bold;
+        &:nth-child(1) {
+          background: #2ecc71;
+        }
+        &:nth-child(2) {
+          background: #f1c40f;
+        }
+        &:nth-child(3) {
+          background: #e67e22;
+        }
+        &:nth-child(4) {
+          background: #e74c3c;
+        }
+      }
+    }
+  }
+  .#{$alias}-the-note {
+    width: px(40);
+    padding: px(3) px(5);
+    text-align: center;
+    background: #ecf0f1;
+    margin: 0 auto;
+    margin-bottom: px(10);
+    //Instead of the line below you could use @include border-bottom-right-radius($radius)
+    border-bottom-right-radius: px(4);
+    //Instead of the line below you could use @include border-bottom-left-radius($radius)
+    border-bottom-left-radius: px(4);
+    font-weight: bold;
+  }
+  .#{$alias}-sync-table {
+    min-height: px(400);
+  }
+  .#{$alias}-lightbox-content {
+    position: absolute;
+    top: px(90);
+    left: 50%;
+    width: px(850);
+    background: #fff;
+    //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+    border-radius: px(10);
+    padding: px(10) px(25);
+    position: relative;
+    overflow: hidden;
+    text-align: left !important;
+    //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+    transform: translateX(-50%);
+    .#{$alias}-optimize-options {
+      display: block;
+      margin: px(20) auto;
+      float: left;
+      position: relative;
+      left: 50%;
+      //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+      transform: translateX(-50%);
+      li {
+        cursor: pointer;
+        //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+        border-radius: px(20);
+        float: left;
+        font-size: px(12);
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #343434;
+        margin: 0 px(2);
+        padding: px(12) px(20) px(12) px(13);
+        &:hover {
+          background-color: #9f6193;
+          color: #fff;
+          span {
+            background-color: #fff;
+          }
+        }
+        &.active {
+          background-color: #9f6193;
+          color: #fff;
+          span {
+            background-color: #fff;
+          }
+        }
+        span {
+          background-color: #f3f3f3;
+          //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+          border-radius: px(20);
+          color: red;
+          font-size: px(14);
+          text-align: center;
+          padding: px(2) px(6);
+          margin-right: px(5);
+          &.score-a {
+            color: #2ecc71;
+          }
+          &.score-b {
+            color: #f1c40f;
+          }
+          &.score-c {
+            color: #e67e22;
+          }
+          &.score-d {
+            color: #e74c3c;
+          }
+        }
+      }
+    }
+    .#{$alias}-optimizer-notice {
+      background-color: #2ecc71;
+      //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+      border-radius: px(10);
+      color: #fff;
+      clear: both;
+      display: block;
+      float: left;
+      left: 50%;
+      margin: 0 auto px(30) auto;
+      font-size: px(12);
+      text-transform: uppercase;
+      //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+      transform: translateX(-50%);
+      padding: px(10) px(15);
+      position: relative;
+      width: 60%;
+      &.important {
+        background-color: #e74c3c;
+        span.type-score {
+          color: #e74c3c;
+          font-size: px(17);
+          padding: px(5) px(11);
+        }
+      }
+      &.score-B {
+        background-color: #f1c40f;
+        span.type-score {
+          color: #f1c40f;
+        }
+      }
+      &.score-C {
+        background-color: #e67e22;
+        span.type-score {
+          color: #e67e22;
+        }
+      }
+      &.score-D {
+        background-color: #e74c3c;
+        span.type-score {
+          color: #e74c3c;
+        }
+      }
+      h4 {
+        text-transform: uppercase;
+        color: #fff;
+        margin: px(5) 0;
+        font-weight: normal;
+      }
+      > div {
+        display: inline-block;
+        strong {
+          font-size: px(14);
+          font-weight: 600;
+        }
+        p {
+          display: inline-block;
+          opacity: 0.8;
+          padding: 0;
+          margin: 0 0 0 px(5);
+        }
+      }
+      span.type-score {
+        color: #2ecc71;
+        background-color: #fff;
+        font-weight: 600;
+        //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+        border-radius: px(15);
+        -webkit-box-shadow: px(1) 0 px(5) 0 #c4c4c4;
+        //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+        box-shadow: px(1) 0 px(5) 0 #c4c4c4;
+        position: absolute;
+        right: px(15);
+        top: -#{px(14)};
+        padding: px(5) px(10);
+      }
+    }
+    .#{$alias}-info-box {
+      clear: both;
+      margin: px(20) auto;
+      .#{$alias}-info {
+        background-color: #f9f9f9;
+        color: #a7a7a7;
+        display: inline-block;
+        font-size: px(12);
+        padding: px(10) px(25) px(10) px(50);
+        position: relative;
+        width: 75%;
+        i {
+          border: px(2) solid #ff9700;
+          color: #ff9700;
+          //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+          border-radius: px(10);
+          font-size: px(12);
+          padding: px(2) px(6);
+          position: absolute;
+          left: px(15);
+          top: px(18);
+        }
+        strong {
+          color: #a06193;
+        }
+      }
+    }
+    &.#{$alias}-mass-optimize-content {
+      .#{$alias}-lightbox-the-content {
+        margin-top: px(35);
+      }
+      .#{$alias}-info-box {
+        .#{$alias}-info {
+          padding: px(19) px(10) px(20) px(50);
+          width: 61%;
+        }
+        .#{$alias}-small-popup-btn {
+          color: #b6b6b6;
+          display: inline-block;
+          font-size: px(12);
+          text-transform: uppercase;
+          margin: 0;
+          padding: px(22) px(20);
+        }
+      }
+      .#{$alias}-mass-optimize-option-wrapper {
+        display: block;
+        font-size: px(11);
+        text-align: center;
+        padding: px(10);
+        margin: px(10) 0;
+        strong {
+          font-size: px(14);
+          font-weight: bold !important;
+          color: #343434;
+          text-transform: uppercase;
+        }
+        span {
+          color: #c7c7c7;
+          font-weight: 200;
+          font-style: italic;
+          margin-left: px(10);
+        }
+        select {
+          border: none;
+          border-bottom: px(1) solid #f1f1f1;
+          //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+          box-shadow: none;
+          -webkit-box-shadow: none;
+          -moz-box-shadow: none;
+          color: #838383 !important;
+          font-size: px(12) !important;
+          font-weight: normal !important;
+          padding: 0 px(25) 0 px(7);
+          display: block;
+          margin: px(15) auto 0 auto !important;
+        }
+        label p {
+          color: #343434;
+          strong {
+            color: red;
+          }
+        }
+      }
+      .#{$alias}-speed-optimise-top-section {
+        display: block;
+        position: relative;
+        padding: px(12) 0;
+        margin-top: px(15);
+        height: px(21);
+        .optimise-count {
+          color: #343434;
+          display: inline-block;
+          font-size: px(16);
+          font-weight: bold;
+        }
+        .optimise-progress-bar-wrapper {
+          background-color: #ebd3ef;
+          display: inline-block;
+          //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+          border-radius: px(10);
+          margin: 0 px(20);
+          vertical-align: middle;
+          width: 70%;
+          height: px(10);
+          span {
+            background-color: #ad73a1;
+            display: block;
+            //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+            border-radius: px(10);
+            vertical-align: middle;
+            width: 0;
+            height: px(10);
+          }
+        }
+        .#{$alias}-btn-optimize-stop {
+          background-color: #f54343;
+          //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+          border-radius: px(5);
+          display: inline-block;
+          position: absolute;
+          top: 0;
+          right: 0;
+          color: #fff;
+          font-size: px(16);
+          line-height: px(13);
+          font-weight: 600;
+          text-transform: uppercase;
+          padding: px(16) px(35);
+          vertical-align: middle;
+          &:visited {
+            background-color: #f54343;
+            //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+            border-radius: px(5);
+            display: inline-block;
+            position: absolute;
+            top: 0;
+            right: 0;
+            color: #fff;
+            font-size: px(16);
+            line-height: px(13);
+            font-weight: 600;
+            text-transform: uppercase;
+            padding: px(16) px(35);
+            vertical-align: middle;
+          }
+          &:focus {
+            background-color: #f54343;
+            //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+            border-radius: px(5);
+            display: inline-block;
+            position: absolute;
+            top: 0;
+            right: 0;
+            color: #fff;
+            font-size: px(16);
+            line-height: px(13);
+            font-weight: 600;
+            text-transform: uppercase;
+            padding: px(16) px(35);
+            vertical-align: middle;
+          }
+          &:hover {
+            background: #ff9700 !important;
+            color: #fff !important;
+          }
+          &:active {
+            background: #ff9700 !important;
+            color: #fff !important;
+          }
+          &.#{$alias}-close-popup-btn {
+            background: #ff9700 !important;
+            color: #fff !important;
+            &:hover {
+              color: #000 !important;
+            }
+          }
+        }
+      }
+      h3 {
+        color: #343434;
+        font-size: px(14);
+        text-transform: uppercase;
+      }
+      .optimize-next-product-wrapper {
+        position: relative;
+      }
+      .optimize-next-product-bg {
+        background: #fff;
+        opacity: 0.8;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 99;
+      }
+      .#{$alias}-optimize-product {
+        color: #343434;
+        display: block;
+        font-size: px(14);
+        list-style-type: none;
+        margin: px(35) 0;
+        width: 100%;
+        hr {
+          color: #f9f9f9;
+          margin: px(20) 0;
+        }
+        > li {
+          display: inline-block;
+          margin: 0 px(12);
+          padding: 0;
+          text-align: center;
+          vertical-align: middle;
+          width: px(90);
+          min-height: px(125);
+          &:nth-child(1) {
+            margin-left: 0;
+            width: px(110);
+          }
+          &:nth-child(7) {
+            margin-right: 0;
+            width: px(90);
+          }
+        }
+        li {
+          &.total-score-sep {
+            color: #dddddd;
+            font-size: px(40);
+            width: px(50);
+            i {
+              margin-top: px(30);
+            }
+          }
+          span {
+            &.prod-asin {
+              clear: both;
+              color: #aaaaaa;
+              display: block;
+              font-size: px(11);
+              margin-top: px(10);
+            }
+            &.type-name {
+              font-weight: bold;
+              display: block;
+              clear: both;
+              margin-bottom: px(5);
+            }
+            &.type-note {
+              display: block;
+              position: relative;
+              .#{$alias}-the-score-wrapper {
+                position: relative;
+                top: auto;
+                right: auto;
+              }
+              .#{$alias}-loader-take-over-wrapper {
+                left: 0;
+                top: 0 !important;
+                width: px(60);
+                margin: 0 auto;
+                .#{$alias}-loader-holder {
+                  top: px(11) !important;
+                }
+                .#{$alias}-loader {
+                  font-size: px(3);
+                }
+              }
+            }
+          }
+          .done-icon {
+            display: none;
+            text-align: center;
+            margin-top: px(10);
+          }
+          .loading-icon {
+            display: none;
+            text-align: center;
+          }
+          &#WooZoneLite-total-score {
+            display: inline-block;
+            position: relative;
+            .#{$alias}-the-score-wrapper {
+              position: relative;
+              top: auto;
+              right: auto;
+              .score-hint {
+                color: #2ecc71;
+                display: block;
+                font-size: px(14);
+                font-weight: bold;
+                text-transform: uppercase;
+                margin-top: px(10);
+                &.hint-note-2 {
+                  color: #f1c40f;
+                }
+                &.hint-note-3 {
+                  color: #e67e22;
+                }
+                &.hint-note-4 {
+                  color: #e74c3c;
+                }
+              }
+            }
+            .#{$alias}-loader-take-over-wrapper {
+              left: 0;
+              width: px(90);
+              height: px(90);
+              margin: 0 auto;
+              .#{$alias}-loader {
+                font-size: px(5);
+              }
+            }
+            .#{$alias}-loader-holder {
+              top: px(14) !important;
+            }
+            .#{$alias}-all-scores-container {
+              width: px(90);
+              height: px(90);
+              .#{$alias}-all-scores {
+                width: px(90);
+                height: px(360);
+                li {
+                  width: px(90);
+                  height: px(90);
+                  line-height: px(90);
+                  font-size: px(36);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .#{$alias}-lightbox-the-content {
+    .variations_table_head {
+      border-bottom: px(1) solid #eeeeee;
+      display: block;
+      width: 98%;
+      div.table-head {
+        display: inline-block;
+        color: #787878;
+        font-size: px(12);
+        font-weight: 600;
+        text-transform: uppercase;
+        vertical-align: middle;
+        padding: px(10) 0;
+      }
+    }
+    form {
+      margin: 0 auto;
+      width: 95%;
+    }
+    .table-wrapper {
+      max-height: px(250);
+      display: block;
+      overflow: auto;
+      padding-right: px(15);
+    }
+    table {
+      td {
+        border-bottom: px(1) solid #eeeeee;
+        color: #787878;
+        font-size: px(12);
+        font-weight: 600;
+        vertical-align: middle;
+        padding: px(10) 0 !important;
+        img {
+          margin-right: px(20);
+          max-height: px(45);
+          width: auto;
+        }
+      }
+      thead {
+        th {
+          text-transform: uppercase;
+        }
+        td.title {
+          text-transform: uppercase;
+        }
+      }
+    }
+    .#{$alias}-btn-delete {
+      background: #ee3438;
+      display: block;
+      padding: px(3) px(15);
+      //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+      border-radius: px(4);
+      text-align: center;
+      text-transform: none;
+      font-weight: normal;
+      color: #fff !important;
+      &:visited {
+        background: #ee3438;
+        display: block;
+        padding: px(3) px(15);
+        //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+        border-radius: px(4);
+        text-align: center;
+        text-transform: none;
+        font-weight: normal;
+        color: #fff !important;
+      }
+      &:focus {
+        background: #ee3438;
+        display: block;
+        padding: px(3) px(15);
+        //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+        border-radius: px(4);
+        text-align: center;
+        text-transform: none;
+        font-weight: normal;
+        color: #fff !important;
+      }
+      &:hover {
+        background: #ff9700;
+        color: #fff !important;
+      }
+      &:active {
+        background: #ff9700;
+        color: #fff !important;
+      }
+      &.#{$alias}-delete-variations {
+        display: inline-block;
+        margin-top: px(15);
+        padding: px(3) px(25);
+      }
+      &.#{$alias}-remove-categs {
+        display: inline-block;
+        margin-top: px(15);
+        padding: px(3) px(25);
+      }
+    }
+  }
+  .#{$alias}-image-optimizer {
+    color: #787878;
+    clear: both;
+    max-height: px(280);
+    overflow: auto;
+    ul {
+      margin: 0;
+      padding: 0;
+      li {
+        display: inline-block;
+        width: px(105);
+        text-align: center;
+        padding: 0 px(20);
+        margin: 0 0 px(40) 0;
+        > a {
+          width: px(75);
+          height: px(75);
+          display: block;
+          text-align: center;
+          margin: 0 auto;
+          position: relative;
+          overflow: hidden;
+          img {
+            display: block;
+            width: auto;
+            height: px(75);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+            transform: translate(-50%,-50%);
+            &.height-auto {
+              width: px(75);
+              height: auto;
+            }
+          }
+          &:hover:after {
+            background: rgba(52, 73, 94, 0.8);
+            display: block;
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 99;
+          }
+        }
+        .#{$alias}-img-options {
+          display: block;
+          .#{$alias}-is-futured {
+            font-size: px(11);
+            padding: px(4) px(6);
+            display: block;
+            margin-top: px(10);
+            //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+            border-radius: px(4);
+            text-align: center;
+            text-transform: uppercase;
+            color: #9c9c9c;
+          }
+          .#{$alias}-delete-img {
+            background: #ee3438;
+            padding: px(4) px(6);
+            display: block;
+            margin-top: px(10);
+            //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+            border-radius: px(4);
+            text-align: center;
+            text-transform: capitalize;
+            font-size: px(13);
+            color: #fff !important;
+            &:visited {
+              background: #ee3438;
+              padding: px(4) px(6);
+              display: block;
+              margin-top: px(10);
+              //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+              border-radius: px(4);
+              text-align: center;
+              text-transform: capitalize;
+              font-size: px(13);
+              color: #fff !important;
+            }
+            &:focus {
+              background: #ee3438;
+              padding: px(4) px(6);
+              display: block;
+              margin-top: px(10);
+              //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+              border-radius: px(4);
+              text-align: center;
+              text-transform: capitalize;
+              font-size: px(13);
+              color: #fff !important;
+            }
+            &:hover {
+              background: #ff9700;
+              color: #fff !important;
+            }
+            &:active {
+              background: #ff9700;
+              color: #fff !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  .#{$alias}-attributes-optimizer {
+    clear: both;
+    .#{$alias}-optimised-attributes {
+      display: none;
+    }
+    p {
+      margin: 0;
+      padding: px(10);
+      font-size: px(16);
+      color: #787878;
+      text-align: center;
+      text-transform: uppercase;
+      .fa-check {
+        color: #3ae42e;
+        font-size: px(16);
+        font-weight: 600;
+        font-size: px(20);
+      }
+      #WooZoneLite-optimised-attributes {
+        color: #3ae42e;
+        font-size: px(16);
+        font-weight: 600;
+      }
+    }
+    .#{$alias}-optimize-attributes {
+      background: #ee3438;
+      display: inline-block;
+      font-size: px(13);
+      position: relative;
+      left: 50%;
+      //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+      transform: translateX(-50%);
+      padding: px(5) px(10);
+      margin: px(35) auto;
+      //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+      border-radius: px(5);
+      text-align: center;
+      color: #fff !important;
+      &:visited {
+        background: #ee3438;
+        display: inline-block;
+        font-size: px(13);
+        position: relative;
+        left: 50%;
+        //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+        transform: translateX(-50%);
+        padding: px(5) px(10);
+        margin: px(35) auto;
+        //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+        border-radius: px(5);
+        text-align: center;
+        color: #fff !important;
+      }
+      &:focus {
+        background: #ee3438;
+        display: inline-block;
+        font-size: px(13);
+        position: relative;
+        left: 50%;
+        //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+        transform: translateX(-50%);
+        padding: px(5) px(10);
+        margin: px(35) auto;
+        //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+        border-radius: px(5);
+        text-align: center;
+        color: #fff !important;
+      }
+      &:hover {
+        background: #ff9700;
+        color: #fff !important;
+      }
+      &:active {
+        background: #ff9700;
+        color: #fff !important;
+      }
+    }
+  }
+  .#{$alias}-variations-optimizer {
+    color: #787878;
+    clear: both;
+  }
+  .#{$alias}-categories-optimizer {
+    clear: both;
+    .#{$alias}-btn-remove {
+      color: #c0392b;
+      font-size: px(16);
+    }
+    ul li {
+      color: #000;
+      font-size: px(14);
+    }
+  }
+  #WooZoneLite-sync-log .#{$alias}-sync-table {
+    overflow: initial !important;
+    max-height: initial !important;
+    table {
+      td {
+        padding: px(10) 0;
+        position: relative;
+        span {
+          &.#{$alias}-prod-img {
+            float: left;
+            min-height: px(50);
+            position: relative;
+            width: px(25);
+            display: inline-block;
+            img {
+              max-height: px(50);
+            }
+          }
+          &.#{$alias}-variable-prod {
+            background-color: #2ecc71;
+            color: #fff;
+            padding: px(3) px(10);
+            //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+            border-radius: px(4);
+          }
+        }
+        .#{$alias}-prod-info {
+          position: absolute;
+          top: 50%;
+          //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+          transform: translateY(-50%);
+        }
+        &:nth-child(2) {
+          font-size: px(14) !important;
+        }
+        &:nth-child(3) {
+          font-size: px(10);
+          a {
+            &.sign-plus {
+              color: #27ae60 !important;
+            }
+            &.sign-minus {
+              color: #d35400 !important;
+            }
+          }
+        }
+        &:nth-child(4) {
+          text-align: left;
+          a {
+            text-align: left;
+            color: #838383 !important;
+            font-size: px(14) !important;
+            font-style: normal !important;
+            padding-left: px(10);
+            text-transform: initial;
+          }
+        }
+        &:nth-child(7) {
+          font-size: px(14) !important;
+          font-weight: normal !important;
+        }
+      }
+      th:nth-child(4) {
+        text-align: left;
+      }
+    }
+  }
+  .#{$alias}-sync-info .#{$alias}-optimise-all-attributes {
+    background: #f64343 !important;
+    border: none;
+    //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+    border-radius: px(5);
+    color: #fff !important;
+    float: left;
+    display: inline-block;
+    text-transform: uppercase !important;
+    font-size: px(13);
+    font-weight: 600;
+    padding: px(7) px(20);
+    &:hover {
+      background: #f88d2e !important;
+    }
+  }
+  table .#{$alias}-the-score-wrapper:hover .#{$alias}-the-score-details {
+    display: block;
+  }
+  a.#{$alias}-optimize-product {
+    border: none;
+    //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+    border-radius: px(4);
+    color: #fff !important;
+    cursor: pointer;
+    font-size: px(13);
+    font-weight: normal;
+    background: #ad73a1;
+    padding: px(8) px(14);
+    &:visited {
+      border: none;
+      //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+      border-radius: px(4);
+      color: #fff !important;
+      cursor: pointer;
+      font-size: px(13);
+      font-weight: normal;
+      background: #ad73a1;
+      padding: px(8) px(14);
+    }
+    &:focus {
+      border: none;
+      //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+      border-radius: px(4);
+      color: #fff !important;
+      cursor: pointer;
+      font-size: px(13);
+      font-weight: normal;
+      background: #ad73a1;
+      padding: px(8) px(14);
+    }
+    &:hover {
+      background: #ffa800;
+      color: #fff !important;
+    }
+    &:active {
+      background: #ffa800;
+      color: #fff !important;
+    }
+  }
+}
+.#{$alias}-speedoptimization-legend {
+  clear: both;
+  display: block;
+  float: left;
+  width: 100%;
+  strong {
+    color: #343434;
+    font-weight: bold;
+    font-size: px(14);
+  }
+  ul li {
+    float: left;
+    margin-right: px(40);
+    span {
+      &.#{$alias}-legend-final-score {
+        float: left;
+        font-size: px(14);
+        font-weight: bold;
+        color: #fff;
+        padding: px(9) px(13);
+        margin-right: px(10);
+      }
+      &.#{$alias}-legend-info {
+        float: left;
+        font-size: px(12);
+        line-height: px(23);
+        margin-top: -#{px(5)};
+        color: #525252;
+        span {
+          &.#{$alias}-legend-score {
+            font-size: px(12);
+            display: block;
+          }
+          &.#{$alias}-legend-hint span {
+            color: #8e8e8e;
+          }
+        }
+      }
+    }
+    &.#{$alias}-legend-score-A span {
+      &.#{$alias}-legend-final-score {
+        background-color: #2ecc71;
+      }
+      &.#{$alias}-legend-info span.#{$alias}-legend-score {
+        color: #2ecc71;
+      }
+    }
+    &.#{$alias}-legend-score-B span {
+      &.#{$alias}-legend-final-score {
+        background-color: #f1c40f;
+      }
+      &.#{$alias}-legend-info span.#{$alias}-legend-score {
+        color: #f1c40f;
+      }
+    }
+    &.#{$alias}-legend-score-C span {
+      &.#{$alias}-legend-final-score {
+        background-color: #e67e22;
+      }
+      &.#{$alias}-legend-info span.#{$alias}-legend-score {
+        color: #e67e22;
+      }
+    }
+    &.#{$alias}-legend-score-D span {
+      &.#{$alias}-legend-final-score {
+        background-color: #e74c3c;
+      }
+      &.#{$alias}-legend-info span.#{$alias}-legend-score {
+        color: #e74c3c;
+      }
+    }
+  }
+}
+body .#{$alias}-speed-optimization {
+  .#{$alias}-lightbox-content {
+    * {
+      //Instead of the line below you could use @include box-sizing($bs)
+      box-sizing: content-box !important;
+    }
+    h1 {
+      border-bottom: px(1) solid #e0e0e0;
+      font-size: px(18) !important;
+      text-align: center;
+      display: block;
+      margin: 0 auto !important;
+      padding: px(25) 0 px(25) px(30);
+      color: #343434;
+      width: 75%;
+      right: px(30);
+      position: relative;
+    }
+    .#{$alias}-the-score-wrapper {
+      position: absolute;
+      top: px(17);
+      right: px(25);
+    }
+    .#{$alias}-lightbox-the-content {
+      position: relative;
+      clear: both;
+      float: left;
+      margin: px(10) 0 px(25);
+      width: 100%;
+    }
+    h2 {
+      padding: 0;
+      margin: 0;
+      text-align: left;
+      display: inline-block;
+      padding: px(5) px(15);
+      background: #a46497;
+      color: #fff;
+      font-size: px(10);
+      //Instead of the line below you could use @include border-top-left-radius($radius)
+      border-top-left-radius: px(4);
+      //Instead of the line below you could use @include border-top-right-radius($radius)
+      border-top-right-radius: px(4);
+      position: absolute;
+      top: -#{px(28)};
+      left: -#{px(1)};
+    }
+  }
+  #WooZoneLite-speed-optimization-lightbox {
+    position: absolute;
+    z-index: 99999;
+    left: -#{px(20)};
+    background: rgba(0, 0, 0, 0.8);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    text-align: center;
+    color: #fff;
+    font-family: Roboto, sans-serif;
+    font-size: 1.1rem;
+    display: none;
+    .#{$alias}-big-popup-btn {
+      background-color: #ff9700;
+      color: #fff;
+      float: right;
+      display: inline-block;
+      font-size: px(16);
+      font-weight: 600;
+      padding: 0 px(20);
+      line-height: px(55);
+      &:hover {
+        color: #000;
+      }
+    }
+  }
+}

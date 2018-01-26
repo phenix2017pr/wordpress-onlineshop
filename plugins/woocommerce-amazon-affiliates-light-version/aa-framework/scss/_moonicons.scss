@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'woozonelite';
+    src:    url('#framework_url/fonts/woozonelite.eot?fbbpz6');
+    src:    url('#framework_url/fonts/woozonelite.eot?fbbpz6#iefix') format('embedded-opentype'),
+        url('#framework_url/fonts/woozonelite.ttf?fbbpz6') format('truetype'),
+        url('#framework_url/fonts/woozonelite.woff?fbbpz6') format('woff'),
+        url('#framework_url/fonts/woozonelite.svg?fbbpz6#woozonelite') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+i[class^="#{$alias}"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'woozonelite' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
+
+.#{$alias}-icon-light:before {
+  content: "\e900";
+}
+.#{$alias}-icon-magic-wand:before {
+  content: "\e901";
+}
+.#{$alias}-icon-woozonelite_report:before {
+  content: "\e902";
+}
+.#{$alias}-icon-cronjobs:before {
+  content: "\e903";
+}
+.#{$alias}-icon-search:before {
+  content: "\e904";
+}
+.#{$alias}-icon-debug:before {
+  content: "\e905";
+}
+.#{$alias}-icon-insane_import:before {
+  content: "\e906";
+}
+.#{$alias}-icon-plugin:before {
+  content: "\e907";
+}
+.#{$alias}-icon-sync:before {
+  content: "\e908";
+}
+.#{$alias}-icon-support:before {
+  content: "\e909";
+}
+.#{$alias}-icon-other_products:before {
+  content: "\e90a";
+}
+.#{$alias}-icon-documentation:before {
+  content: "\e90b";
+}
+.#{$alias}-icon-dashboard:before {
+  content: "\e90c";
+}
+.#{$alias}-icon-sub_menu:before {
+  content: "\e90d";
+}
+.#{$alias}-icon-products_statistics:before {
+  content: "\e90e";
+}
+.#{$alias}-icon-content_spinner:before {
+  content: "\e90f";
+}
+.#{$alias}-icon-setup_backup:before {
+  content: "\e919";
+}
+.#{$alias}-icon-server_status:before {
+  content: "\e91a";
+}
+.#{$alias}-icon-assets_dwl:before {
+  content: "\e91b";
+}
+.#{$alias}-icon-cloud:before {
+  content: "\e91c";
+}
+.#{$alias}-icon-auto_import:before {
+  content: "\e91d";
+}
+.#{$alias}-icon-asin_grabber:before {
+  content: "\e91e";
+}
+.#{$alias}-icon-amazon:before {
+  content: "\e91f";
+}
+.#{$alias}-icon-csv_import:before {
+  content: "\e925";
+}
+.#{$alias}-icon-modules:before {
+  content: "\e926";
+}

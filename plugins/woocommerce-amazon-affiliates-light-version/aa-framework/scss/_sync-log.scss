@@ -1,0 +1,549 @@
+##{$alias} {
+  .panel {
+    background-color: #ffffff;
+    .panel-heading {
+      background-color: #ffffff;
+    }
+  }
+	##{$alias}-sync-log {
+		margin: 0 px(15) px(10) px(10);
+		padding-bottom: px(12);
+		position: relative;
+		input[type="checkbox"] {
+			margin-top: -#{px(3)};
+		}
+		.#{$alias}-filter-general_field {
+		    border: 1px solid #e5e5e5;
+		    border-radius: px(5);
+		    height: px(30) !important;
+		    margin: 0 px(10) 0 0;
+		    position: relative;
+		    bottom: -#{px(10)};
+		    width: auto;
+		}
+		.#{$alias}-sync-filters {
+			margin: px(20) 0 px(20) px(6);
+			position: relative;
+			label {
+				margin-bottom: 0;
+			}
+			select {
+				background: #f9fafa;
+				vertical-align: middle;
+				margin: 0 px(10) 0 0;
+				height: px(28);
+				padding: px(3);
+				background-color: #f9fafa;
+				border: px(1) solid #f2f2f2;
+				outline: 0;
+				color: #444;
+				font-size: 1em;
+			}
+			a {
+				display: inline-block;
+				cursor: pointer;
+				span {
+					color: #999;
+				}
+			}
+			span.right {
+				display: inline-block;
+				position: absolute;
+				right: 0;
+				top: 0;
+				button {
+					background: $success;
+					border: none;
+					//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+					border-radius: px(3);
+					color: #ffffff;
+					cursor: pointer;
+					font-size: px(10);
+					font-weight: 600;
+					text-transform: uppercase;
+					width: px(66);
+					height: px(26);
+					width: px(146);
+					background: $info;
+					&:hover {
+						background: $primary;
+					}
+					&:active {
+						background: #2878e3;
+					}
+					&.sync-all {
+						width: px(116);
+						background: $success;
+					}
+				}
+				input {
+					margin: 0;
+					padding: 0;
+					margin-right: px(5);
+				}
+				strong {
+					width: px(20);
+					text-align: right;
+					display: inline-block;
+				}
+			}
+		}
+		.#{$alias}-sync-table {
+		  background-color: #fff;
+			max-height: px(650);
+			overflow: auto;
+			position: relative;
+			.#{$alias}-icon-assets_dwl {
+				color: #000000;
+				font-size: px(18);
+			}
+			table {
+				border: px(1) solid #f1f1f1;
+				//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+				margin-bottom: px(12);
+				text-align: center;
+				width: 100%;
+				tr {
+					&:nth-child(2n + 3) {
+						min-height: px(51);
+					}
+					td:nth-child(2) a {
+						&.sign-plus {
+							color: $success;
+						}
+						&.sign-minus {
+							color: #d35400;
+						}
+					}
+				}
+				th {
+					border-bottom: px(1) solid #f1f1f1;
+					color: #aaaaaa;
+					font-size: px(14);
+					font-weight: normal;
+					text-transform: uppercase;
+					text-transform: uppercase;
+					padding: px(15) px(10);
+					&:first-child {
+						border-left: px(1) solid #f1f1f1;
+					}
+					&:nth-child(2) {
+						text-align: left;
+						padding-left: px(10);
+					}
+					&:nth-child(3) {
+						text-align: left;
+						padding-left: px(10);
+					}
+				}
+				td {
+					border-bottom: px(1) solid #f1f1f1;
+					text-transform: uppercase;
+					a.wz-show-variations {
+            font-size: px(14) !important;
+            letter-spacing: px(3);
+            i {
+              min-width: initial;
+              min-height: initial;
+              &.fa-caret-up {
+                color: #d35400;
+              } 
+            }
+          }
+					&:nth-last-child(2) {
+						text-transform: initial;
+					}
+					&:first-child {
+						border-left: px(1) solid #f1f1f1;
+					}
+					&:nth-child(2) {
+						text-align: left;
+						padding-left: px(10);
+						color: #9b9b9b;
+						font-size: px(10);
+						font-weight: $normal;
+						padding: px(4) 0 px(4) px(10);
+						a {
+							color: $success;
+							font-size: px(14);
+							font-weight: 700;
+							margin-left: px(10);
+							text-decoration: none;
+						}
+					}
+					&:nth-child(3) {
+						text-align: left;
+						padding-left: px(10);
+						a {
+							color: #3e5466;
+							font-size: px(11);
+							font-weight: $normal;
+							text-decoration: none;
+						}
+					}
+					&:nth-child(5) {
+						color: #9b9b9b;
+						font-size: px(11);
+						font-weight: 600;
+					}
+					&:nth-child(7) {
+						color: #9b9b9b;
+						font-size: px(11);
+						font-weight: 600;
+					}
+					img {
+						max-width: px(25);
+						vertical-align: middle;
+						margin-right: px(10);
+					}
+					&:nth-child(4) a {
+						color: darken($info, 10%);
+						font-size: px(11);
+						font-style: italic;
+					}
+					&:nth-child(6) button {
+						background: $success;
+						border: none;
+						//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+						border-radius: px(3);
+						color: #ffffff;
+						cursor: pointer;
+						font-size: px(10);
+						font-weight: 600;
+						text-transform: uppercase;
+						width: px(66);
+						height: px(26);
+						&:hover {
+							background: $primary;
+						}
+						&:active {
+							background: #2878e3;
+						}
+					}
+				}
+				i {
+					font-size: px(11);
+					min-height: px(25);
+					min-width: px(20);
+					padding-top: px(10);
+				}
+				.wz-next-sync {
+					background: #fef3df !important;
+					i {
+						color: #e67e22;
+					}
+				}
+				.wz-synced i {
+					color: #27ae60;
+				}
+				.wz-variation img {
+					margin-left: px(35);
+				}
+				tbody tr.wz-variation {
+					&:nth-child(n + 2) {
+						display: none;
+					}
+					&.first td:not(:first-child) {
+						border-top: px(1) dotted $success;
+					}
+					&.last td:not(:first-child) {
+						border-bottom: px(1) dotted $success;
+					}
+				}
+			}
+			&.stats_prod table {
+				i {
+					padding-top: 0;
+					margin-right: px(10);
+				}
+				tr td {
+					&:nth-child(1) {
+						vertical-align: middle;
+						span {
+						}
+					}
+				}
+			}
+		}
+		.#{$alias}-sync-info {
+			.#{$alias}-sync-inprogress {
+				display: none;
+				/*position: absolute;
+				right: 0px;*/
+				padding: 5px;
+			}
+			.#{$alias}-sync-inprogress > p {
+				margin: 0px;
+			}
+			.#{$alias}-sync-inprogress > p button {
+				width: 12rem !important;
+			}
+			.#{$alias}-sync-inprogress.#{$alias}-sync-inprogress-top {
+				/*top: 0px;*/
+			}
+			.#{$alias}-sync-inprogress.#{$alias}-sync-inprogress-bottom {
+				/*bottom: 0px;*/
+			}
+			.#{$alias}-panel-sync-all {
+				display: none;
+				padding: 5px;
+				color: #2ecc71;
+				font-style: italic;
+			}
+				.#{$alias}-panel-sync-all > span {
+					color: #95a5a6;
+					font-style: normal;
+				}
+					.#{$alias}-panel-sync-all > span > span {
+						font-weight: bold;
+						color: #16a085;
+						text-transform: lowercase;
+					}
+
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: px(2);
+			position: relative;
+			margin-top: px(30);
+			p {
+				font: bold px(12) Open Sans, sans-serif;
+				color: #656565;
+				margin: px(16) 0 0;
+				button {
+					background: $success;
+					border: none;
+					//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+					border-radius: px(3);
+					color: #ffffff;
+					cursor: pointer;
+					font-size: px(10);
+					font-weight: 600;
+					text-transform: uppercase;
+					width: px(66);
+					height: px(26);
+					width: px(96);
+					background: $info;
+					&:hover {
+						background: $primary;
+					}
+					&:active {
+						background: #2878e3;
+					}
+				}
+				span {
+					margin: 0 px(2);
+				}
+			}
+			&.#{$alias}-box-stats {
+				min-height: px(30);
+				text-align: right;
+			}
+			h3 {
+				font-family: Open Sans, sans-serif;
+				font-size: px(14);
+				font-weight: bold;
+				color: #31485b;
+				text-transform: uppercase;
+				margin-top: 0;
+			}
+			form {
+				select {
+					font-size: px(12);
+					font-weight: normal;
+					height: px(21);
+					margin: -#{px(22)} 0 0;
+					padding: 0;
+					vertical-align: middle;
+					&:active {
+						font-size: px(12);
+						font-weight: normal;
+						height: px(21);
+						margin: -#{px(22)} 0 0;
+						padding: 0;
+						vertical-align: middle;
+					}
+					&:focus {
+						font-size: px(12);
+						font-weight: normal;
+						height: px(21);
+						margin: -#{px(22)} 0 0;
+						padding: 0;
+						vertical-align: middle;
+					}
+				}
+			}
+			.#{$alias}-sync-settings {
+				span:nth-of-type(2) {
+					margin-left: px(10);
+				}
+			}
+			.#{$alias}-sync-settings-msg {
+				display: inline-block;
+			}
+			.#{$alias}-sync-pagination {
+				display: inline-block;
+
+				&.#{$alias}-sync-top {
+					display: block;
+					text-align: right;
+					top: 0;
+				}
+				&.#{$alias}-sync-bottom {
+					display: block;
+					text-align: right;
+					bottom: 0;
+				}
+				.#{$alias}-box-show-per-pages {
+					float: none;
+					display: inline-block;
+					vertical-align: bottom;
+					select {
+						margin-top: -#{px(8)};
+					}
+				}
+			}
+		}
+		.wz-uppercase {
+			text-transform: uppercase !important;
+		}
+		.wz-hide-me {
+			display: table-row !important;
+		}
+		.#{$alias}-sync-stats {
+			border: px(1) solid #e5e5e5;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: px(2);
+			padding: px(12);
+			margin-bottom: px(5);
+			.#{$alias}-message {
+				background-position: px(2) px(3);
+				border-bottom: 0;
+				padding: px(2) px(8) px(2) px(20);
+				&.#{$alias}-error {
+          background-size: px(16) auto;
+          background-color: #d9534f;
+        }
+        &.#{$alias}-warning {
+          background-size: px(16) auto;
+          background-color: #f0ad4e;
+        }
+        &.#{$alias}-success {
+          background-size: px(16) auto;
+          background-color: #68c64b;
+        }
+        &.#{$alias}-info {
+          background-size: px(16) auto;
+          background-color: #5bc0de;
+        }
+			}
+			h3 {
+				font-family: Open Sans, sans-serif;
+				font-size: px(14);
+				font-weight: bold;
+				color: #31485b;
+				text-transform: uppercase;
+				margin-top: 0;
+			}
+			p {
+				font: bold px(12) Open Sans, sans-serif;
+				color: #656565;
+				margin: px(16) 0 0;
+			}
+			table {
+				width: 100%;
+				.title {
+					font-family: Open Sans, sans-serif;
+					font-size: px(12);
+					font-weight: bold;
+					color: #31485b;
+					text-transform: uppercase;
+					margin-top: 0;
+					background-color: #ecf0f1;
+				}
+				ul {
+					margin-top: px(8);
+					li {
+						display: inline-block;
+						margin-right: px(15);
+						span {
+							color: $info;
+						}
+					}
+				}
+				tr:last-child ul {
+					margin-bottom: 0;
+				}
+			}
+		}
+		##{$alias}-main-loading button {
+			background: $success;
+			border: none;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: px(3);
+			color: #ffffff;
+			cursor: pointer;
+			font-size: px(10);
+			font-weight: 600;
+			text-transform: uppercase;
+			width: px(66);
+			height: px(26);
+			display: inline-block;
+			margin-left: px(7);
+			width: px(126);
+			background: $primary;
+			background: #2878e3;
+		}
+	}
+	##{$alias}-main-loading ##{$alias}-loading-box {
+		top: px(300);
+	}
+	.#{$alias}-sync-table table {
+		.#{$alias}-row-loading-marker {
+			position: relative;
+			left: 0;
+			top: -#{px(17)};
+			padding: 0;
+		}
+		.#{$alias}-row-loading {
+			position: absolute;
+			left: 0;
+			top: 0;
+			z-index: 1000;
+			width: 100%;
+			height: 100%;
+			margin-left: -#{px(10)};
+			margin-top: -#{px(12)};
+			padding: 0;
+			background-color: #484848;
+			background-color: rgba(207, 222, 247, 0.8);
+		}
+	}
+	##{$alias}-wrapper ##{$alias}-content-area .#{$alias}-panel-header {
+		position: relative;
+		span.#{$alias}-panel-sync-all {
+			display: inline-block;
+			position: absolute;
+			top: 0;
+			right: 0;
+			padding: px(20);
+			color: $success;
+			font-style: italic;
+			> span {
+				color: #95a5a6;
+				font-style: normal;
+				> span {
+					font-weight: bold;
+					color: #16a085;
+					text-transform: lowercase;
+				}
+			}
+		}
+	}
+}
+
+.#{$alias}-section-synchronization {
+	##{$alias}_sync_options {
+		select#delete_unavailable_products {
+			width: px(100) !important;
+		}
+	}
+}

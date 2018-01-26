@@ -1,0 +1,48 @@
+##{$alias}_cronjobs {
+	padding: 0px px(25) 0px px(25);
+	code {
+		background: $light-gray;
+		color: $info;
+	}
+	.#{$alias}-message {
+		color: $white;
+		margin-bottom: px(10);
+		padding: px(10);
+		border: 1px solid transparent;
+    	border-radius: 4px;
+	}
+	.#{$alias}-message.#{$alias}-success {
+		background: $success;
+	}
+	.#{$alias}-message.#{$alias}-error {
+		background: $danger;
+	}
+	##{$alias}-cj-reload {
+		input {
+			margin-right: px(10);
+		}
+	}
+	.#{$alias}-cj-list {
+		margin-top: px(50);
+		##{$alias}-cj-table {
+			border: 1px solid $info;
+			th {
+				border: 1px solid $info;
+			}
+			td {
+				border: 1px solid $info;
+				input {
+					display: block;
+					margin: 0 auto;
+				}
+			}
+		}
+	}
+	.#{$alias}-cj-help {
+		padding: 0px 0px 0px px(25);
+		margin-top: px(50);
+		h1, h2, h3, h4, h5 {
+			margin-left: -#{px(25)};
+		}
+	}
+}

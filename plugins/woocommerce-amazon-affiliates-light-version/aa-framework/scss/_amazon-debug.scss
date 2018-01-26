@@ -1,0 +1,130 @@
+##{$alias}-amazonDebug {
+  min-height: px(200);
+  width: 100%;
+  display: block;
+  > div {
+    margin: px(10) px(10) px(0) px(15);
+    a {
+    	color: $info;
+    }
+    a:not(.#{$alias}-button) {
+      text-decoration: none;
+      color: $gray;
+    }
+    input[type="checkbox"] {
+    	margin: 0 0 0 0 !important;
+    }
+    label {
+    	margin-bottom: 0 !important
+    }
+  }
+  .#{$alias}-amzdbg-ResponseGroups-Head {
+    position: relative;
+    width: 100%;
+    padding: px(10);
+    margin: px(0) px(0) px(10) px(0);
+    input, label, a {
+      display: inline-block;
+      vertical-align: middle;
+    }
+    label {
+      font-style: italic;
+      margin-right: px(20);
+    }
+    a:last-child {
+      position: absolute;
+      top: 0px;
+      right: px(20);
+      font-weight: $normal;
+    }
+  }
+  ul.#{$alias}-amzdbg-ResponseGroups {
+    list-style-type: none;
+    border: 1px dashed grey;
+    padding: px(5) px(10);
+    li {
+      display: inline-block;
+      min-width: px(155);
+      input, label {
+        display: inline-block;
+      }
+      input[type="checkbox"] {
+      	margin-right: px(10) !important;
+      }
+      a {
+        color: $gray;
+        &.on {
+          color: $info;
+        }
+      }
+    }
+  }
+  .#{$alias}-amzdbg-exec {
+    display: block;
+    margin: px(20) 0px px(20) 0px;
+    label, a, input[type="text"] {
+      display: inline-block;
+      vertical-align: middle;
+    }
+    label {
+      margin-right: px(20);
+      font-weight: $bold;
+    }
+    input[type="text"] {
+      width: px(200);
+      margin-right: px(30);
+      margin-top: px(15);
+    }
+    a {
+    	margin: px(30) 0;
+    }
+  }
+  ##{$alias}-amzdbg-amazonResponse {
+    display: block;
+    max-width: px(1490);
+    height: px(400);
+    overflow: hidden;
+    overflow-y: auto;
+    #ControlsRow {
+    	margin: px(15) 0;
+      > {
+        input, label {
+          display: inline-block;
+          vertical-align: middle;
+          margin-right: 5px;
+        }
+      }
+      select {
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 5px;
+      }
+      > {
+        span, a {
+          display: inline-block;
+          vertical-align: middle;
+          margin-right: 5px;
+          font-weight: $bold;
+        }
+      }
+    }
+    input {
+      margin-right: 0px;
+    }
+    select {
+      height: px(22);
+      width: px(40);
+      margin: 0px;
+      padding: 0px;
+    }
+    ##{$alias}-ajaxLoadingBox {
+    	color: $success;
+    	margin-top: px(10);
+    	font-weight: $normal;
+    }
+  }
+  .#{$alias}-amz-docs-details {
+    border: 0px solid red;
+    top: px(8) !important;
+  }
+}

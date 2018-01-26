@@ -1,0 +1,226 @@
+# Copyright (C) 2014
+# This file is distributed under the same license as the plugin package.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Recent Posts Widget With Thumbnails\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/plugins/recent-posts-widget-with-"
+"thumbnails\n"
+"POT-Creation-Date: 2017-10-23 21:03+0200\n"
+"PO-Revision-Date: 2017-07-14 10:16+0200\n"
+"Language-Team: Martin Stehle <m.stehle@gmx.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;esc_html_e;esc_html__;esc_attr_e;"
+"esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/form.php:1
+msgid "Display Options"
+msgstr ""
+
+#: includes/form.php:10
+msgid "Open post links in new windows?"
+msgstr ""
+
+#: includes/form.php:13
+msgid "Show posts in random order?"
+msgstr ""
+
+#: includes/form.php:16
+msgid "Do not list the current post?"
+msgstr ""
+
+#: includes/form.php:19
+msgid "Keep sticky posts on top of the list?"
+msgstr ""
+
+#: includes/form.php:22
+msgid "Do not show post title?"
+msgstr ""
+
+#: includes/form.php:23
+msgid ""
+"Make sure you set a default thumbnail for posts without a thumbnail, "
+"otherwise there will be no link."
+msgstr ""
+
+#: includes/form.php:25
+msgid "Maximum length of post title"
+msgstr ""
+
+#: includes/form.php:29
+msgid "Show post author?"
+msgstr ""
+
+#: includes/form.php:32
+msgid "Show post categories?"
+msgstr ""
+
+#: includes/form.php:35
+msgid "Show post date?"
+msgstr ""
+
+#: includes/form.php:38
+msgid "Show excerpt?"
+msgstr ""
+
+#: includes/form.php:40
+msgid "Maximum length of excerpt"
+msgstr ""
+
+#: includes/form.php:43
+msgid "Signs after excerpt"
+msgstr ""
+
+#: includes/form.php:47
+msgid "Set signs after excerpt as a link to the post?"
+msgstr ""
+
+#: includes/form.php:50
+msgid "Ignore post excerpt field as excerpt source?"
+msgstr ""
+
+#: includes/form.php:51
+msgid ""
+"Normally the widget takes the excerpt from the text of the excerpt field "
+"unchanged and if there is no text it creates the excerpt from the post "
+"content automatically. If this option is activated the excerpt is created "
+"from the post content only."
+msgstr ""
+
+#: includes/form.php:54
+msgid "Show number of comments?"
+msgstr ""
+
+#: includes/form.php:57
+msgid "Print slugs of post categories in class attribute of LI elements?"
+msgstr ""
+
+#: includes/form.php:58
+msgid ""
+"For developers: If checked you can set CSS rules for each list item on base "
+"of the assigned categories."
+msgstr ""
+
+#: includes/form.php:60
+msgid "Show posts of selected categories only?"
+msgstr ""
+
+#: includes/form.php:62
+#, php-format
+msgid ""
+"Click on the categories with pressed CTRL key to select multiple categories. "
+"If &#8220;%s&#8221; was selected then other selections will be ignored."
+msgstr ""
+
+#: includes/form.php:64
+msgid "Thumbnail Options"
+msgstr ""
+
+#: includes/form.php:67
+msgid "Display post featured image?"
+msgstr ""
+
+#: includes/form.php:69
+msgid "Size of thumbnail"
+msgstr ""
+
+#: includes/form.php:71
+msgid "Specified width and height"
+msgstr ""
+
+#: includes/form.php:81
+#, php-format
+msgid ""
+"If you use a specified size the following sizes will be taken, otherwise "
+"they will be ignored and the selected dimension as stored in %s will be used:"
+msgstr ""
+
+#: includes/form.php:84
+msgid "Width of thumbnail"
+msgstr ""
+
+#: includes/form.php:87
+msgid "Height of thumbnail"
+msgstr ""
+
+#: includes/form.php:91
+msgid "Use aspect ratios of original images?"
+msgstr ""
+
+#: includes/form.php:92
+msgid ""
+"If checked the given width is used to determine the height of the thumbnail "
+"automatically. This option also supports responsive web design."
+msgstr ""
+
+#: includes/form.php:95
+msgid "Try to use the post's first image if post has no featured image?"
+msgstr ""
+
+#: includes/form.php:98
+msgid "Use first image only, ignore featured image?"
+msgstr ""
+
+#: includes/form.php:101
+msgid "Use default thumbnail if no image could be determined?"
+msgstr ""
+
+#: includes/form.php:103
+msgid "URL of default thumbnail (start with http://)"
+msgstr ""
+
+#: includes/form.php:106
+msgid "Do you like the plugin?"
+msgstr ""
+
+#: includes/form.php:106
+msgid "Please rate it at wordpress.org!"
+msgstr ""
+
+#: includes/form.php:107
+msgid "Do you need more options?"
+msgstr ""
+
+#: includes/form.php:107
+msgid "Get Ultimate Post List Pro!"
+msgstr ""
+
+#: recent-posts-widget-with-thumbnails.php:99
+msgid "Recent Posts With Thumbnails"
+msgstr ""
+
+#: recent-posts-widget-with-thumbnails.php:100
+msgid ""
+"List of your site&#8217;s most recent posts, with clickable title and "
+"thumbnails."
+msgstr ""
+
+#: recent-posts-widget-with-thumbnails.php:225
+msgctxt "In {categories}"
+msgid "In"
+msgstr ""
+
+#: recent-posts-widget-with-thumbnails.php:706
+msgid "Error on listing categories"
+msgstr ""
+
+#~ msgid ""
+#~ "Creates the excerpt from the post content automatically even there is an "
+#~ "entry in the excerpt field of the post."
+#~ msgstr ""
+#~ "Erstellt den Auszug automatisch aus dem Beitragsinhalt, auch wenn es "
+#~ "einen Eintrag im Auszugsfeld des Beitrags geben sollte."
+
+#~ msgid ""
+#~ "Small and fast plugin to display in the sidebar a list of linked titles "
+#~ "and thumbnails of the most recent postings"
+#~ msgstr ""
+#~ "Kleines und schnelles Plugin zum Anzeigen einer Liste verlinkter Titel "
+#~ "und Vorschaubilder der aktuellsten Beiträge in der Seitenleiste"

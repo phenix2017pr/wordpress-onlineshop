@@ -1,0 +1,129 @@
+##{$alias}-csvBulkImport {
+	float: left;
+	min-height: px(200);
+	width: 100%;
+	display: block;
+	.#{$alias}-delimiters {
+		p {
+			float: left;
+		}
+	}
+	.#{$alias}-message {
+    	font-size: px(12);
+	    border-bottom: px(1) solid #d2d2d2;
+	    padding: px(15) px(8) px(15) px(45);
+	    position: relative;
+	    vertical-align: middle;
+	    cursor: default;
+	    background-color: $light-gray;
+	    background-position: px(12) px(12);
+	    background-repeat: no-repeat;
+	    margin-bottom: px(15);
+	    &.#{$alias}-success {
+    	    background-color: $success;
+		    color: $white;
+	    }
+	    &.#{$alias}-success::before {
+	    	font-family: FontAwesome;
+		    font-size: px(18);
+		    content: "\f14a";
+		    margin-right: px(20);
+	        vertical-align: middle;
+	    }
+	    &.#{$alias}-error {
+    	    background-color: $danger;
+		    border-color: #eb979b;
+		    color: $white;
+	    }
+	    &.#{$alias}-error::before {
+    	    font-family: FontAwesome;
+		    font-size: px(18);
+		    content: "\f06a";
+		    margin-right: px(20);
+	        vertical-align: middle;
+	    }
+    }
+
+	##{$alias}-csvBulkImport-left-panel {
+		float: left;
+		width: 40%;
+		margin: px(10) 0 0 px(10);
+		.WooZoneLite-delimiters {
+			margin: px(50) 0px px(50) 0px;
+		}
+		h3 {
+			margin: px(10) 0 px(20) 0;
+		}
+		input {
+			margin: px(2) px(5) 0 0 !important;
+			display: block;
+			float: left;
+		}
+		label {
+			float: left;
+			width: px(100);
+		}
+	}
+	##{$alias}-csv-asin {
+		width: 80%;
+		height: px(200);
+	}
+	##{$alias}-addASINtoQueue {
+		margin: px(30) 0;
+		&:hover {
+			color: #000;
+		}
+	}
+	##{$alias}-startImportASIN {
+		margin: px(10) 0;
+		&:hover {
+			color: #000;
+		}
+	}
+	.#{$alias}-status-block {
+		display: none;
+		position: relative;
+		width: px(300);
+		margin: px(10) 0 0;
+	}
+	##{$alias}-status-remaining {
+		font-weight: bold;
+		color: #de8a05;
+	}
+	##{$alias}-status-ready {
+		font-weight: bold;
+		color: #079407;
+	}
+	##{$alias}-csvBulkImport-right-panel {
+		float: left;
+		margin-left: px(20);
+		width: 55%;
+		table {
+			width: 100%;
+			margin: px(20) 0 0;
+			border: px(1) solid #f2f2f2;
+			th {
+				font-weight: bold;
+				text-align: left;
+				font-size: px(14);
+				padding: px(10);
+			}
+			tr {
+				td {
+					padding: px(10);
+					&:first-child {
+						font-weight: $bold;
+					}
+				}
+			}
+		}
+		.#{$alias}-message {
+			padding: px(5);
+			background-image: none;
+			line-height: px(14);
+		}
+	}
+	##{$alias}-no-ASIN {
+		margin: px(20) 0 0;
+	}
+}

@@ -1,0 +1,204 @@
+.#{$alias}-server-status {
+	a {
+		color: $info;
+	}
+	
+	.#{$alias}-message {
+    	font-size: px(12);
+	    border-bottom: px(1) solid #d2d2d2;
+	    padding: px(15) px(8) px(15) px(45);
+	    position: relative;
+	    vertical-align: middle;
+	    cursor: default;
+	    background-color: $light-gray;
+	    background-position: px(12) px(12);
+	    background-repeat: no-repeat;
+	    margin-bottom: px(15);
+	    &.#{$alias}-success {
+    	    background-color: $success;
+		    color: $white;
+	    }
+	    &.#{$alias}-success::before {
+	    	font-family: FontAwesome;
+		    font-size: px(18);
+		    content: "\f14a";
+		    margin-right: px(20);
+	        vertical-align: middle;
+	    }
+	    &.#{$alias}-error {
+    	    background-color: $danger;
+		    border-color: #eb979b;
+		    color: $white;
+	    }
+	    &.#{$alias}-error::before {
+    	    font-family: FontAwesome;
+		    font-size: px(18);
+		    content: "\f06a";
+		    margin-right: px(20);
+	        vertical-align: middle;
+	    }
+    }
+	&>.#{$alias}-table {
+		th,
+		td {
+			text-align: left;
+			padding: px(20) px(20) 0 px(20) !important;
+			vertical-align: middle;
+		}
+		th {
+			color: $info;
+		}
+		td:nth-child(odd) {
+			color: $gray;
+			font-weight: $medium;
+		}
+		.#{$alias}-loading-ajax-details {
+				background-repeat: no-repeat;
+		    width: 100%;
+		    min-height: px(25);
+		    margin-bottom: px(15);
+		}
+		.#{$alias}-import-products-test {
+			.#{$alias}-test-timeline {
+			    width: px(700);
+			    background: none repeat scroll 0 0 #ECF0F1;
+			    border: px(1) solid #D7D9DF;
+			    margin: px(4) px(50) px(4) 0px;
+			    padding: px(2);
+			    position: relative;
+			    height: px(20);
+			    padding-right: px(5);
+			    display: none;
+			    .#{$alias}-one_step {
+		    	    border-right: px(1) solid #484848;
+				    float: left;
+				    height: px(18);
+				    width: 33.6%;
+				    top: -#{px(2)};
+				    position: relative;
+				    margin-right: -#{px(4)};
+				    .#{$alias}-step-status {
+			    	    border: px(1) solid #adb3b4;
+					    width: 100%;
+					    height: px(18);
+					    background: #fff;
+					    &.#{$alias}-loading-error {
+				    	    background: $danger;
+						    border-color: #c0392b;
+						    position: relative;
+						    color: $white;
+					    	text-align: center;
+				    	}
+				    	&.#{$alias}-loading-success {
+				    	    background: $success;
+						    border-color: #27ae60;
+						    position: relative;
+						    color: $white;
+						    text-align: center;
+				    	}
+			    	}
+			    	.#{$alias}-step-name {
+		    		    position: absolute;
+					    width: px(65);
+					    height: px(24);
+					    line-height: px(22);
+					    padding: 0px;
+					    right: -#{px(34)};
+					    top: -#{px(32)};
+					    margin-left: -#{px(32)};
+					    background: $gray;
+					    text-align: center;
+					    -webkit-border-radius: px(4);
+					    -moz-border-radius: px(4);
+					    border-radius: px(4);
+					    color: $white;
+					    &:after {
+				    	    content: "";
+						    position: absolute;
+						    bottom: -#{px(10)};
+						    left: px(25);
+						    border-style: solid;
+						    border-width: px(10) px(7) 0;
+						    border-color: $gray transparent;
+						    display: block;
+						    width: 0;
+						    z-index: 1;
+					    }
+			    	}
+			    }
+			}
+			a.#{$alias}StressTest {
+				margin-bottom: px(20);
+			}
+			.#{$alias}-logs {
+				border: px(1) solid #bcbfc4;
+			    width: px(709) !important;
+			    margin: px(10) 0px px(10) 0px;
+			    display: none;
+			    tr {
+			    	opacity: 0.2;
+			    	td {
+			    		padding-top: px(32) !important;
+			    		height: px(73) !important;
+			    		&:first-child {
+			    			font-weight: $bold;
+			    		}
+			    		.#{$alias}-log-title {
+			    			//margin-top: px(10);
+			    			a {
+							    position: absolute;
+							    right: px(510);
+							    margin-top: -#{px(18)};
+			    			}
+			    		}
+			    		.#{$alias}-log-details {
+		    			    border: px(1) solid #bcbfc4;
+						    width: 100%;
+						    height: px(140);
+						    margin: px(5) 0px 0px 0px;
+						    display: none;
+						    margin-top: px(30) !important;
+			    		}
+			    	}
+			    }
+			}
+			.#{$alias}-begin-test-container {
+				* {
+					margin: 0 px(10);
+				}
+			}
+		}
+		
+		.active_modules {
+				i,
+				span[class^="#{$alias}-icon-"] {
+					color: $orange;
+					margin-right: px(5);
+				}
+				span {
+					&.version {
+						margin: 0 px(5);
+						font-weight: $medium;
+					}
+				}
+		}
+
+		.#{$alias}-check-integrity-container {
+				margin-bottom: px(15);
+				
+				.#{$alias}-response {
+					/*display: inline-block;
+					width: 90%;*/
+					margin-top: px(8);
+				}
+		}
+		
+		.#{$alias}-loading-ajax-details {
+			background-image: url('#framework_url/images/ajax-loader.gif');
+			background-repeat: no-repeat;
+			background-position: center left;
+			width: 100%;
+			min-height: px(25);
+		}
+	}
+}

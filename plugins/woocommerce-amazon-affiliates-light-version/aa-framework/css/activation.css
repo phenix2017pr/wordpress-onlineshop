@@ -1,0 +1,156 @@
+.aaFrm-message_activate {
+	position: relative;
+	z-index: 100;
+ 	overflow: hidden;
+	padding: 10px 0 10px !important;
+	background: #ffffff no-repeat right bottom !important;
+	margin: 10px 0px 20px 0px !important;
+	left: -5px;
+	border-left-color: #fd9909 !important;
+}
+.aaFrm-message_activate .squeezer {
+	max-width: 960px;
+	margin: 0;
+	padding: 0 20px;
+	text-align: left;
+	overflow: hidden
+}
+.aaFrm-message_activate .squeezer.box-large {
+	max-width: initial;
+}
+	.aaFrm-message_activate .squeezer .last-requests {
+		width: 100%;
+		max-height: 150px;
+		overflow: hidden;
+		overflow-y: auto;
+	}
+		.aaFrm-message_activate .squeezer .last-requests .title {
+			display: block;
+			text-align: center;
+			font-weight: bold;
+			font-size: 14px;
+		}
+.aaFrm-message_activate h4 {
+	margin: 0 10px 0 0;
+	font-size: 16px;
+	line-height: 36px;
+	font-family: "Open Sans";
+	font-weight: normal;
+	color: #000;
+	float: left;
+	vertical-align: middle
+}
+	.aaFrm-message_activate h4 .marked {
+		font-weight: bold;
+		color: #2980b9;
+		background-color: #ecf0f1;
+		padding: 0px 10px;
+	}
+.aaFrm-message_activate p {
+	margin: 0 !important;
+	padding: 2px 0 !important;
+	float: left !important;
+	line-height: 32px;
+	vertical-align: middle
+}
+.aaFrm-message_activate p a.button-primary {
+	font-size: 16px !important;
+	line-height: 16px !important;
+	height: 30px; 
+	margin: 0 5px 0 0;
+	padding: 6px 15px;
+	vertical-align: middle;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+ 	background: #fd9909;
+ 	text-shadow: none;
+ 	box-shadow: none;
+ 	border-color: transparent;
+ 	cursor: pointer;
+ 	text-transform: uppercase;
+	font-family: "Open Sans";
+	font-weight: normal;
+	border-radius: 2px;
+}
+.aaFrm-message_activate p a.button-primary:hover, .aaFrm-message_activate p a.button-primary:active {
+	background-color: #9c5d90;
+ 	outline: 0;
+	opacity: 1;
+	border-color: transparent;
+}
+	.aaFrm-message_activate a.aaFrm-dismiss {
+		border: 1px dashed #9c5d90;
+	    color: #9c5d90;
+	    display: block;
+	    padding: 5px 15px;
+	    position: absolute;
+	    right: 13px;
+	    top: 13px;
+	    font-family: "Open Sans";
+	}
+		.aaFrm-message_activate a.aaFrm-dismiss:hover {
+			background: #fff;
+			color: #ff9900;
+		}
+
+
+
+
+
+
+	#WooZoneLite-list-rows {
+		border: 1px solid #f2f2f2;
+		border-radius: 3px 3px 0 0;
+		overflow-x: hidden;
+		overflow-y: auto;
+		float: left;
+		width: 100%;
+		margin: 10px 0px 0px 0px;
+		padding-bottom: 5px;
+	}
+		#WooZoneLite-list-rows table {
+			border-collapse: collapse;
+		    border-spacing: 0;
+		    margin: 0px 0px 6px 0px;
+	   	}
+	   		#WooZoneLite-list-rows tr th {
+	   			padding: 8px 10px;
+	   		}
+	   		#WooZoneLite-list-rows table td {
+	   			/*text-align: center;*/
+	   			padding: 6px 10px;
+	   			vertical-align: middle;
+	   		}
+				#WooZoneLite-list-rows table td a {
+					font-weight: bold;
+					text-decoration: none;
+				}
+					#WooZoneLite-list-rows table td a span.item-state {
+						color: #333333;
+					}
+					#WooZoneLite-list-rows table td .status-msg {
+						overflow-x: hidden;
+						overflow-y: auto;
+						max-height: 50px;
+					}
+					
+.woozonelite-themes img {
+	display: inline-block;
+	margin-right: 10px;
+	margin-top: 10px;
+	opacity:.7;
+	border: 1px solid #fae3f5;
+}
+.woozonelite-themes img:hover {
+	opacity:1;
+}
+
+.themesimgs {
+	display: block;
+}
+
+.notice-success, div.updated {
+	border-left-color: #ad74a1;
+	padding-left:15px;
+}

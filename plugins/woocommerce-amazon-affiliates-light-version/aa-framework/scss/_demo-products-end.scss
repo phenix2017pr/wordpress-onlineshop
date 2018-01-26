@@ -1,0 +1,117 @@
+.#{$alias}-marker-demo-product {
+	background: $white;
+	margin-right: px(10);
+	border-radius: px(4);
+	padding: px(2) px(6);
+	border: 1px solid $light-gray;
+
+	img {
+		height: px(13);
+		position: relative;
+		bottom: -2px;
+	}
+}
+
+##{$alias} {
+	.#{$alias}-demo_end_wrapper {
+		display: table;
+		width: 100%;
+		margin-top: px(15);
+
+		a {
+			color: $secondary;
+		}
+		.#{$alias}-demo_big_logo {
+			display: table-cell;
+			width: 200px;
+			vertical-align: top;
+			padding-right: 40px;
+
+			img {
+				position: relative;
+				top: 13px;
+				left: 0px;
+			}
+		}
+		.#{$alias}-demo_message {
+			display: table-cell;
+			vertical-align: top;
+			background: $light-gray;
+			border-radius: px(30);
+			padding: px(30);
+			color: $black;
+			position: relative;
+			font-family: $primary_font;
+
+			.#{$alias}-demo-arrow_box {
+				position: absolute;
+				display: block;
+				bottom: 0;
+				left: 0;
+				top: 0;
+
+				&:after {
+					right: 100%;
+					top: 50%;
+					border: solid transparent;
+					content: " ";
+					height: 0;
+					width: 0;
+					position: absolute;
+					pointer-events: none;
+					border-right-color: $light-gray;
+					border-width: 25px;
+					margin-top: -25px;
+				}
+			}
+		}
+
+		h3 {
+			font-size: px(14);
+			color: $black;
+			margin-top: 0;
+		}
+
+		.#{$alias}-form-button-primary {
+			padding: 1rem 1.6rem;
+		    border: none 0;
+		    border-radius: 0.5rem;
+		    font-size: 1.1rem;
+		    font-weight: 800;
+		    text-transform: uppercase;
+		    text-decoration: none;
+		    margin-top: px(10);
+		    background: $secondary;
+		    color: $white;
+		    display: inline-block;
+
+		    &:hover {
+		    	background: darken($secondary, 10%);
+		    }
+		}
+
+		.#{$alias}-demo-products-list {
+			display: block;
+			width: 100%;
+			padding: 0;
+			margin: 0;
+			margin-top: px(20);
+			margin-bottom: px(10);
+
+			li {
+				display: inline-block;
+				margin-right: px(10);
+				width: 50px;
+				height: 50px;
+				background: $white;
+				text-align: center;
+				border: px(1) solid #BDC3C7;
+				overflow: hidden;
+
+				&:hover {
+					border-color: $secondary;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"WooZoneLite_module_amazon": "false",
+	"WooZoneLite_module_insane_import": "true",
+	"WooZoneLite_module_server_status": "true",
+	"WooZoneLiteWizard": "true",
+	"WooZoneLite_plugin_do_activation_redirect": false,
+    "WooZoneLite_amazon": {
+        "protocol":"auto",
+        "country":"com",
+        "AccessKeyID":"",
+        "SecretAccessKey":"",
+        "main_aff_id":"com",
+        "amazon_requests_rate":"1"
+    }
+}

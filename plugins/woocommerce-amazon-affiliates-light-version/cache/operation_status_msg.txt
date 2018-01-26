@@ -1,0 +1,1 @@
+a:6:{s:6:"status";s:7:"invalid";s:9:"operation";s:8:"add_prod";s:12:"operation_id";s:13:"1504350595705";s:10:"msg_header";s:0:"";s:3:"msg";a:1:{i:0;s:104:"merchant setup is "only_amazon" and the product doesn't have amazon among its sellers! - [ <i>0 ms</i> ]";}s:8:"duration";d:0;}

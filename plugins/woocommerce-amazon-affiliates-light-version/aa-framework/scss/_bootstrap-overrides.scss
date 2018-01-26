@@ -1,0 +1,14 @@
+##{$alias} {
+	.panel {
+		.panel-heading, .panel-body {
+			padding: px(18) px(21) px(32);
+		}
+		&>.panel-heading {
+			background: $white;
+			color: $gray;
+			h1 {
+				color: $black;
+			}
+		}
+	}
+}
